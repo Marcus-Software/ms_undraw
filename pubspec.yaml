@@ -3,7 +3,7 @@ name: "ms_undraw"
 repository: "https://github.com/Marcus-Software/ms_undraw"
 version: "3.1.0+3"
 dependencies: 
-  flutter_svg: ">=1.0.0 <2.0.0"
+  flutter_svg: ">=1.0.0 <3.0.0"
   http: ">=0.13.1 <1.0.0"
   flutter: 
     sdk: "flutter"
