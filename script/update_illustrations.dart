@@ -11,7 +11,7 @@ part 'model.dart';
 void main(List<String> args) async {
   final _illustrations = await _getIllustrations();
   final _enumList = _getEnuns(_illustrations);
-  final _baseUrl = 'https://undraw.co/api/illustrations';
+  final _baseUrl = 'https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations';
   final _identifierAndUrl = _getIdentifierAndUrl(_illustrations);
   await _updateFile(_enumList, _baseUrl, _identifierAndUrl);
 

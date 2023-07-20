@@ -17,7 +17,6 @@ class UnDraw extends StatelessWidget {
     this.semanticLabel,
     this.alignment = Alignment.center,
     this.fit = BoxFit.contain,
-    this.colorBlendMode = BlendMode.srcIn,
     this.height,
     this.width,
     this.placeholder,
@@ -66,10 +65,6 @@ class UnDraw extends StatelessWidget {
   /// The default is [BoxFit.contain].
   final BoxFit fit;
 
-  /// The `color` and `colorBlendMode` arguments, if specified, will be used to set a
-  /// [ColorFilter] on any [Paint]s created for this drawing.
-  final BlendMode colorBlendMode;
-
   /// If specified, the width to use for the SVG.  If unspecified, the SVG
   /// will take the width of its parent.
   final double? width;
@@ -95,19 +90,23 @@ class UnDraw extends StatelessWidget {
   final bool useMemCache;
 
   Future<SvgPicture> renderIllustration(
-      UnDrawIllustration illustration, Color _exColor) async {
-    String image =
-        await _getSvgString(illustrationMap[illustration]!, this.useMemCache);
+    UnDrawIllustration illustration,
+    Color _exColor,
+  ) async {
+    String image = await _getSvgString(
+      illustrationMap[illustration]!,
+      this.useMemCache,
+    );
 
     String valueString = color.toString().split('(0x')[1].split(')')[0];
     valueString = valueString.substring(2, valueString.length);
     image = image.replaceAll("#6c63ff", "#" + valueString);
+
     return SvgPicture.string(
       image,
       height: height,
       width: width,
       alignment: alignment,
-      colorBlendMode: colorBlendMode,
       fit: fit,
       semanticsLabel: semanticLabel,
     );
