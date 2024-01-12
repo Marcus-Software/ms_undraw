@@ -9,18 +9,18 @@ environment:
   sdk: ">=2.16.1 <3.0.0"
 
 dependencies:
-  context_menus: ^1.0.1
+  context_menus: ^1.0.2
   flutter:
     sdk: flutter
   ms_undraw:
     path: ../
-  url_launcher: ^6.0.20
+  url_launcher: ^6.2.3
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
 
-  flutter_lints: ^1.0.4
+  flutter_lints: ^3.0.1
 
 flutter:
   uses-material-design: true
