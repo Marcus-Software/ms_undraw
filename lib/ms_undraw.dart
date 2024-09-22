@@ -99,8 +99,7 @@ class UnDraw extends StatelessWidget {
     String image =
         await _getSvgString(illustrationMap[illustration]!, this.useMemCache);
 
-    String valueString = color.toString().split('(0x')[1].split(')')[0];
-    valueString = valueString.substring(2, valueString.length);
+    String valueString = color.value.toRadixString(16);
     image = image.replaceAll("#6c63ff", "#" + valueString);
     return SvgPicture.string(
       image,
