@@ -5,12 +5,12 @@ import 'package:context_menus/context_menus.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:ms_undraw/ms_undraw.dart';
-import 'package:url_launcher/url_launcher.dart';
+import 'package:url_launcher/url_launcher_string.dart';
 
 void main() => runApp(const MyApp());
 
 class MyApp extends StatelessWidget {
-  const MyApp({Key? key}) : super(key: key);
+  const MyApp({super.key});
 
   // This widget is the root of your application.
   @override
@@ -31,11 +31,11 @@ class MyApp extends StatelessWidget {
 }
 
 class MyHomePage extends StatefulWidget {
-  const MyHomePage({Key? key, required this.title}) : super(key: key);
+  const MyHomePage({super.key, required this.title});
   final String title;
 
   @override
-  _MyHomePageState createState() => _MyHomePageState();
+  State<MyHomePage> createState() => _MyHomePageState();
 }
 
 class _MyHomePageState extends State<MyHomePage> {
@@ -43,32 +43,76 @@ class _MyHomePageState extends State<MyHomePage> {
   UnDrawIllustration illustration = UnDrawIllustration.mobile_application;
   Timer? timer;
   final List<UnDrawIllustration> _filtered = [];
+  final TextEditingController _controller = TextEditingController();
+  final FocusNode _focus = FocusNode();
+  final FocusNode _focus2 = FocusNode();
 
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
-      backgroundColor: Colors.white,
-      appBar: AppBar(
-        actions: [
-          IconButton(
-              onPressed: () {
-                showAboutDialog(context: context, children: [
-                  TextButton(
-                      onPressed: () =>
-                          launch("https://pub.dev/packages/ms_undraw"),
-                      child: const Text('https://pub.dev/packages/ms_undraw')),
-                  TextButton(
-                      onPressed: () => launch("https://undraw.co/"),
-                      child: const Text('https://undraw.co/')),
-                ]);
-              },
-              icon: const Icon(Icons.info))
-        ],
-        title: TextFormField(
-          onChanged: (s) {
-            timer?.cancel();
-            timer = Timer(const Duration(seconds: 1), () {
+    final width = MediaQuery.of(context).size.width;
+    final double horizontalPadding = width < 1024 ? 16 : (width - 1024) / 2;
+
+    return FocusScope(
+      autofocus: true,
+      onKey: (node, event) {
+        if (event is RawKeyDownEvent &&
+            event.logicalKey == LogicalKeyboardKey.escape) {
+          _focus.unfocus();
+          _controller.clear();
+          _filtered.clear();
+          setState(() {});
+
+          return KeyEventResult.handled;
+        }
+        if (event is RawKeyDownEvent &&
+            event.logicalKey == LogicalKeyboardKey.slash &&
+            !_focus.hasFocus) {
+          _focus.requestFocus();
+
+          return KeyEventResult.handled;
+        }
+
+        return KeyEventResult.ignored;
+      },
+      child: Scaffold(
+        backgroundColor: Colors.white,
+        appBar: AppBar(
+          actions: [
+            IconButton(
+                onPressed: () {
+                  showAboutDialog(context: context, children: [
+                    TextButton(
+                        onPressed: () => launchUrlString(
+                            "https://pub.dev/packages/ms_undraw"),
+                        child:
+                            const Text('https://pub.dev/packages/ms_undraw')),
+                    TextButton(
+                        onPressed: () => launchUrlString("https://undraw.co/"),
+                        child: const Text('https://undraw.co/')),
+                  ]);
+                },
+                icon: const Icon(Icons.info))
+          ],
+          title: TextFormField(
+            controller: _controller,
+            focusNode: _focus,
+            onChanged: (s) {
+              timer?.cancel();
+              timer = Timer(const Duration(seconds: 1), () {
+                _filtered.clear();
+                if (s.isNotEmpty) {
+                  _filtered.addAll(UnDrawIllustration.values.where((element) =>
+                      _changeName(element.name)
+                          .toLowerCase()
+                          .contains(s.toLowerCase())));
+                }
+                setState(() {});
+              });
+            },
+            onFieldSubmitted: (s) {
+              timer?.cancel();
               _filtered.clear();
+              _focus.requestFocus();
               if (s.isNotEmpty) {
                 _filtered.addAll(UnDrawIllustration.values.where((element) =>
                     _changeName(element.name)
@@ -76,119 +120,127 @@ class _MyHomePageState extends State<MyHomePage> {
                         .contains(s.toLowerCase())));
               }
               setState(() {});
+            },
+            cursorColor: Colors.white,
+            style: const TextStyle(
+              color: Colors.white,
+              decorationColor: Colors.white,
+            ),
+            decoration: InputDecoration(
+              label: Text("Type to search"),
+              icon: Icon(
+                Icons.search,
+                color: Colors.white,
+              ),
+              isDense: true,
+              iconColor: Colors.white,
+              focusColor: Colors.white,
+              prefixIconColor: Colors.white,
+              labelStyle: TextStyle(color: Colors.white),
+              suffixIconColor: Colors.white,
+              suffixIcon: IconButton(
+                onPressed: () {
+                  setState(() {
+                    _filtered.clear();
+                    _controller.clear();
+                  });
+                },
+                icon: Icon(Icons.clear, color: Colors.white),
+              ),
+            ),
+          ),
+        ),
+        floatingActionButton: FloatingActionButton(
+          onPressed: () {
+            setState(() {
+              color = Color((Random().nextDouble() * 0xFFFFFF).toInt() << 0)
+                  .withValues(alpha: 1);
             });
           },
-          cursorColor: Colors.white,
-          style: const TextStyle(
-            color: Colors.white,
-            decorationColor: Colors.white,
-          ),
-          decoration: const InputDecoration(
-            label: Text("Type to search"),
-            icon: Icon(
-              Icons.search,
-              color: Colors.white,
-            ),
-            isDense: true,
-            iconColor: Colors.white,
-            focusColor: Colors.white,
-            prefixIconColor: Colors.white,
-            labelStyle: TextStyle(color: Colors.white),
-            suffixIconColor: Colors.white,
-          ),
+          backgroundColor: Colors.red,
+          child: const Icon(Icons.color_lens),
         ),
-      ),
-      floatingActionButton: FloatingActionButton(
-        onPressed: () {
-          setState(() {
-            color = Color((Random().nextDouble() * 0xFFFFFF).toInt() << 0)
-                .withOpacity(1.0);
-          });
-        },
-        backgroundColor: Colors.red,
-        child: const Icon(Icons.color_lens),
-      ),
-      body: Center(
-        child: Container(
-          constraints: const BoxConstraints(maxWidth: 1024),
-          child: GridView.builder(
-              gridDelegate: const SliverGridDelegateWithFixedCrossAxisCount(
-                  crossAxisCount: 3,
-                  childAspectRatio: 1 / 1,
-                  mainAxisExtent: 285 + 28 + 16,
-                  crossAxisSpacing: 16,
-                  mainAxisSpacing: 16),
-              padding: const EdgeInsets.all(16),
-              itemBuilder: (_, index) {
-                final undraw = _filtered.isEmpty
-                    ? UnDrawIllustration.values[index]
-                    : _filtered[index];
-                return ContextMenuRegion(
-                  contextMenu: GenericContextMenu(
-                    buttonConfigs: [
-                      ContextMenuButtonConfig("Copy name",
-                          onPressed: () => _copyName(undraw)),
-                      ContextMenuButtonConfig("Copy widget code",
-                          onPressed: () => _copyCode(undraw)),
+        body: GridView.builder(
+            gridDelegate: const SliverGridDelegateWithFixedCrossAxisCount(
+                crossAxisCount: 3,
+                childAspectRatio: 1 / 1,
+                mainAxisExtent: 285 + 28 + 16,
+                crossAxisSpacing: 16,
+                mainAxisSpacing: 16),
+            padding: EdgeInsets.only(
+                top: 16,
+                left: horizontalPadding,
+                right: horizontalPadding,
+                bottom: 64),
+            itemBuilder: (_, index) {
+              final undraw = _filtered.isEmpty
+                  ? UnDrawIllustration.values[index]
+                  : _filtered[index];
+              return ContextMenuRegion(
+                contextMenu: GenericContextMenu(
+                  buttonConfigs: [
+                    ContextMenuButtonConfig("Copy name",
+                        onPressed: () => _copyName(undraw)),
+                    ContextMenuButtonConfig("Copy widget code",
+                        onPressed: () => _copyCode(undraw)),
+                  ],
+                ),
+                child: Container(
+                  decoration: BoxDecoration(
+                    color: Colors.grey.shade100,
+                    border: Border.all(color: Colors.grey.shade300),
+                    borderRadius: const BorderRadius.all(Radius.circular(16)),
+                    boxShadow: const [
+                      BoxShadow(
+                          color: Colors.black12,
+                          blurRadius: 6,
+                          offset: Offset(0, 4))
                     ],
                   ),
-                  child: Container(
-                    decoration: BoxDecoration(
-                      color: Colors.grey.shade100,
-                      border: Border.all(color: Colors.grey.shade300),
-                      borderRadius: const BorderRadius.all(Radius.circular(16)),
-                      boxShadow: const [
-                        BoxShadow(
-                            color: Colors.black12,
-                            blurRadius: 6,
-                            offset: Offset(0, 4))
-                      ],
-                    ),
-                    padding: const EdgeInsets.all(16.0),
-                    child: Column(
-                      mainAxisSize: MainAxisSize.min,
-                      mainAxisAlignment: MainAxisAlignment.start,
-                      children: [
-                        Text(_changeName(undraw.name)),
-                        SizedBox(
-                          // height: 220+67,
-                          child: Center(
-                            child: UnDraw(
-                              color: color,
-                              useMemCache: false,
-                              height: 200,
-                              width: 200,
-                              illustration: undraw,
-                              placeholder:
-                                  const Text("Illustration is loading..."),
-                              errorWidget: const Icon(Icons.error_outline,
-                                  color: Colors.red, size: 50),
-                            ),
+                  padding: const EdgeInsets.all(16.0),
+                  child: Column(
+                    mainAxisSize: MainAxisSize.min,
+                    mainAxisAlignment: MainAxisAlignment.start,
+                    children: [
+                      Text(_changeName(undraw.name)),
+                      SizedBox(
+                        // height: 220+67,
+                        child: Center(
+                          child: UnDraw(
+                            color: color,
+                            useMemCache: false,
+                            height: 200,
+                            width: 200,
+                            illustration: undraw,
+                            placeholder:
+                                const Text("Illustration is loading..."),
+                            errorWidget: const Icon(Icons.error_outline,
+                                color: Colors.red, size: 50),
                           ),
                         ),
-                        const Divider(),
-                        Row(
-                          children: [
-                            TextButton.icon(
-                                onPressed: () => _copyName(undraw),
-                                icon: const Icon(Icons.copy),
-                                label: const Text("Copy name")),
-                            const Spacer(),
-                            TextButton.icon(
-                                onPressed: () => _copyCode(undraw),
-                                icon: const Icon(Icons.code),
-                                label: const Text("Copy Widget code")),
-                          ],
-                        ),
-                      ],
-                    ),
+                      ),
+                      const Divider(),
+                      Row(
+                        children: [
+                          TextButton.icon(
+                              onPressed: () => _copyName(undraw),
+                              icon: const Icon(Icons.copy),
+                              label: const Text("Copy name")),
+                          const Spacer(),
+                          TextButton.icon(
+                              onPressed: () => _copyCode(undraw),
+                              icon: const Icon(Icons.code),
+                              label: const Text("Copy Widget code")),
+                        ],
+                      ),
+                    ],
                   ),
-                );
-              },
-              itemCount: _filtered.isEmpty
-                  ? UnDrawIllustration.values.length
-                  : _filtered.length),
-        ),
+                ),
+              );
+            },
+            itemCount: _filtered.isEmpty
+                ? UnDrawIllustration.values.length
+                : _filtered.length),
       ),
     );
   }
