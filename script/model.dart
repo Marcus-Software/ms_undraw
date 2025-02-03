@@ -22,27 +22,19 @@ class Illustration {
         nextPage: nextPage ?? this.nextPage,
       );
 
-  factory Illustration.fromJson(String str) =>
-      Illustration.fromMap(json.decode(str));
+  factory Illustration.fromMap(Map<String, dynamic> json) {
+    final totalPages = json["pageProps"]["totalPages"];
+    final currentPage = json["pageProps"]["currentPage"] ?? 1;
 
-  String toJson() => json.encode(toMap());
-
-  factory Illustration.fromMap(Map<String, dynamic> json) => Illustration(
-        illustrations: json["illos"] == null
-            ? null
-            : List<IllustrationElement>.from(
-                json["illos"].map((x) => IllustrationElement.fromMap(x))),
-        hasMore: json["hasMore"] == null ? null : json["hasMore"],
-        nextPage: json["nextPage"] == null ? null : json["nextPage"],
-      );
-
-  Map<String, dynamic> toMap() => {
-        "illustrations": illustrations == null
-            ? null
-            : List<dynamic>.from(illustrations!.map((x) => x.toMap())),
-        "hasMore": hasMore == null ? null : hasMore,
-        "nextPage": nextPage == null ? null : nextPage,
-      };
+    return Illustration(
+      illustrations: json["pageProps"] == null
+          ? null
+          : List<IllustrationElement>.from(json["pageProps"]["illustrations"]
+              .map((x) => IllustrationElement.fromMap(x))),
+      hasMore: totalPages > currentPage,
+      nextPage: currentPage + 1,
+    );
+  }
 }
 
 class IllustrationElement {
@@ -74,20 +66,11 @@ class IllustrationElement {
   factory IllustrationElement.fromJson(String str) =>
       IllustrationElement.fromMap(json.decode(str));
 
-  String toJson() => json.encode(toMap());
-
   factory IllustrationElement.fromMap(Map<String, dynamic> json) =>
       IllustrationElement(
-        id: json["_id"] == null ? null : json["_id"],
-        title: json["title"] == null ? null : json["title"],
-        image: json["image"] == null ? null : json["image"],
-        slug: json["slug"] == null ? null : json["slug"],
+        id: json["_id"],
+        title: json["title"],
+        image: json["image"] ?? json["media"],
+        slug: json["slug"] ?? json["newSlug"],
       );
-
-  Map<String, dynamic> toMap() => {
-        "_id": id == null ? null : id,
-        "title": title == null ? null : title,
-        "image": image == null ? null : image,
-        "slug": slug == null ? null : slug,
-      };
 }

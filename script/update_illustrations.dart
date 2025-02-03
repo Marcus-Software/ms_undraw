@@ -11,10 +11,7 @@ part 'model.dart';
 void main(List<String> args) async {
   final _illustrations = _updateIllustrations(await _getIllustrations());
   final _enumList = _getEnuns(_illustrations);
-  final _baseUrl =
-      'https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations';
-  final _identifierAndUrl = _getIdentifierAndUrl(_illustrations);
-  await _updateFile(_enumList, _baseUrl, _identifierAndUrl);
+  await _updateFile(_enumList);
 
   logger.stdout('Formatting file');
   await Process.run(
@@ -117,39 +114,43 @@ final _startNum = RegExp(r"^\d");
 
 List<String> _getEnuns(List<IllustrationElement> illustrations) {
   logger.stdout('Transforming enums');
+  final sorted =
+      (illustrations..sort((ia, ib) => ia.title.compareTo(ib.title)));
 
-  final list = (illustrations..sort((ia, ib) => ia.title.compareTo(ib.title)))
-      .map((illustration) {
+  final list = sorted.map((illustration) {
+    final itemCount = sorted
+        .where((ia) => _kebabCase(ia.title) == _kebabCase(illustration.title))
+        .length;
+    final hasDuplicate = itemCount > 1;
+    if (hasDuplicate) {
+      logger
+          .stderr('Duplicate illustration: ${illustration.title} #$itemCount');
+    }
     return '''
 /// Title: ${illustration.title}
 /// <br/>
 /// <img src="${illustration.image}" alt="${illustration.title}" width="200"/>
-${_kebabCase(illustration.title)}''';
+${_kebabCase(hasDuplicate ? illustration.slug : illustration.title)}('${illustration.image}')''';
   }).toList();
 
   logger.stdout('Enums transformed');
   return list;
 }
 
-List<String> _getIdentifierAndUrl(List<IllustrationElement> illustrations) {
-  logger.stdout('Transforming illustrations');
-  final list = illustrations
-      .map((ill) =>
-          "UnDrawIllustration.${_kebabCase(ill.title)}: '\$baseUrl/${ill.image.split('/').last}'")
-      .toList();
-  logger.stdout('Illustrations transformed');
-  return list;
-}
-
 Future<List<IllustrationElement>> _getIllustrations() async {
   logger.stdout('Downloading undraw illustration list');
   var _isEnd = false;
-  var _page = 0;
+  var _page = 1;
   List<IllustrationElement> _illustrations = [];
   do {
     logger.write('Downloading page $_page\r');
-    final http.Response response = await http
-        .get(Uri.parse("https://undraw.co/api/illustrations?page=$_page"));
+    final http.Response response = await http.get(Uri.parse(
+        "https://undraw.co/_next/data/0eP9sELVDSAkiFMo0nPxp/illustrations${_page == 1 ? '' : '/$_page'}.json?page=$_page"));
+    if (response.statusCode != 200) {
+      logger.stderr('Error downloading page $_page');
+      logger.stderr(response.body);
+      break;
+    }
     final illustrations = Illustration.fromMap(jsonDecode(response.body));
     _isEnd = illustrations.hasMore!;
     _page = illustrations.nextPage!;
@@ -169,23 +170,18 @@ String _kebabCase(String value) => value
     .replaceAllMapped(_startNum, (match) => '_${match.group(0)}')
     .replaceFirst('void', 'void_');
 
-Future _updateFile(
-    List<String> enuns, String baseUrl, List<String> identifierAndUrl) async {
+Future _updateFile(List<String> enuns) async {
   logger.stdout('Writing in file');
   final File _illustrations = File('./lib/illustrations.g.dart');
   final content = '''
 // ignore_for_file: unused_field
 /// Enums to help locate the correct illustration
-enum UnDrawIllustration {${enuns.join(',')}}
-
-/// Base url for the illustrations
-const baseUrl = "$baseUrl";
-
-/// Map of illustrations with url to download
-const illustrationMap = const <UnDrawIllustration, String>{
-  ${identifierAndUrl.join(',')}
-};
-
+enum UnDrawIllustration {${enuns.join(',')};
+  
+  final String url;
+  
+  const UnDrawIllustration(this.url);
+}
 ''';
   if (!await _illustrations.exists())
     await _illustrations.create(recursive: true);
