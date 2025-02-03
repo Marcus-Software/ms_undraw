@@ -45,7 +45,6 @@ class _MyHomePageState extends State<MyHomePage> {
   final List<UnDrawIllustration> _filtered = [];
   final TextEditingController _controller = TextEditingController();
   final FocusNode _focus = FocusNode();
-  final FocusNode _focus2 = FocusNode();
 
   @override
   Widget build(BuildContext context) {
@@ -161,9 +160,8 @@ class _MyHomePageState extends State<MyHomePage> {
           child: const Icon(Icons.color_lens),
         ),
         body: GridView.builder(
-            gridDelegate: const SliverGridDelegateWithFixedCrossAxisCount(
-                crossAxisCount: 3,
-                childAspectRatio: 1 / 1,
+            gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
+                crossAxisCount: width / 300 < 1 ? 1 : min(width, 1024) ~/ 300,
                 mainAxisExtent: 285 + 28 + 16,
                 crossAxisSpacing: 16,
                 mainAxisSpacing: 16),
@@ -210,7 +208,6 @@ class _MyHomePageState extends State<MyHomePage> {
                             color: color,
                             useMemCache: false,
                             height: 200,
-                            width: 200,
                             illustration: undraw,
                             placeholder:
                                 const Text("Illustration is loading..."),
@@ -221,12 +218,12 @@ class _MyHomePageState extends State<MyHomePage> {
                       ),
                       const Divider(),
                       Row(
+                        mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                         children: [
                           TextButton.icon(
                               onPressed: () => _copyName(undraw),
                               icon: const Icon(Icons.copy),
                               label: const Text("Copy name")),
-                          const Spacer(),
                           TextButton.icon(
                               onPressed: () => _copyCode(undraw),
                               icon: const Icon(Icons.code),
