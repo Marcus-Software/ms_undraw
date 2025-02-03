@@ -1,5 +1,13 @@
 # Changelog
 
+## [4.0.0] - 2024-02-08
+
+* More illustrations added or updated
+* Update example
+* preLoad illustration data🆕
+* cache illustration data in disk🆕
+* bugfix
+
 ## [3.2.0] - 2024-02-08
 
 * More illustrations added or updated

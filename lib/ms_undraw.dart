@@ -1,9 +1,13 @@
 library ms_undraw;
 
+import 'dart:io';
+
+import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 import 'package:http/http.dart' as http;
 import 'package:ms_undraw/illustrations.g.dart';
+import 'package:path_provider/path_provider.dart';
 
 export 'package:ms_undraw/illustrations.g.dart';
 
@@ -24,6 +28,7 @@ class UnDraw extends StatelessWidget {
     this.errorWidget,
     this.padding,
     this.useMemCache = true,
+    this.saveToDiskCache = true,
   }) : super(key: key);
 
   /// Enum [UnDrawIllustration] with all supported illustrations
@@ -94,10 +99,17 @@ class UnDraw extends StatelessWidget {
   /// If cache image in memory, if enable reload the same illustration is be more fast
   final bool useMemCache;
 
+  /// If cache image in disk, if enable save the illustration in disk for future use
+  /// only works in mobile and desktop
+  final bool saveToDiskCache;
+
   Future<SvgPicture> renderIllustration(
       UnDrawIllustration illustration, Color _exColor) async {
-    String image =
-        await _getSvgString(illustrationMap[illustration]!, this.useMemCache);
+    String image = await _getSvgString(
+      illustration.url,
+      this.useMemCache,
+      this.saveToDiskCache,
+    );
 
     String valueString = color.value.toRadixString(16);
     image = image.replaceAll("#6c63ff", "#" + valueString);
@@ -137,17 +149,71 @@ class UnDraw extends StatelessWidget {
     );
   }
 
-  Future<String> _getSvgString(String url, [bool useMemCache = true]) async {
+  Future<String> _getSvgString(
+    String url, [
+    bool useMemCache = true,
+    bool saveToDiskCache = true,
+  ]) async {
     var uri = Uri.parse(url);
-    if (useMemCache) {
-      if (!_memCacheSvg.containsKey(url) || _memCacheSvg[url] == null) {
-        http.Response response = await http.get(uri);
-        _memCacheSvg[url] = response.body;
-      }
+
+    if (useMemCache &&
+        _memCacheSvg.containsKey(url) &&
+        _memCacheSvg[url] != null) {
       return _memCacheSvg[url]!;
-    } else {
-      http.Response response = await http.get(uri);
-      return response.body;
+    }
+
+    if (!kIsWeb && saveToDiskCache) {
+      final file = await _getSvgFile(url);
+      if (await file.exists()) {
+        String svgString = await file.readAsString();
+        if (useMemCache) {
+          _memCacheSvg[url] = svgString;
+        }
+        return svgString;
+      }
+    }
+
+    http.Response response = await http.get(uri);
+    String svgString = response.body;
+
+    if (useMemCache) {
+      _memCacheSvg[url] = svgString;
+    }
+
+    if (!kIsWeb && saveToDiskCache) {
+      final file = await _getSvgFile(url);
+      await file.writeAsString(svgString);
+    }
+
+    return svgString;
+  }
+
+  Future<File> _getSvgFile(String url) async {
+    var uri = Uri.parse(url);
+    String fileName = uri.pathSegments.last;
+    Directory tempDir = await getTemporaryDirectory();
+    String filePath = '${tempDir.path}/$fileName';
+    return File(filePath);
+  }
+
+  /// Preload illustrations to cache
+  ///
+  /// [illustrations] list of [UnDrawIllustration] to preload
+  /// [saveToMemCache] if save to memory cache
+  /// [saveToDiskCache] if save to disk cache (only works in mobile and desktop)
+  static Future<void> preLoad(
+    List<UnDrawIllustration> illustrations, {
+    saveToMemCache = true,
+    saveToDiskCache = true,
+  }) async {
+    final unDraw = UnDraw(
+        illustration: UnDrawIllustration.empty, color: Colors.transparent);
+    for (var i = 0; i < illustrations.length; i++) {
+      await unDraw._getSvgString(
+        illustrations[i].url,
+        saveToMemCache,
+        saveToDiskCache,
+      );
     }
   }
 }

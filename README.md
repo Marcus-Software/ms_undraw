@@ -6,7 +6,7 @@
 <a href="https://www.buymeacoffee.com/marcusedu" title="Donate to this project using Buy Me A Coffee"><img src="https://img.shields.io/badge/buy%20me%20a%20coffee-donate-yellow.svg" alt="Buy Me A Coffee donate button" /></a>
 </span>
 
-UnDraw is a Flutter widget that provides [1372+ illustrations](https://undraw.co/illustrations), designed
+UnDraw is a Flutter widget that provides [1429+ illustrations](https://undraw.co/illustrations), designed
 by [Katerina Limpitsouni](https://twitter.com/ninalimpi) forked
 from [westdabestdb](https://github.com/westdabestdb/undraw)
 
@@ -26,6 +26,8 @@ UnDraw(
   illustration: UnDrawIllustration.mobile_application,
   placeholder: Text("Illustration is loading..."), //optional, default is the CircularProgressIndicator().
   errorWidget: Icon(Icons.error_outline, color: Colors.red, size: 50), //optional, default is the Text('Could not load illustration!').
+  useMemCache: true, // Use a memory cache to store the SVG files. Default is true.
+  saveToDiskCache: true, // Save the SVG files to the disk cache. Default is true.
 )
 ```
 
