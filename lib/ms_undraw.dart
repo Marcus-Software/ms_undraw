@@ -34,7 +34,7 @@ class UnDraw extends StatelessWidget {
   /// Enum [UnDrawIllustration] with all supported illustrations
   final UnDrawIllustration illustration;
 
-  /// The color that will replaced for illustration
+  /// The color that will replace the illustration
   final Color color;
 
   /// The [Semantics.label] for this picture.
@@ -111,8 +111,10 @@ class UnDraw extends StatelessWidget {
       this.saveToDiskCache,
     );
 
-    String valueString = color.value.toRadixString(16);
-    image = image.replaceAll("#6c63ff", "#" + valueString);
+    String valueString = color.toARGB32().toRadixString(16).padLeft(8, '0').substring(2);
+    final defaultColorPattern = RegExp(r'#6c63ff', caseSensitive: false);
+    final newColor = '#$valueString';
+    image = image.replaceAll(defaultColorPattern, newColor);
     return SvgPicture.string(
       image,
       height: height,
