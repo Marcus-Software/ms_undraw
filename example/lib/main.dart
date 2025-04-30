@@ -1,6 +1,5 @@
 import 'dart:async';
 import 'dart:math';
-
 import 'package:context_menus/context_menus.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
@@ -12,7 +11,6 @@ void main() => runApp(const MyApp());
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
 
-  // This widget is the root of your application.
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
@@ -23,8 +21,7 @@ class MyApp extends StatelessWidget {
         useMaterial3: false,
       ),
       home: ContextMenuOverlay(
-        child: MyHomePage(
-            title: "${UnDrawIllustration.values.length} Illustrations"),
+        child: MyHomePage(title: "${UnDrawIllustration.values.length} Illustrations"),
       ),
     );
   }
@@ -50,27 +47,22 @@ class _MyHomePageState extends State<MyHomePage> {
   Widget build(BuildContext context) {
     final width = MediaQuery.of(context).size.width;
     final double horizontalPadding = width < 1024 ? 16 : (width - 1024) / 2;
+    final double maxCrossAxisCount = max(1, min(4, width / 300));
 
     return FocusScope(
       autofocus: true,
       onKey: (node, event) {
-        if (event is RawKeyDownEvent &&
-            event.logicalKey == LogicalKeyboardKey.escape) {
+        if (event is RawKeyDownEvent && event.logicalKey == LogicalKeyboardKey.escape) {
           _focus.unfocus();
           _controller.clear();
           _filtered.clear();
           setState(() {});
-
           return KeyEventResult.handled;
         }
-        if (event is RawKeyDownEvent &&
-            event.logicalKey == LogicalKeyboardKey.slash &&
-            !_focus.hasFocus) {
+        if (event is RawKeyDownEvent && event.logicalKey == LogicalKeyboardKey.slash && !_focus.hasFocus) {
           _focus.requestFocus();
-
           return KeyEventResult.handled;
         }
-
         return KeyEventResult.ignored;
       },
       child: Scaffold(
@@ -78,19 +70,23 @@ class _MyHomePageState extends State<MyHomePage> {
         appBar: AppBar(
           actions: [
             IconButton(
-                onPressed: () {
-                  showAboutDialog(context: context, children: [
+              onPressed: () {
+                showAboutDialog(
+                  context: context,
+                  children: [
                     TextButton(
-                        onPressed: () => launchUrlString(
-                            "https://pub.dev/packages/ms_undraw"),
-                        child:
-                            const Text('https://pub.dev/packages/ms_undraw')),
+                      onPressed: () => launchUrlString("https://pub.dev/packages/ms_undraw"),
+                      child: const Text('https://pub.dev/packages/ms_undraw'),
+                    ),
                     TextButton(
-                        onPressed: () => launchUrlString("https://undraw.co/"),
-                        child: const Text('https://undraw.co/')),
-                  ]);
-                },
-                icon: const Icon(Icons.info))
+                      onPressed: () => launchUrlString("https://undraw.co/"),
+                      child: const Text('https://undraw.co/'),
+                    ),
+                  ],
+                );
+              },
+              icon: const Icon(Icons.info),
+            ),
           ],
           title: TextFormField(
             controller: _controller,
@@ -98,14 +94,13 @@ class _MyHomePageState extends State<MyHomePage> {
             onChanged: (s) {
               timer?.cancel();
               timer = Timer(const Duration(seconds: 1), () {
-                _filtered.clear();
-                if (s.isNotEmpty) {
-                  _filtered.addAll(UnDrawIllustration.values.where((element) =>
-                      _changeName(element.name)
-                          .toLowerCase()
-                          .contains(s.toLowerCase())));
-                }
-                setState(() {});
+                setState(() {
+                  _filtered.clear();
+                  if (s.isNotEmpty) {
+                    _filtered.addAll(UnDrawIllustration.values.where((element) =>
+                        _changeName(element.name).toLowerCase().contains(s.toLowerCase())));
+                  }
+                });
               });
             },
             onFieldSubmitted: (s) {
@@ -113,24 +108,17 @@ class _MyHomePageState extends State<MyHomePage> {
               _filtered.clear();
               _focus.requestFocus();
               if (s.isNotEmpty) {
-                _filtered.addAll(UnDrawIllustration.values.where((element) =>
-                    _changeName(element.name)
-                        .toLowerCase()
-                        .contains(s.toLowerCase())));
+                setState(() {
+                  _filtered.addAll(UnDrawIllustration.values.where((element) =>
+                      _changeName(element.name).toLowerCase().contains(s.toLowerCase())));
+                });
               }
-              setState(() {});
             },
             cursorColor: Colors.white,
-            style: const TextStyle(
-              color: Colors.white,
-              decorationColor: Colors.white,
-            ),
+            style: const TextStyle(color: Colors.white),
             decoration: InputDecoration(
               label: Text("Type to search"),
-              icon: Icon(
-                Icons.search,
-                color: Colors.white,
-              ),
+              icon: Icon(Icons.search, color: Colors.white),
               isDense: true,
               iconColor: Colors.white,
               focusColor: Colors.white,
@@ -144,7 +132,7 @@ class _MyHomePageState extends State<MyHomePage> {
                     _controller.clear();
                   });
                 },
-                icon: Icon(Icons.clear, color: Colors.white),
+                icon: const Icon(Icons.clear, color: Colors.white),
               ),
             ),
           ),
@@ -152,92 +140,85 @@ class _MyHomePageState extends State<MyHomePage> {
         floatingActionButton: FloatingActionButton(
           onPressed: () {
             setState(() {
-              color = Color((Random().nextDouble() * 0xFFFFFF).toInt() << 0)
-                  .withValues(alpha: 1);
+              color = Color(0xFF000000 | Random().nextInt(0xFFFFFF));
             });
           },
           backgroundColor: Colors.red,
           child: const Icon(Icons.color_lens),
         ),
-        body: GridView.builder(
+        body: Padding(
+          padding: EdgeInsets.only(top: 16, left: horizontalPadding, right: horizontalPadding, bottom: 64),
+          child: GridView.builder(
             gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
-                crossAxisCount: width / 300 < 1 ? 1 : min(width, 1024) ~/ 300,
-                mainAxisExtent: 285 + 28 + 16,
-                crossAxisSpacing: 16,
-                mainAxisSpacing: 16),
-            padding: EdgeInsets.only(
-                top: 16,
-                left: horizontalPadding,
-                right: horizontalPadding,
-                bottom: 64),
+              crossAxisCount: maxCrossAxisCount.toInt(),
+              crossAxisSpacing: 16,
+              mainAxisSpacing: 16,
+              childAspectRatio: 0.72, // Adjust for visual balance (width / height)
+            ),
+            itemCount: _filtered.isEmpty ? UnDrawIllustration.values.length : _filtered.length,
             itemBuilder: (_, index) {
-              final undraw = _filtered.isEmpty
-                  ? UnDrawIllustration.values[index]
-                  : _filtered[index];
+              final undraw = _filtered.isEmpty ? UnDrawIllustration.values[index] : _filtered[index];
               return ContextMenuRegion(
                 contextMenu: GenericContextMenu(
                   buttonConfigs: [
-                    ContextMenuButtonConfig("Copy name",
-                        onPressed: () => _copyName(undraw)),
-                    ContextMenuButtonConfig("Copy widget code",
-                        onPressed: () => _copyCode(undraw)),
+                    ContextMenuButtonConfig("Copy name", onPressed: () => _copyName(undraw)),
+                    ContextMenuButtonConfig("Copy widget code", onPressed: () => _copyCode(undraw)),
                   ],
                 ),
-                child: Container(
-                  decoration: BoxDecoration(
-                    color: Colors.grey.shade100,
-                    border: Border.all(color: Colors.grey.shade300),
-                    borderRadius: const BorderRadius.all(Radius.circular(16)),
-                    boxShadow: const [
-                      BoxShadow(
-                          color: Colors.black12,
-                          blurRadius: 6,
-                          offset: Offset(0, 4))
-                    ],
-                  ),
-                  padding: const EdgeInsets.all(16.0),
-                  child: Column(
-                    mainAxisSize: MainAxisSize.min,
-                    mainAxisAlignment: MainAxisAlignment.start,
-                    children: [
-                      Text(_changeName(undraw.name)),
-                      SizedBox(
-                        // height: 220+67,
-                        child: Center(
-                          child: UnDraw(
-                            color: color,
-                            useMemCache: false,
-                            height: 200,
-                            illustration: undraw,
-                            placeholder:
-                                const Text("Illustration is loading..."),
-                            errorWidget: const Icon(Icons.error_outline,
-                                color: Colors.red, size: 50),
-                          ),
-                        ),
-                      ),
-                      const Divider(),
-                      Row(
-                        mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-                        children: [
-                          TextButton.icon(
-                              onPressed: () => _copyName(undraw),
-                              icon: const Icon(Icons.copy),
-                              label: const Text("Copy name")),
-                          TextButton.icon(
-                              onPressed: () => _copyCode(undraw),
-                              icon: const Icon(Icons.code),
-                              label: const Text("Copy Widget code")),
+                child: LayoutBuilder(
+                  builder: (context, constraints) {
+                    return Container(
+                      decoration: BoxDecoration(
+                        color: Colors.grey.shade100,
+                        border: Border.all(color: Colors.grey.shade300),
+                        borderRadius: const BorderRadius.all(Radius.circular(16)),
+                        boxShadow: const [
+                          BoxShadow(color: Colors.black12, blurRadius: 6, offset: Offset(0, 4)),
                         ],
                       ),
-                    ],
-                  ),
+                      padding: const EdgeInsets.all(16.0), // Safer padding
+                      child: Column(
+                        mainAxisSize: MainAxisSize.min,
+                        children: [
+                          Text(_changeName(undraw.name)),
+                          const SizedBox(height: 12),
+                          Expanded(
+                            child: Center(
+                              child: UnDraw(
+                                color: color,
+                                useMemCache: false,
+                                height: constraints.maxHeight * 0.5, // Dynamic sizing
+                                illustration: undraw,
+                                placeholder: const Text("Illustration is loading..."),
+                                errorWidget: const Icon(Icons.error_outline, color: Colors.red, size: 50),
+                              ),
+                            ),
+                          ),
+                          const Divider(),
+                          Row(
+                            mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                            children: [
+                              TextButton.icon(
+                                onPressed: () => _copyName(undraw),
+                                icon: const Icon(Icons.copy),
+                                label: const Text("Copy name"),
+                              ),
+                              TextButton.icon(
+                                onPressed: () => _copyCode(undraw),
+                                icon: const Icon(Icons.code),
+                                label: const Text("Copy Widget code"),
+                              ),
+                            ],
+                          ),
+                        ],
+                      ),
+                    );
+                  },
                 ),
               );
             },
-            itemCount: _filtered.isEmpty
-                ? UnDrawIllustration.values.length
-                : _filtered.length),
+          ),
+        ),
       ),
     );
   }
@@ -253,14 +234,22 @@ class _MyHomePageState extends State<MyHomePage> {
         .trim();
   }
 
-  _copyName(UnDrawIllustration undraw) {
-    Clipboard.setData(ClipboardData(text: "UnDrawIllustration.${undraw.name}"));
+  void _copyName(UnDrawIllustration undraw) {
+    final text = "UnDrawIllustration.${undraw.name}";
+    Clipboard.setData(ClipboardData(text: text));
+    ScaffoldMessenger.of(context).showSnackBar(
+      SnackBar(content: Text('Copied name: $text')),
+    );
   }
 
-  _copyCode(UnDrawIllustration undraw) {
-    Clipboard.setData(ClipboardData(text: """UnDraw(
-      color: Theme.of(context).primaryColor,
-      illustration: UnDrawIllustration.${undraw.name},
-    )"""));
+  void _copyCode(UnDrawIllustration undraw) {
+    final code = """UnDraw(
+    color: Theme.of(context).primaryColor,
+    illustration: UnDrawIllustration.${undraw.name},
+  )""";
+    Clipboard.setData(ClipboardData(text: code));
+    ScaffoldMessenger.of(context).showSnackBar(
+      SnackBar(content: Text('Copied widget code for: ${undraw.name}')),
+    );
   }
 }
