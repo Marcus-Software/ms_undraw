@@ -39,6 +39,17 @@ enum UnDrawIllustration {
   /// <img src="https://cdn.undraw.co/illustrations/a-whole-year_aniy.svg" alt="A whole year" width="200"/>
   a_whole_year('https://cdn.undraw.co/illustrations/a-whole-year_aniy.svg'),
 
+  /// Title: AI Agent
+  /// <br/>
+  /// <img src="https://cdn.undraw.co/illustration/ai-agent_pdkp.svg" alt="AI Agent" width="200"/>
+  ai_agent('https://cdn.undraw.co/illustration/ai-agent_pdkp.svg'),
+
+  /// Title: AI Code Generation
+  /// <br/>
+  /// <img src="https://cdn.undraw.co/illustration/ai-code-generation_imyw.svg" alt="AI Code Generation" width="200"/>
+  ai_code_generation(
+      'https://cdn.undraw.co/illustration/ai-code-generation_imyw.svg'),
+
   /// Title: AI Voice Interface
   /// <br/>
   /// <img src="https://cdn.undraw.co/illustration/ai-voice-interface_7uqq.svg" alt="AI Voice Interface" width="200"/>
@@ -55,10 +66,10 @@ enum UnDrawIllustration {
   /// <img src="https://cdn.undraw.co/illustrations/about-us-page_dbh0.svg" alt="About us page" width="200"/>
   about_us_page('https://cdn.undraw.co/illustrations/about-us-page_dbh0.svg'),
 
-  /// Title: Absorbed in
+  /// Title: Absorbed
   /// <br/>
-  /// <img src="https://cdn.undraw.co/illustrations/absorbed-in_0b2u.svg" alt="Absorbed in" width="200"/>
-  absorbed_in('https://cdn.undraw.co/illustrations/absorbed-in_0b2u.svg'),
+  /// <img src="https://cdn.undraw.co/illustration/absorbed_h2rt.svg" alt="Absorbed" width="200"/>
+  absorbed('https://cdn.undraw.co/illustration/absorbed_h2rt.svg'),
 
   /// Title: Abstract
   /// <br/>
@@ -70,10 +81,10 @@ enum UnDrawIllustration {
   /// <img src="https://cdn.undraw.co/illustrations/accept-request_489a.svg" alt="Accept request" width="200"/>
   accept_request('https://cdn.undraw.co/illustrations/accept-request_489a.svg'),
 
-  /// Title: Accept tasks
+  /// Title: Accept task
   /// <br/>
-  /// <img src="https://cdn.undraw.co/illustrations/accept-tasks_syrr.svg" alt="Accept tasks" width="200"/>
-  accept_tasks('https://cdn.undraw.co/illustrations/accept-tasks_syrr.svg'),
+  /// <img src="https://cdn.undraw.co/illustration/accept-task_vzpn.svg" alt="Accept task" width="200"/>
+  accept_task('https://cdn.undraw.co/illustration/accept-task_vzpn.svg'),
 
   /// Title: Access account
   /// <br/>
@@ -84,11 +95,6 @@ enum UnDrawIllustration {
   /// <br/>
   /// <img src="https://cdn.undraw.co/illustration/access-denied_krem.svg" alt="Access denied" width="200"/>
   access_denied('https://cdn.undraw.co/illustration/access-denied_krem.svg'),
-
-  /// Title: Account
-  /// <br/>
-  /// <img src="https://cdn.undraw.co/illustrations/account_g3rf.svg" alt="Account" width="200"/>
-  account('https://cdn.undraw.co/illustrations/account_g3rf.svg'),
 
   /// Title: Active options
   /// <br/>
@@ -106,6 +112,11 @@ enum UnDrawIllustration {
   activity_tracker(
       'https://cdn.undraw.co/illustrations/activity-tracker_3o6r.svg'),
 
+  /// Title: Add File
+  /// <br/>
+  /// <img src="https://cdn.undraw.co/illustration/add-file_lf11.svg" alt="Add File" width="200"/>
+  add_file('https://cdn.undraw.co/illustration/add-file_lf11.svg'),
+
   /// Title: Add color
   /// <br/>
   /// <img src="https://cdn.undraw.co/illustrations/add-color_6211.svg" alt="Add color" width="200"/>
@@ -120,11 +131,6 @@ enum UnDrawIllustration {
   /// <br/>
   /// <img src="https://cdn.undraw.co/illustrations/add-document_oqbr.svg" alt="Add document" width="200"/>
   add_document('https://cdn.undraw.co/illustrations/add-document_oqbr.svg'),
-
-  /// Title: Add file
-  /// <br/>
-  /// <img src="https://cdn.undraw.co/illustrations/add-file_zh0w.svg" alt="Add file" width="200"/>
-  add_file('https://cdn.undraw.co/illustrations/add-file_zh0w.svg'),
 
   /// Title: Add files
   /// <br/>
@@ -154,8 +160,8 @@ enum UnDrawIllustration {
 
   /// Title: Add tasks
   /// <br/>
-  /// <img src="https://cdn.undraw.co/illustrations/add-tasks_4qsy.svg" alt="Add tasks" width="200"/>
-  add_tasks('https://cdn.undraw.co/illustrations/add-tasks_4qsy.svg'),
+  /// <img src="https://cdn.undraw.co/illustration/add-tasks_mvlb.svg" alt="Add tasks" width="200"/>
+  add_tasks('https://cdn.undraw.co/illustration/add-tasks_mvlb.svg'),
 
   /// Title: Add to cart
   /// <br/>
@@ -188,10 +194,10 @@ enum UnDrawIllustration {
   /// <img src="https://cdn.undraw.co/illustrations/adventure_9my9.svg" alt="Adventure" width="200"/>
   adventure('https://cdn.undraw.co/illustrations/adventure_9my9.svg'),
 
-  /// Title: Adventure map
+  /// Title: Adventure Map
   /// <br/>
-  /// <img src="https://cdn.undraw.co/illustrations/adventure-map_8hg8.svg" alt="Adventure map" width="200"/>
-  adventure_map('https://cdn.undraw.co/illustrations/adventure-map_8hg8.svg'),
+  /// <img src="https://cdn.undraw.co/illustration/adventure-map_3e4p.svg" alt="Adventure Map" width="200"/>
+  adventure_map('https://cdn.undraw.co/illustration/adventure-map_3e4p.svg'),
 
   /// Title: Agree
   /// <br/>
@@ -222,6 +228,12 @@ enum UnDrawIllustration {
   /// <br/>
   /// <img src="https://cdn.undraw.co/illustrations/algolia_850u.svg" alt="Algolia" width="200"/>
   algolia('https://cdn.undraw.co/illustrations/algolia_850u.svg'),
+
+  /// Title: Algorithm Execution
+  /// <br/>
+  /// <img src="https://cdn.undraw.co/illustration/algorithm-execution_rksm.svg" alt="Algorithm Execution" width="200"/>
+  algorithm_execution(
+      'https://cdn.undraw.co/illustration/algorithm-execution_rksm.svg'),
 
   /// Title: Alien science
   /// <br/>
@@ -284,6 +296,11 @@ enum UnDrawIllustration {
   /// <img src="https://cdn.undraw.co/illustrations/apartment-rent_oodr.svg" alt="Apartment rent" width="200"/>
   apartment_rent('https://cdn.undraw.co/illustrations/apartment-rent_oodr.svg'),
 
+  /// Title: App Dark Mode
+  /// <br/>
+  /// <img src="https://cdn.undraw.co/illustration/app-dark-mode_6ji2.svg" alt="App Dark Mode" width="200"/>
+  app_dark_mode('https://cdn.undraw.co/illustration/app-dark-mode_6ji2.svg'),
+
   /// Title: App data
   /// <br/>
   /// <img src="https://cdn.undraw.co/illustrations/app-data_vo0p.svg" alt="App data" width="200"/>
@@ -320,10 +337,16 @@ enum UnDrawIllustration {
   /// <img src="https://cdn.undraw.co/illustrations/approve_jz6b.svg" alt="Approve" width="200"/>
   approve('https://cdn.undraw.co/illustrations/approve_jz6b.svg'),
 
+  /// Title: Approved Wireframe
+  /// <br/>
+  /// <img src="https://cdn.undraw.co/illustration/approved-wireframe_odf4.svg" alt="Approved Wireframe" width="200"/>
+  approved_wireframe(
+      'https://cdn.undraw.co/illustration/approved-wireframe_odf4.svg'),
+
   /// Title: Apps
   /// <br/>
-  /// <img src="https://cdn.undraw.co/illustrations/apps_i78y.svg" alt="Apps" width="200"/>
-  apps('https://cdn.undraw.co/illustrations/apps_i78y.svg'),
+  /// <img src="https://cdn.undraw.co/illustrations/apps_0l3h.svg" alt="Apps" width="200"/>
+  apps('https://cdn.undraw.co/illustrations/apps_0l3h.svg'),
 
   /// Title: Apps Notifications
   /// <br/>
@@ -333,8 +356,8 @@ enum UnDrawIllustration {
 
   /// Title: Apps_var
   /// <br/>
-  /// <img src="https://cdn.undraw.co/illustrations/apps_0l3h.svg" alt="Apps_var" width="200"/>
-  apps_var('https://cdn.undraw.co/illustrations/apps_0l3h.svg'),
+  /// <img src="https://cdn.undraw.co/illustrations/apps_i78y.svg" alt="Apps_var" width="200"/>
+  apps_var('https://cdn.undraw.co/illustrations/apps_i78y.svg'),
 
   /// Title: Around the world
   /// <br/>
@@ -372,16 +395,21 @@ enum UnDrawIllustration {
   /// <img src="https://cdn.undraw.co/illustrations/articles_visl.svg" alt="Articles" width="200"/>
   articles('https://cdn.undraw.co/illustrations/articles_visl.svg'),
 
-  /// Title: Artificial intelligence
+  /// Title: Artificial Intelligence
   /// <br/>
-  /// <img src="https://cdn.undraw.co/illustrations/artificial-intelligence_fuvd.svg" alt="Artificial intelligence" width="200"/>
+  /// <img src="https://cdn.undraw.co/illustration/artificial-intelligence_43qa.svg" alt="Artificial Intelligence" width="200"/>
   artificial_intelligence(
-      'https://cdn.undraw.co/illustrations/artificial-intelligence_fuvd.svg'),
+      'https://cdn.undraw.co/illustration/artificial-intelligence_43qa.svg'),
 
   /// Title: Artist
   /// <br/>
   /// <img src="https://cdn.undraw.co/illustrations/artist_7bs7.svg" alt="Artist" width="200"/>
   artist('https://cdn.undraw.co/illustrations/artist_7bs7.svg'),
+
+  /// Title: Artist at Work
+  /// <br/>
+  /// <img src="https://cdn.undraw.co/illustration/artist-at-work_yos7.svg" alt="Artist at Work" width="200"/>
+  artist_at_work('https://cdn.undraw.co/illustration/artist-at-work_yos7.svg'),
 
   /// Title: Ask me anything
   /// <br/>
@@ -405,15 +433,15 @@ enum UnDrawIllustration {
   /// <img src="https://cdn.undraw.co/illustrations/at-home_y0ji.svg" alt="At home" width="200"/>
   at_home('https://cdn.undraw.co/illustrations/at-home_y0ji.svg'),
 
+  /// Title: At the airport
+  /// <br/>
+  /// <img src="https://cdn.undraw.co/illustration/at-the-airport_z3b9.svg" alt="At the airport" width="200"/>
+  at_the_airport('https://cdn.undraw.co/illustration/at-the-airport_z3b9.svg'),
+
   /// Title: At the park
   /// <br/>
   /// <img src="https://cdn.undraw.co/illustrations/at-the-park_2y19.svg" alt="At the park" width="200"/>
   at_the_park('https://cdn.undraw.co/illustrations/at-the-park_2y19.svg'),
-
-  /// Title: At work
-  /// <br/>
-  /// <img src="https://cdn.undraw.co/illustrations/at-work_t4yk.svg" alt="At work" width="200"/>
-  at_work('https://cdn.undraw.co/illustrations/at-work_t4yk.svg'),
 
   /// Title: Athletes training
   /// <br/>
@@ -423,8 +451,8 @@ enum UnDrawIllustration {
 
   /// Title: Attached file
   /// <br/>
-  /// <img src="https://cdn.undraw.co/illustrations/attached-file_bh2b.svg" alt="Attached file" width="200"/>
-  attached_file('https://cdn.undraw.co/illustrations/attached-file_bh2b.svg'),
+  /// <img src="https://cdn.undraw.co/illustration/attached-file_j0t2.svg" alt="Attached file" width="200"/>
+  attached_file('https://cdn.undraw.co/illustration/attached-file_j0t2.svg'),
 
   /// Title: Audio conversation
   /// <br/>
@@ -436,6 +464,11 @@ enum UnDrawIllustration {
   /// <br/>
   /// <img src="https://cdn.undraw.co/illustrations/audio-player_7uwh.svg" alt="Audio player" width="200"/>
   audio_player('https://cdn.undraw.co/illustrations/audio-player_7uwh.svg'),
+
+  /// Title: Audiobook
+  /// <br/>
+  /// <img src="https://cdn.undraw.co/illustration/audiobook_0h9f.svg" alt="Audiobook" width="200"/>
+  audiobook('https://cdn.undraw.co/illustration/audiobook_0h9f.svg'),
 
   /// Title: Augmented reality
   /// <br/>
@@ -452,6 +485,17 @@ enum UnDrawIllustration {
   /// <br/>
   /// <img src="https://cdn.undraw.co/illustrations/autumn_yr1f.svg" alt="Autumn" width="200"/>
   autumn('https://cdn.undraw.co/illustrations/autumn_yr1f.svg'),
+
+  /// Title: Avatar Traveler
+  /// <br/>
+  /// <img src="https://cdn.undraw.co/illustration/avatar-traveler_ljy2.svg" alt="Avatar Traveler" width="200"/>
+  avatar_traveler(
+      'https://cdn.undraw.co/illustration/avatar-traveler_ljy2.svg'),
+
+  /// Title: Avatars
+  /// <br/>
+  /// <img src="https://cdn.undraw.co/illustration/avatars_xsfb.svg" alt="Avatars" width="200"/>
+  avatars('https://cdn.undraw.co/illustration/avatars_xsfb.svg'),
 
   /// Title: Awards
   /// <br/>
@@ -480,8 +524,8 @@ enum UnDrawIllustration {
 
   /// Title: Barbecue
   /// <br/>
-  /// <img src="https://cdn.undraw.co/illustrations/barbecue_td8x.svg" alt="Barbecue" width="200"/>
-  barbecue('https://cdn.undraw.co/illustrations/barbecue_td8x.svg'),
+  /// <img src="https://cdn.undraw.co/illustration/barbecue_k11q.svg" alt="Barbecue" width="200"/>
+  barbecue('https://cdn.undraw.co/illustration/barbecue_k11q.svg'),
 
   /// Title: Barber
   /// <br/>
@@ -498,15 +542,20 @@ enum UnDrawIllustration {
   /// <img src="https://cdn.undraw.co/illustrations/basketball_40ga.svg" alt="Basketball" width="200"/>
   basketball('https://cdn.undraw.co/illustrations/basketball_40ga.svg'),
 
+  /// Title: Basketball Kid
+  /// <br/>
+  /// <img src="https://cdn.undraw.co/illustration/basketball-kid_a3ss.svg" alt="Basketball Kid" width="200"/>
+  basketball_kid('https://cdn.undraw.co/illustration/basketball-kid_a3ss.svg'),
+
   /// Title: Be the hero
   /// <br/>
   /// <img src="https://cdn.undraw.co/illustrations/be-the-hero_bce0.svg" alt="Be the hero" width="200"/>
   be_the_hero('https://cdn.undraw.co/illustrations/be-the-hero_bce0.svg'),
 
-  /// Title: Beach day
+  /// Title: Beach Day
   /// <br/>
-  /// <img src="https://cdn.undraw.co/illustrations/beach-day_nedh.svg" alt="Beach day" width="200"/>
-  beach_day('https://cdn.undraw.co/illustrations/beach-day_nedh.svg'),
+  /// <img src="https://cdn.undraw.co/illustration/beach-day_cnsv.svg" alt="Beach Day" width="200"/>
+  beach_day('https://cdn.undraw.co/illustration/beach-day_cnsv.svg'),
 
   /// Title: Bear market
   /// <br/>
@@ -534,6 +583,11 @@ enum UnDrawIllustration {
   /// <img src="https://cdn.undraw.co/illustrations/begin-chat_4wy6.svg" alt="Begin chat" width="200"/>
   begin_chat('https://cdn.undraw.co/illustrations/begin-chat_4wy6.svg'),
 
+  /// Title: Bento Grid
+  /// <br/>
+  /// <img src="https://cdn.undraw.co/illustration/bento-grid_qfc0.svg" alt="Bento Grid" width="200"/>
+  bento_grid('https://cdn.undraw.co/illustration/bento-grid_qfc0.svg'),
+
   /// Title: Best place
   /// <br/>
   /// <img src="https://cdn.undraw.co/illustrations/best-place_dhzp.svg" alt="Best place" width="200"/>
@@ -546,8 +600,8 @@ enum UnDrawIllustration {
 
   /// Title: Bike ride
   /// <br/>
-  /// <img src="https://cdn.undraw.co/illustration/bike-ride_9w5n.svg" alt="Bike ride" width="200"/>
-  bike_ride('https://cdn.undraw.co/illustration/bike-ride_9w5n.svg'),
+  /// <img src="https://cdn.undraw.co/illustration/bike-ride_ba0o.svg" alt="Bike ride" width="200"/>
+  bike_ride('https://cdn.undraw.co/illustration/bike-ride_ba0o.svg'),
 
   /// Title: Biking
   /// <br/>
@@ -556,8 +610,8 @@ enum UnDrawIllustration {
 
   /// Title: Birthday cake
   /// <br/>
-  /// <img src="https://cdn.undraw.co/illustrations/birthday-cake_8czn.svg" alt="Birthday cake" width="200"/>
-  birthday_cake('https://cdn.undraw.co/illustrations/birthday-cake_8czn.svg'),
+  /// <img src="https://cdn.undraw.co/illustration/birthday-cake_w9f6.svg" alt="Birthday cake" width="200"/>
+  birthday_cake('https://cdn.undraw.co/illustration/birthday-cake_w9f6.svg'),
 
   /// Title: Birthday girl
   /// <br/>
@@ -604,10 +658,15 @@ enum UnDrawIllustration {
   /// <img src="https://cdn.undraw.co/illustrations/body-text_b6qq.svg" alt="Body text" width="200"/>
   body_text('https://cdn.undraw.co/illustrations/body-text_b6qq.svg'),
 
+  /// Title: Book Writer
+  /// <br/>
+  /// <img src="https://cdn.undraw.co/illustration/book-writer_ri5u.svg" alt="Book Writer" width="200"/>
+  book_writer('https://cdn.undraw.co/illustration/book-writer_ri5u.svg'),
+
   /// Title: Book lover
   /// <br/>
-  /// <img src="https://cdn.undraw.co/illustrations/book-lover_cmz5.svg" alt="Book lover" width="200"/>
-  book_lover('https://cdn.undraw.co/illustrations/book-lover_cmz5.svg'),
+  /// <img src="https://cdn.undraw.co/illustration/book-lover_m9n3.svg" alt="Book lover" width="200"/>
+  book_lover('https://cdn.undraw.co/illustration/book-lover_m9n3.svg'),
 
   /// Title: Book reading
   /// <br/>
@@ -631,8 +690,8 @@ enum UnDrawIllustration {
 
   /// Title: Books
   /// <br/>
-  /// <img src="https://cdn.undraw.co/illustrations/books_2j5v.svg" alt="Books" width="200"/>
-  books('https://cdn.undraw.co/illustrations/books_2j5v.svg'),
+  /// <img src="https://cdn.undraw.co/illustration/books_wxzz.svg" alt="Books" width="200"/>
+  books('https://cdn.undraw.co/illustration/books_wxzz.svg'),
 
   /// Title: Bookshelves
   /// <br/>
@@ -644,10 +703,15 @@ enum UnDrawIllustration {
   /// <img src="https://cdn.undraw.co/illustrations/both-sides_mrcf.svg" alt="Both sides" width="200"/>
   both_sides('https://cdn.undraw.co/illustrations/both-sides_mrcf.svg'),
 
+  /// Title: Braille
+  /// <br/>
+  /// <img src="https://cdn.undraw.co/illustration/braille_hvfe.svg" alt="Braille" width="200"/>
+  braille('https://cdn.undraw.co/illustration/braille_hvfe.svg'),
+
   /// Title: Brainstorming
   /// <br/>
-  /// <img src="https://cdn.undraw.co/illustrations/brainstorming_4qbd.svg" alt="Brainstorming" width="200"/>
-  brainstorming('https://cdn.undraw.co/illustrations/brainstorming_4qbd.svg'),
+  /// <img src="https://cdn.undraw.co/illustration/brainstorming_gny9.svg" alt="Brainstorming" width="200"/>
+  brainstorming('https://cdn.undraw.co/illustration/brainstorming_gny9.svg'),
 
   /// Title: Breakfast
   /// <br/>
@@ -675,11 +739,11 @@ enum UnDrawIllustration {
   /// <img src="https://cdn.undraw.co/illustrations/browsing_g1ne.svg" alt="Browsing" width="200"/>
   browsing('https://cdn.undraw.co/illustrations/browsing_g1ne.svg'),
 
-  /// Title: Browsing online
+  /// Title: Browsing Online
   /// <br/>
-  /// <img src="https://cdn.undraw.co/illustrations/browsing-online_wfdn.svg" alt="Browsing online" width="200"/>
+  /// <img src="https://cdn.undraw.co/illustration/browsing-online_rozb.svg" alt="Browsing Online" width="200"/>
   browsing_online(
-      'https://cdn.undraw.co/illustrations/browsing-online_wfdn.svg'),
+      'https://cdn.undraw.co/illustration/browsing-online_rozb.svg'),
 
   /// Title: Buddies
   /// <br/>
@@ -696,12 +760,6 @@ enum UnDrawIllustration {
   /// <img src="https://cdn.undraw.co/illustrations/bug-fixing_sgk7.svg" alt="Bug fixing" width="200"/>
   bug_fixing('https://cdn.undraw.co/illustrations/bug-fixing_sgk7.svg'),
 
-  /// Title: Build wireframe
-  /// <br/>
-  /// <img src="https://cdn.undraw.co/illustrations/build-wireframe_pzes.svg" alt="Build wireframe" width="200"/>
-  build_wireframe(
-      'https://cdn.undraw.co/illustrations/build-wireframe_pzes.svg'),
-
   /// Title: Build your home
   /// <br/>
   /// <img src="https://cdn.undraw.co/illustrations/build-your-home_5opd.svg" alt="Build your home" width="200"/>
@@ -712,6 +770,12 @@ enum UnDrawIllustration {
   /// <br/>
   /// <img src="https://cdn.undraw.co/illustrations/building_burz.svg" alt="Building" width="200"/>
   building('https://cdn.undraw.co/illustrations/building_burz.svg'),
+
+  /// Title: Building A Website
+  /// <br/>
+  /// <img src="https://cdn.undraw.co/illustration/building-a-website_1wrp.svg" alt="Building A Website" width="200"/>
+  building_a_website(
+      'https://cdn.undraw.co/illustration/building-a-website_1wrp.svg'),
 
   /// Title: Building blocks
   /// <br/>
@@ -782,6 +846,12 @@ enum UnDrawIllustration {
   /// <img src="https://cdn.undraw.co/illustrations/businesswoman_8lrc.svg" alt="Businesswoman" width="200"/>
   businesswoman('https://cdn.undraw.co/illustrations/businesswoman_8lrc.svg'),
 
+  /// Title: Businesswoman Avatar
+  /// <br/>
+  /// <img src="https://cdn.undraw.co/illustration/businesswoman-avatar_ktl2.svg" alt="Businesswoman Avatar" width="200"/>
+  businesswoman_avatar(
+      'https://cdn.undraw.co/illustration/businesswoman-avatar_ktl2.svg'),
+
   /// Title: Button style
   /// <br/>
   /// <img src="https://cdn.undraw.co/illustrations/button-style_mmk3.svg" alt="Button style" width="200"/>
@@ -814,23 +884,13 @@ enum UnDrawIllustration {
 
   /// Title: Calendar
   /// <br/>
-  /// <img src="https://cdn.undraw.co/illustrations/calendar_76t8.svg" alt="Calendar" width="200"/>
-  calendar('https://cdn.undraw.co/illustrations/calendar_76t8.svg'),
+  /// <img src="https://cdn.undraw.co/illustration/calendar_8r6s.svg" alt="Calendar" width="200"/>
+  calendar('https://cdn.undraw.co/illustration/calendar_8r6s.svg'),
 
   /// Title: Calling
   /// <br/>
-  /// <img src="https://cdn.undraw.co/illustrations/calling_ieh0.svg" alt="Calling" width="200"/>
-  calling('https://cdn.undraw.co/illustrations/calling_ieh0.svg'),
-
-  /// Title: Calling_var
-  /// <br/>
-  /// <img src="https://cdn.undraw.co/illustrations/calling_d6vk.svg" alt="Calling_var" width="200"/>
-  calling_var('https://cdn.undraw.co/illustrations/calling_d6vk.svg'),
-
-  /// Title: Camera
-  /// <br/>
-  /// <img src="https://cdn.undraw.co/illustrations/camera_jfaj.svg" alt="Camera" width="200"/>
-  camera('https://cdn.undraw.co/illustrations/camera_jfaj.svg'),
+  /// <img src="https://cdn.undraw.co/illustrations/calling_d6vk.svg" alt="Calling" width="200"/>
+  calling('https://cdn.undraw.co/illustrations/calling_d6vk.svg'),
 
   /// Title: Campfire
   /// <br/>
@@ -842,6 +902,11 @@ enum UnDrawIllustration {
   /// <img src="https://cdn.undraw.co/illustrations/camping_1hz9.svg" alt="Camping" width="200"/>
   camping('https://cdn.undraw.co/illustrations/camping_1hz9.svg'),
 
+  /// Title: Camping_var
+  /// <br/>
+  /// <img src="https://cdn.undraw.co/illustration/camping_q4ji.svg" alt="Camping_var" width="200"/>
+  camping_var('https://cdn.undraw.co/illustration/camping_q4ji.svg'),
+
   /// Title: Cancel
   /// <br/>
   /// <img src="https://cdn.undraw.co/illustrations/cancel_7zdh.svg" alt="Cancel" width="200"/>
@@ -851,6 +916,11 @@ enum UnDrawIllustration {
   /// <br/>
   /// <img src="https://cdn.undraw.co/illustrations/candidate_q4my.svg" alt="Candidate" width="200"/>
   candidate('https://cdn.undraw.co/illustrations/candidate_q4my.svg'),
+
+  /// Title: Car Salesman
+  /// <br/>
+  /// <img src="https://cdn.undraw.co/illustration/car-salesman_ni2a.svg" alt="Car Salesman" width="200"/>
+  car_salesman('https://cdn.undraw.co/illustration/car-salesman_ni2a.svg'),
 
   /// Title: Car repair
   /// <br/>
@@ -867,6 +937,11 @@ enum UnDrawIllustration {
   /// <img src="https://cdn.undraw.co/illustrations/career-development_f0n6.svg" alt="Career development" width="200"/>
   career_development(
       'https://cdn.undraw.co/illustrations/career-development_f0n6.svg'),
+
+  /// Title: Casual Call
+  /// <br/>
+  /// <img src="https://cdn.undraw.co/illustration/phone-call_cpf5.svg" alt="Casual Call" width="200"/>
+  casual_call('https://cdn.undraw.co/illustration/phone-call_cpf5.svg'),
 
   /// Title: Cat
   /// <br/>
@@ -885,8 +960,8 @@ enum UnDrawIllustration {
 
   /// Title: Certificate
   /// <br/>
-  /// <img src="https://cdn.undraw.co/illustrations/certificate_71gt.svg" alt="Certificate" width="200"/>
-  certificate('https://cdn.undraw.co/illustrations/certificate_71gt.svg'),
+  /// <img src="https://cdn.undraw.co/illustration/certificate_cqps.svg" alt="Certificate" width="200"/>
+  certificate('https://cdn.undraw.co/illustration/certificate_cqps.svg'),
 
   /// Title: Certification
   /// <br/>
@@ -916,8 +991,13 @@ enum UnDrawIllustration {
 
   /// Title: Chat bot
   /// <br/>
-  /// <img src="https://cdn.undraw.co/illustrations/chat-bot_44el.svg" alt="Chat bot" width="200"/>
-  chat_bot('https://cdn.undraw.co/illustrations/chat-bot_44el.svg'),
+  /// <img src="https://cdn.undraw.co/illustration/chat-bot_c8iw.svg" alt="Chat bot" width="200"/>
+  chat_bot('https://cdn.undraw.co/illustration/chat-bot_c8iw.svg'),
+
+  /// Title: Chat with AI
+  /// <br/>
+  /// <img src="https://cdn.undraw.co/illustration/chat-with-ai_ir62.svg" alt="Chat with AI" width="200"/>
+  chat_with_ai('https://cdn.undraw.co/illustration/chat-with-ai_ir62.svg'),
 
   /// Title: Chatting
   /// <br/>
@@ -946,13 +1026,19 @@ enum UnDrawIllustration {
 
   /// Title: Chef
   /// <br/>
-  /// <img src="https://cdn.undraw.co/illustrations/chef_d0ht.svg" alt="Chef" width="200"/>
-  chef('https://cdn.undraw.co/illustrations/chef_d0ht.svg'),
+  /// <img src="https://cdn.undraw.co/illustration/chef_yoa7.svg" alt="Chef" width="200"/>
+  chef('https://cdn.undraw.co/illustration/chef_yoa7.svg'),
 
   /// Title: Children
   /// <br/>
   /// <img src="https://cdn.undraw.co/illustrations/children_e6ln.svg" alt="Children" width="200"/>
   children('https://cdn.undraw.co/illustrations/children_e6ln.svg'),
+
+  /// Title: Chill guy avatar
+  /// <br/>
+  /// <img src="https://cdn.undraw.co/illustration/chill-guy-avatar_tqsm.svg" alt="Chill guy avatar" width="200"/>
+  chill_guy_avatar(
+      'https://cdn.undraw.co/illustration/chill-guy-avatar_tqsm.svg'),
 
   /// Title: Chilling
   /// <br/>
@@ -966,8 +1052,8 @@ enum UnDrawIllustration {
 
   /// Title: Choose
   /// <br/>
-  /// <img src="https://cdn.undraw.co/illustrations/choose_j1ds.svg" alt="Choose" width="200"/>
-  choose('https://cdn.undraw.co/illustrations/choose_j1ds.svg'),
+  /// <img src="https://cdn.undraw.co/illustration/choose_5kz4.svg" alt="Choose" width="200"/>
+  choose('https://cdn.undraw.co/illustration/choose_5kz4.svg'),
 
   /// Title: Choose Card
   /// <br/>
@@ -1035,6 +1121,11 @@ enum UnDrawIllustration {
   /// <img src="https://cdn.undraw.co/illustrations/clean-up_af4s.svg" alt="Clean up" width="200"/>
   clean_up('https://cdn.undraw.co/illustrations/clean-up_af4s.svg'),
 
+  /// Title: Clearing Desk
+  /// <br/>
+  /// <img src="https://cdn.undraw.co/illustration/clearing-desk_emmv.svg" alt="Clearing Desk" width="200"/>
+  clearing_desk('https://cdn.undraw.co/illustration/clearing-desk_emmv.svg'),
+
   /// Title: Click here
   /// <br/>
   /// <img src="https://cdn.undraw.co/illustrations/click-here_3vzn.svg" alt="Click here" width="200"/>
@@ -1044,6 +1135,11 @@ enum UnDrawIllustration {
   /// <br/>
   /// <img src="https://cdn.undraw.co/illustrations/close-tab_jr11.svg" alt="Close tab" width="200"/>
   close_tab('https://cdn.undraw.co/illustrations/close-tab_jr11.svg'),
+
+  /// Title: Cloud Sync
+  /// <br/>
+  /// <img src="https://cdn.undraw.co/illustration/cloud-sync_h1ig.svg" alt="Cloud Sync" width="200"/>
+  cloud_sync('https://cdn.undraw.co/illustration/cloud-sync_h1ig.svg'),
 
   /// Title: Cloud docs
   /// <br/>
@@ -1059,11 +1155,6 @@ enum UnDrawIllustration {
   /// <br/>
   /// <img src="https://cdn.undraw.co/illustrations/cloud-hosting_tfeh.svg" alt="Cloud hosting" width="200"/>
   cloud_hosting('https://cdn.undraw.co/illustrations/cloud-hosting_tfeh.svg'),
-
-  /// Title: Cloud sync
-  /// <br/>
-  /// <img src="https://cdn.undraw.co/illustrations/cloud-sync_cr97.svg" alt="Cloud sync" width="200"/>
-  cloud_sync('https://cdn.undraw.co/illustrations/cloud-sync_cr97.svg'),
 
   /// Title: Co-workers
   /// <br/>
@@ -1091,20 +1182,15 @@ enum UnDrawIllustration {
   /// <img src="https://cdn.undraw.co/illustrations/code-thinking_0vf2.svg" alt="Code thinking" width="200"/>
   code_thinking('https://cdn.undraw.co/illustrations/code-thinking_0vf2.svg'),
 
-  /// Title: Code typing
-  /// <br/>
-  /// <img src="https://cdn.undraw.co/illustrations/code-typing_laf4.svg" alt="Code typing" width="200"/>
-  code_typing('https://cdn.undraw.co/illustrations/code-typing_laf4.svg'),
-
   /// Title: Coding
   /// <br/>
   /// <img src="https://cdn.undraw.co/illustration/coding_joxb.svg" alt="Coding" width="200"/>
   coding('https://cdn.undraw.co/illustration/coding_joxb.svg'),
 
-  /// Title: Coffee
+  /// Title: Coffee Run
   /// <br/>
-  /// <img src="https://cdn.undraw.co/illustrations/coffee_7r49.svg" alt="Coffee " width="200"/>
-  coffee('https://cdn.undraw.co/illustrations/coffee_7r49.svg'),
+  /// <img src="https://cdn.undraw.co/illustration/coffee-run_kfzq.svg" alt="Coffee Run" width="200"/>
+  coffee_run('https://cdn.undraw.co/illustration/coffee-run_kfzq.svg'),
 
   /// Title: Coffee Time
   /// <br/>
@@ -1143,10 +1229,11 @@ enum UnDrawIllustration {
   /// <img src="https://cdn.undraw.co/illustrations/collaboration_dtwk.svg" alt="Collaboration" width="200"/>
   collaboration('https://cdn.undraw.co/illustrations/collaboration_dtwk.svg'),
 
-  /// Title: Collaborators
+  /// Title: Collaborative Writing
   /// <br/>
-  /// <img src="https://cdn.undraw.co/illustrations/collaborators_rgw4.svg" alt="Collaborators" width="200"/>
-  collaborators('https://cdn.undraw.co/illustrations/collaborators_rgw4.svg'),
+  /// <img src="https://cdn.undraw.co/illustration/collaborative-writing_ir40.svg" alt="Collaborative Writing" width="200"/>
+  collaborative_writing(
+      'https://cdn.undraw.co/illustration/collaborative-writing_ir40.svg'),
 
   /// Title: Collecting
   /// <br/>
@@ -1168,15 +1255,20 @@ enum UnDrawIllustration {
   /// <img src="https://cdn.undraw.co/illustrations/color-schemes_r29x.svg" alt="Color schemes" width="200"/>
   color_schemes('https://cdn.undraw.co/illustrations/color-schemes_r29x.svg'),
 
+  /// Title: Coming Soon
+  /// <br/>
+  /// <img src="https://cdn.undraw.co/illustration/coming-soon_7lvi.svg" alt="Coming Soon" width="200"/>
+  coming_soon('https://cdn.undraw.co/illustration/coming-soon_7lvi.svg'),
+
   /// Title: Coming home
   /// <br/>
   /// <img src="https://cdn.undraw.co/illustrations/coming-home_jmbc.svg" alt="Coming home" width="200"/>
   coming_home('https://cdn.undraw.co/illustrations/coming-home_jmbc.svg'),
 
-  /// Title: Community
+  /// Title: Complete Form
   /// <br/>
-  /// <img src="https://cdn.undraw.co/illustrations/community_fv55.svg" alt="Community" width="200"/>
-  community('https://cdn.undraw.co/illustrations/community_fv55.svg'),
+  /// <img src="https://cdn.undraw.co/illustration/complete-form_aarh.svg" alt="Complete Form" width="200"/>
+  complete_form('https://cdn.undraw.co/illustration/complete-form_aarh.svg'),
 
   /// Title: Complete design
   /// <br/>
@@ -1217,6 +1309,11 @@ enum UnDrawIllustration {
   completion_progress(
       'https://cdn.undraw.co/illustrations/completion-progress_o56q.svg'),
 
+  /// Title: Compose Email
+  /// <br/>
+  /// <img src="https://cdn.undraw.co/illustration/compose-email_s6kf.svg" alt="Compose Email" width="200"/>
+  compose_email('https://cdn.undraw.co/illustration/compose-email_s6kf.svg'),
+
   /// Title: Compose music
   /// <br/>
   /// <img src="https://cdn.undraw.co/illustrations/compose-music_9403.svg" alt="Compose music" width="200"/>
@@ -1231,6 +1328,11 @@ enum UnDrawIllustration {
   /// <br/>
   /// <img src="https://cdn.undraw.co/illustrations/computer-apps_7v3q.svg" alt="Computer Apps" width="200"/>
   computer_apps('https://cdn.undraw.co/illustrations/computer-apps_7v3q.svg'),
+
+  /// Title: Computer files
+  /// <br/>
+  /// <img src="https://cdn.undraw.co/illustration/computer-files_7dj6.svg" alt="Computer files" width="200"/>
+  computer_files('https://cdn.undraw.co/illustration/computer-files_7dj6.svg'),
 
   /// Title: Conceptual idea
   /// <br/>
@@ -1268,13 +1370,13 @@ enum UnDrawIllustration {
 
   /// Title: Confirmation
   /// <br/>
-  /// <img src="https://cdn.undraw.co/illustrations/confirmation_sjm7.svg" alt="Confirmation" width="200"/>
-  confirmation('https://cdn.undraw.co/illustrations/confirmation_sjm7.svg'),
+  /// <img src="https://cdn.undraw.co/illustration/confirmation_31jc.svg" alt="Confirmation" width="200"/>
+  confirmation('https://cdn.undraw.co/illustration/confirmation_31jc.svg'),
 
   /// Title: Confirmed
   /// <br/>
-  /// <img src="https://cdn.undraw.co/illustrations/confirmed_f581.svg" alt="Confirmed" width="200"/>
-  confirmed('https://cdn.undraw.co/illustrations/confirmed_f581.svg'),
+  /// <img src="https://cdn.undraw.co/illustration/confirmed_c5lo.svg" alt="Confirmed" width="200"/>
+  confirmed('https://cdn.undraw.co/illustration/confirmed_c5lo.svg'),
 
   /// Title: Connected
   /// <br/>
@@ -1297,6 +1399,12 @@ enum UnDrawIllustration {
   /// <br/>
   /// <img src="https://cdn.undraw.co/illustrations/connection_ts3f.svg" alt="Connection" width="200"/>
   connection('https://cdn.undraw.co/illustrations/connection_ts3f.svg'),
+
+  /// Title: Construction workers
+  /// <br/>
+  /// <img src="https://cdn.undraw.co/illustration/construction-workers_z99i.svg" alt="Construction workers" width="200"/>
+  construction_workers(
+      'https://cdn.undraw.co/illustration/construction-workers_z99i.svg'),
 
   /// Title: Contact us
   /// <br/>
@@ -1370,10 +1478,27 @@ enum UnDrawIllustration {
   /// <img src="https://cdn.undraw.co/illustrations/cooking_j2pu.svg" alt="Cooking" width="200"/>
   cooking('https://cdn.undraw.co/illustrations/cooking_j2pu.svg'),
 
+  /// Title: Cool Girl Avatar
+  /// <br/>
+  /// <img src="https://cdn.undraw.co/illustration/cool-girl-avatar_fifz.svg" alt="Cool Girl Avatar" width="200"/>
+  cool_girl_avatar(
+      'https://cdn.undraw.co/illustration/cool-girl-avatar_fifz.svg'),
+
+  /// Title: Cool Guy Avatar
+  /// <br/>
+  /// <img src="https://cdn.undraw.co/illustration/cool-guy-avatar_qjc4.svg" alt="Cool Guy Avatar" width="200"/>
+  cool_guy_avatar(
+      'https://cdn.undraw.co/illustration/cool-guy-avatar_qjc4.svg'),
+
   /// Title: Coolness
   /// <br/>
   /// <img src="https://cdn.undraw.co/illustrations/coolness_xbgc.svg" alt="Coolness" width="200"/>
   coolness('https://cdn.undraw.co/illustrations/coolness_xbgc.svg'),
+
+  /// Title: Correct Answer
+  /// <br/>
+  /// <img src="https://cdn.undraw.co/illustration/correct-answer_vjt7.svg" alt="Correct Answer" width="200"/>
+  correct_answer('https://cdn.undraw.co/illustration/correct-answer_vjt7.svg'),
 
   /// Title: Counting stars
   /// <br/>
@@ -1390,10 +1515,10 @@ enum UnDrawIllustration {
   /// <img src="https://cdn.undraw.co/illustrations/couple_vg5l.svg" alt="Couple" width="200"/>
   couple('https://cdn.undraw.co/illustrations/couple_vg5l.svg'),
 
-  /// Title: Couple love
+  /// Title: Couple Photo
   /// <br/>
-  /// <img src="https://cdn.undraw.co/illustrations/couple-love_32ys.svg" alt="Couple love" width="200"/>
-  couple_love('https://cdn.undraw.co/illustrations/couple-love_32ys.svg'),
+  /// <img src="https://cdn.undraw.co/illustration/couple-photo_vr7f.svg" alt="Couple Photo" width="200"/>
+  couple_photo('https://cdn.undraw.co/illustration/couple-photo_vr7f.svg'),
 
   /// Title: Create
   /// <br/>
@@ -1410,6 +1535,11 @@ enum UnDrawIllustration {
   /// <img src="https://cdn.undraw.co/illustrations/creation-process_uvp6.svg" alt="Creation process" width="200"/>
   creation_process(
       'https://cdn.undraw.co/illustrations/creation-process_uvp6.svg'),
+
+  /// Title: Creative Flow
+  /// <br/>
+  /// <img src="https://cdn.undraw.co/illustration/creative-flow_t3kz.svg" alt="Creative Flow" width="200"/>
+  creative_flow('https://cdn.undraw.co/illustration/creative-flow_t3kz.svg'),
 
   /// Title: Creative draft
   /// <br/>
@@ -1441,8 +1571,8 @@ enum UnDrawIllustration {
 
   /// Title: Creative woman
   /// <br/>
-  /// <img src="https://cdn.undraw.co/illustrations/creative-woman_pr3a.svg" alt="Creative woman" width="200"/>
-  creative_woman('https://cdn.undraw.co/illustrations/creative-woman_pr3a.svg'),
+  /// <img src="https://cdn.undraw.co/illustration/creative-woman_su2h.svg" alt="Creative woman" width="200"/>
+  creative_woman('https://cdn.undraw.co/illustration/creative-woman_su2h.svg'),
 
   /// Title: Creativity
   /// <br/>
@@ -1462,9 +1592,9 @@ enum UnDrawIllustration {
 
   /// Title: Credit card payments
   /// <br/>
-  /// <img src="https://cdn.undraw.co/illustrations/credit-card-payments_5bv2.svg" alt="Credit card payments" width="200"/>
+  /// <img src="https://cdn.undraw.co/illustration/credit-card-payments_y0vn.svg" alt="Credit card payments" width="200"/>
   credit_card_payments(
-      'https://cdn.undraw.co/illustrations/credit-card-payments_5bv2.svg'),
+      'https://cdn.undraw.co/illustration/credit-card-payments_y0vn.svg'),
 
   /// Title: Crypto flowers
   /// <br/>
@@ -1494,11 +1624,6 @@ enum UnDrawIllustration {
   /// <img src="https://cdn.undraw.co/illustrations/dark-alley_ykce.svg" alt="Dark alley" width="200"/>
   dark_alley('https://cdn.undraw.co/illustrations/dark-alley_ykce.svg'),
 
-  /// Title: Dark analytics
-  /// <br/>
-  /// <img src="https://cdn.undraw.co/illustrations/dark-analytics_m2vv.svg" alt="Dark analytics" width="200"/>
-  dark_analytics('https://cdn.undraw.co/illustrations/dark-analytics_m2vv.svg'),
-
   /// Title: Dark mode
   /// <br/>
   /// <img src="https://cdn.undraw.co/illustrations/dark-mode_lot3.svg" alt="Dark mode" width="200"/>
@@ -1514,21 +1639,25 @@ enum UnDrawIllustration {
   /// <img src="https://cdn.undraw.co/illustrations/data_0ml2.svg" alt="Data" width="200"/>
   data('https://cdn.undraw.co/illustrations/data_0ml2.svg'),
 
-  /// Title: Data extraction
+  /// Title: Data Analysis
   /// <br/>
-  /// <img src="https://cdn.undraw.co/illustrations/data-extraction_a558.svg" alt="Data extraction" width="200"/>
-  data_extraction(
-      'https://cdn.undraw.co/illustrations/data-extraction_a558.svg'),
+  /// <img src="https://cdn.undraw.co/illustration/data-analysis_b7cp.svg" alt="Data Analysis" width="200"/>
+  data_analysis('https://cdn.undraw.co/illustration/data-analysis_b7cp.svg'),
+
+  /// Title: Data Reports
+  /// <br/>
+  /// <img src="https://cdn.undraw.co/illustration/data-reports_l2u3.svg" alt="Data Reports" width="200"/>
+  data_reports('https://cdn.undraw.co/illustration/data-reports_l2u3.svg'),
 
   /// Title: Data input
   /// <br/>
-  /// <img src="https://cdn.undraw.co/illustrations/data-input_b01w.svg" alt="Data input" width="200"/>
-  data_input('https://cdn.undraw.co/illustrations/data-input_b01w.svg'),
+  /// <img src="https://cdn.undraw.co/illustration/data-input_whqw.svg" alt="Data input" width="200"/>
+  data_input('https://cdn.undraw.co/illustration/data-input_whqw.svg'),
 
   /// Title: Data points
   /// <br/>
-  /// <img src="https://cdn.undraw.co/illustrations/data-points_1q5h.svg" alt="Data points" width="200"/>
-  data_points('https://cdn.undraw.co/illustrations/data-points_1q5h.svg'),
+  /// <img src="https://cdn.undraw.co/illustration/data-points_uc3j.svg" alt="Data points" width="200"/>
+  data_points('https://cdn.undraw.co/illustration/data-points_uc3j.svg'),
 
   /// Title: Data processing
   /// <br/>
@@ -1536,20 +1665,10 @@ enum UnDrawIllustration {
   data_processing(
       'https://cdn.undraw.co/illustrations/data-processing_z2q6.svg'),
 
-  /// Title: Data report
-  /// <br/>
-  /// <img src="https://cdn.undraw.co/illustrations/data-report_wwq5.svg" alt="Data report" width="200"/>
-  data_report('https://cdn.undraw.co/illustrations/data-report_wwq5.svg'),
-
-  /// Title: Data reports
-  /// <br/>
-  /// <img src="https://cdn.undraw.co/illustrations/data-reports_uylc.svg" alt="Data reports" width="200"/>
-  data_reports('https://cdn.undraw.co/illustrations/data-reports_uylc.svg'),
-
   /// Title: Data trends
   /// <br/>
-  /// <img src="https://cdn.undraw.co/illustrations/data-trends_mg54.svg" alt="Data trends" width="200"/>
-  data_trends('https://cdn.undraw.co/illustrations/data-trends_mg54.svg'),
+  /// <img src="https://cdn.undraw.co/illustration/data-trends_kv5v.svg" alt="Data trends" width="200"/>
+  data_trends('https://cdn.undraw.co/illustration/data-trends_kv5v.svg'),
 
   /// Title: Date night
   /// <br/>
@@ -1579,13 +1698,14 @@ enum UnDrawIllustration {
 
   /// Title: Deliveries
   /// <br/>
-  /// <img src="https://cdn.undraw.co/illustrations/deliveries_2m9t.svg" alt="Deliveries" width="200"/>
-  deliveries('https://cdn.undraw.co/illustrations/deliveries_2m9t.svg'),
+  /// <img src="https://cdn.undraw.co/illustration/deliveries_qutl.svg" alt="Deliveries" width="200"/>
+  deliveries('https://cdn.undraw.co/illustration/deliveries_qutl.svg'),
 
-  /// Title: Delivery
+  /// Title: Delivery Location
   /// <br/>
-  /// <img src="https://cdn.undraw.co/illustrations/delivery_479y.svg" alt="Delivery" width="200"/>
-  delivery('https://cdn.undraw.co/illustrations/delivery_479y.svg'),
+  /// <img src="https://cdn.undraw.co/illustration/delivery-location_um5t.svg" alt="Delivery Location" width="200"/>
+  delivery_location(
+      'https://cdn.undraw.co/illustration/delivery-location_um5t.svg'),
 
   /// Title: Delivery address
   /// <br/>
@@ -1681,24 +1801,31 @@ enum UnDrawIllustration {
 
   /// Title: Designer
   /// <br/>
-  /// <img src="https://cdn.undraw.co/illustrations/designer_0ogx.svg" alt="Designer" width="200"/>
-  designer('https://cdn.undraw.co/illustrations/designer_0ogx.svg'),
+  /// <img src="https://cdn.undraw.co/illustration/designer_efwz.svg" alt="Designer" width="200"/>
+  designer('https://cdn.undraw.co/illustration/designer_efwz.svg'),
+
+  /// Title: Designer Avatar
+  /// <br/>
+  /// <img src="https://cdn.undraw.co/illustration/designer-avatar_n5q8.svg" alt="Designer Avatar" width="200"/>
+  designer_avatar(
+      'https://cdn.undraw.co/illustration/designer-avatar_n5q8.svg'),
 
   /// Title: Designer girl
   /// <br/>
   /// <img src="https://cdn.undraw.co/illustrations/designer-girl_jtyy.svg" alt="Designer girl" width="200"/>
   designer_girl('https://cdn.undraw.co/illustrations/designer-girl_jtyy.svg'),
 
-  /// Title: Designer life
-  /// <br/>
-  /// <img src="https://cdn.undraw.co/illustrations/designer-life_6g9c.svg" alt="Designer life" width="200"/>
-  designer_life('https://cdn.undraw.co/illustrations/designer-life_6g9c.svg'),
-
   /// Title: Designer mindset
   /// <br/>
   /// <img src="https://cdn.undraw.co/illustrations/designer-mindset_bxms.svg" alt="Designer mindset" width="200"/>
   designer_mindset(
       'https://cdn.undraw.co/illustrations/designer-mindset_bxms.svg'),
+
+  /// Title: Designing Components
+  /// <br/>
+  /// <img src="https://cdn.undraw.co/illustration/designing-components_kb05.svg" alt="Designing Components" width="200"/>
+  designing_components(
+      'https://cdn.undraw.co/illustration/designing-components_kb05.svg'),
 
   /// Title: Destination
   /// <br/>
@@ -1716,12 +1843,6 @@ enum UnDrawIllustration {
   detailed_analysis(
       'https://cdn.undraw.co/illustrations/detailed-analysis_w5a8.svg'),
 
-  /// Title: Detailed examination
-  /// <br/>
-  /// <img src="https://cdn.undraw.co/illustrations/detailed-examination_63b9.svg" alt="Detailed examination" width="200"/>
-  detailed_examination(
-      'https://cdn.undraw.co/illustrations/detailed-examination_63b9.svg'),
-
   /// Title: Detailed information
   /// <br/>
   /// <img src="https://cdn.undraw.co/illustrations/detailed-information_5190.svg" alt="Detailed information" width="200"/>
@@ -1733,6 +1854,12 @@ enum UnDrawIllustration {
   /// <img src="https://cdn.undraw.co/illustrations/details_sgb2.svg" alt="Details" width="200"/>
   details('https://cdn.undraw.co/illustrations/details_sgb2.svg'),
 
+  /// Title: Dev Environment
+  /// <br/>
+  /// <img src="https://cdn.undraw.co/illustration/dev-environment_n5by.svg" alt="Dev Environment" width="200"/>
+  dev_environment(
+      'https://cdn.undraw.co/illustration/dev-environment_n5by.svg'),
+
   /// Title: Dev focus
   /// <br/>
   /// <img src="https://cdn.undraw.co/illustrations/dev-focus_dd7i.svg" alt="Dev focus" width="200"/>
@@ -1740,20 +1867,26 @@ enum UnDrawIllustration {
 
   /// Title: Dev productivity
   /// <br/>
-  /// <img src="https://cdn.undraw.co/illustrations/dev-productivity_c0yh.svg" alt="Dev productivity" width="200"/>
+  /// <img src="https://cdn.undraw.co/illustration/dev-productivity_5wps.svg" alt="Dev productivity" width="200"/>
   dev_productivity(
-      'https://cdn.undraw.co/illustrations/dev-productivity_c0yh.svg'),
+      'https://cdn.undraw.co/illustration/dev-productivity_5wps.svg'),
 
   /// Title: Develop app
   /// <br/>
   /// <img src="https://cdn.undraw.co/illustrations/develop-app_yg6p.svg" alt="Develop app" width="200"/>
   develop_app('https://cdn.undraw.co/illustrations/develop-app_yg6p.svg'),
 
-  /// Title: Developer activity
+  /// Title: Developer Activity
   /// <br/>
-  /// <img src="https://cdn.undraw.co/illustrations/developer-activity_dn7p.svg" alt="Developer activity" width="200"/>
+  /// <img src="https://cdn.undraw.co/illustration/developer-activity_4zqd.svg" alt="Developer Activity" width="200"/>
   developer_activity(
-      'https://cdn.undraw.co/illustrations/developer-activity_dn7p.svg'),
+      'https://cdn.undraw.co/illustration/developer-activity_4zqd.svg'),
+
+  /// Title: Developer Avatar
+  /// <br/>
+  /// <img src="https://cdn.undraw.co/illustration/developer-avatar_f6ac.svg" alt="Developer Avatar" width="200"/>
+  developer_avatar(
+      'https://cdn.undraw.co/illustration/developer-avatar_f6ac.svg'),
 
   /// Title: Development
   /// <br/>
@@ -1786,6 +1919,12 @@ enum UnDrawIllustration {
   digital_artwork(
       'https://cdn.undraw.co/illustration/digital-artwork_xlmm.svg'),
 
+  /// Title: Digital Calendar
+  /// <br/>
+  /// <img src="https://cdn.undraw.co/illustration/digital-calendar_180l.svg" alt="Digital Calendar" width="200"/>
+  digital_calendar(
+      'https://cdn.undraw.co/illustration/digital-calendar_180l.svg'),
+
   /// Title: Digital currency
   /// <br/>
   /// <img src="https://cdn.undraw.co/illustrations/digital-currency_u5p6.svg" alt="Digital currency" width="200"/>
@@ -1804,8 +1943,8 @@ enum UnDrawIllustration {
 
   /// Title: Discount
   /// <br/>
-  /// <img src="https://cdn.undraw.co/illustrations/discount_t4in.svg" alt="Discount" width="200"/>
-  discount('https://cdn.undraw.co/illustrations/discount_t4in.svg'),
+  /// <img src="https://cdn.undraw.co/illustration/discount_igfl.svg" alt="Discount" width="200"/>
+  discount('https://cdn.undraw.co/illustration/discount_igfl.svg'),
 
   /// Title: Discoverable
   /// <br/>
@@ -1821,6 +1960,18 @@ enum UnDrawIllustration {
   /// <br/>
   /// <img src="https://cdn.undraw.co/illustrations/doctors_djoj.svg" alt="Doctors" width="200"/>
   doctors('https://cdn.undraw.co/illustrations/doctors_djoj.svg'),
+
+  /// Title: Document Analysis
+  /// <br/>
+  /// <img src="https://cdn.undraw.co/illustration/document-analysis_3c0y.svg" alt="Document Analysis" width="200"/>
+  document_analysis(
+      'https://cdn.undraw.co/illustration/document-analysis_3c0y.svg'),
+
+  /// Title: Document Search
+  /// <br/>
+  /// <img src="https://cdn.undraw.co/illustration/document-search_2o7x.svg" alt="Document Search" width="200"/>
+  document_search(
+      'https://cdn.undraw.co/illustration/document-search_2o7x.svg'),
 
   /// Title: Documents
   /// <br/>
@@ -1839,8 +1990,8 @@ enum UnDrawIllustration {
 
   /// Title: Doll play
   /// <br/>
-  /// <img src="https://cdn.undraw.co/illustrations/doll-play_xrtu.svg" alt="Doll play" width="200"/>
-  doll_play('https://cdn.undraw.co/illustrations/doll-play_xrtu.svg'),
+  /// <img src="https://cdn.undraw.co/illustration/doll-play_e471.svg" alt="Doll play" width="200"/>
+  doll_play('https://cdn.undraw.co/illustration/doll-play_e471.svg'),
 
   /// Title: Domain names
   /// <br/>
@@ -1871,6 +2022,16 @@ enum UnDrawIllustration {
   /// <br/>
   /// <img src="https://cdn.undraw.co/illustrations/drag_8oyk.svg" alt="Drag" width="200"/>
   drag('https://cdn.undraw.co/illustrations/drag_8oyk.svg'),
+
+  /// Title: Drag And Drop
+  /// <br/>
+  /// <img src="https://cdn.undraw.co/illustration/drag-and-drop_v4po.svg" alt="Drag And Drop" width="200"/>
+  drag_and_drop('https://cdn.undraw.co/illustration/drag-and-drop_v4po.svg'),
+
+  /// Title: Drawing App
+  /// <br/>
+  /// <img src="https://cdn.undraw.co/illustration/drawing-app_nnb0.svg" alt="Drawing App" width="200"/>
+  drawing_app('https://cdn.undraw.co/illustration/drawing-app_nnb0.svg'),
 
   /// Title: Dream world
   /// <br/>
@@ -1903,10 +2064,10 @@ enum UnDrawIllustration {
   drone_surveillance(
       'https://cdn.undraw.co/illustrations/drone-surveillance_mc4g.svg'),
 
-  /// Title: Dropdown menu
+  /// Title: Dropdown Menu
   /// <br/>
-  /// <img src="https://cdn.undraw.co/illustrations/dropdown-menu_n856.svg" alt="Dropdown menu" width="200"/>
-  dropdown_menu('https://cdn.undraw.co/illustrations/dropdown-menu_n856.svg'),
+  /// <img src="https://cdn.undraw.co/illustration/dropdown-menu_qvci.svg" alt="Dropdown Menu" width="200"/>
+  dropdown_menu('https://cdn.undraw.co/illustration/dropdown-menu_qvci.svg'),
 
   /// Title: Dua Lipa
   /// <br/>
@@ -1917,6 +2078,16 @@ enum UnDrawIllustration {
   /// <br/>
   /// <img src="https://cdn.undraw.co/illustrations/duplicate_4ikn.svg" alt="Duplicate" width="200"/>
   duplicate('https://cdn.undraw.co/illustrations/duplicate_4ikn.svg'),
+
+  /// Title: Easter Bunny
+  /// <br/>
+  /// <img src="https://cdn.undraw.co/illustration/easter-bunny_1v4n.svg" alt="Easter Bunny" width="200"/>
+  easter_bunny('https://cdn.undraw.co/illustration/easter-bunny_1v4n.svg'),
+
+  /// Title: Eating pasta
+  /// <br/>
+  /// <img src="https://cdn.undraw.co/illustration/eating-pasta_96tb.svg" alt="Eating pasta" width="200"/>
+  eating_pasta('https://cdn.undraw.co/illustration/eating-pasta_96tb.svg'),
 
   /// Title: Eating together
   /// <br/>
@@ -1949,6 +2120,12 @@ enum UnDrawIllustration {
   /// <img src="https://cdn.undraw.co/illustrations/educator_6dgp.svg" alt="Educator" width="200"/>
   educator('https://cdn.undraw.co/illustrations/educator_6dgp.svg'),
 
+  /// Title: Effortless Love
+  /// <br/>
+  /// <img src="https://cdn.undraw.co/illustration/effortless-love_zg5q.svg" alt="Effortless Love" width="200"/>
+  effortless_love(
+      'https://cdn.undraw.co/illustration/effortless-love_zg5q.svg'),
+
   /// Title: Eiffel tower
   /// <br/>
   /// <img src="https://cdn.undraw.co/illustrations/eiffel-tower_ju2s.svg" alt="Eiffel tower" width="200"/>
@@ -1973,6 +2150,16 @@ enum UnDrawIllustration {
   /// <br/>
   /// <img src="https://cdn.undraw.co/illustration/elements_8i1l.svg" alt="Elements" width="200"/>
   elements('https://cdn.undraw.co/illustration/elements_8i1l.svg'),
+
+  /// Title: Email
+  /// <br/>
+  /// <img src="https://cdn.undraw.co/illustration/email_b5yu.svg" alt="Email" width="200"/>
+  email('https://cdn.undraw.co/illustration/email_b5yu.svg'),
+
+  /// Title: Email Consent
+  /// <br/>
+  /// <img src="https://cdn.undraw.co/illustration/email-consent_j36b.svg" alt="Email Consent" width="200"/>
+  email_consent('https://cdn.undraw.co/illustration/email-consent_j36b.svg'),
 
   /// Title: Email campaign
   /// <br/>
@@ -2020,6 +2207,11 @@ enum UnDrawIllustration {
   /// <img src="https://cdn.undraw.co/illustrations/enter_nwx3.svg" alt="Enter" width="200"/>
   enter('https://cdn.undraw.co/illustrations/enter_nwx3.svg'),
 
+  /// Title: Enter Password
+  /// <br/>
+  /// <img src="https://cdn.undraw.co/illustration/enter-password_1kl4.svg" alt="Enter Password" width="200"/>
+  enter_password('https://cdn.undraw.co/illustration/enter-password_1kl4.svg'),
+
   /// Title: Envelope
   /// <br/>
   /// <img src="https://cdn.undraw.co/illustrations/envelope_hem0.svg" alt="Envelope" width="200"/>
@@ -2030,11 +2222,11 @@ enum UnDrawIllustration {
   /// <img src="https://cdn.undraw.co/illustrations/environment_9luj.svg" alt="Environment" width="200"/>
   environment('https://cdn.undraw.co/illustrations/environment_9luj.svg'),
 
-  /// Title: Environmental study
+  /// Title: Environmental Study
   /// <br/>
-  /// <img src="https://cdn.undraw.co/illustrations/environmental-study_jlft.svg" alt="Environmental study" width="200"/>
+  /// <img src="https://cdn.undraw.co/illustration/environmental-study_c69w.svg" alt="Environmental Study" width="200"/>
   environmental_study(
-      'https://cdn.undraw.co/illustrations/environmental-study_jlft.svg'),
+      'https://cdn.undraw.co/illustration/environmental-study_c69w.svg'),
 
   /// Title: Escaping
   /// <br/>
@@ -2051,10 +2243,11 @@ enum UnDrawIllustration {
   /// <img src="https://cdn.undraw.co/illustrations/ethereum_5s6b.svg" alt="Ethereum" width="200"/>
   ethereum('https://cdn.undraw.co/illustrations/ethereum_5s6b.svg'),
 
-  /// Title: Events
+  /// Title: Events Calendar
   /// <br/>
-  /// <img src="https://cdn.undraw.co/illustrations/events_0w4f.svg" alt="Events" width="200"/>
-  events('https://cdn.undraw.co/illustrations/events_0w4f.svg'),
+  /// <img src="https://cdn.undraw.co/illustration/events-calendar_sudy.svg" alt="Events Calendar" width="200"/>
+  events_calendar(
+      'https://cdn.undraw.co/illustration/events-calendar_sudy.svg'),
 
   /// Title: Everyday design
   /// <br/>
@@ -2204,8 +2397,8 @@ enum UnDrawIllustration {
 
   /// Title: Feedback
   /// <br/>
-  /// <img src="https://cdn.undraw.co/illustrations/feedback_tmp7.svg" alt="Feedback" width="200"/>
-  feedback('https://cdn.undraw.co/illustrations/feedback_tmp7.svg'),
+  /// <img src="https://cdn.undraw.co/illustration/feedback_ebmx.svg" alt="Feedback" width="200"/>
+  feedback('https://cdn.undraw.co/illustration/feedback_ebmx.svg'),
 
   /// Title: Feeling blue
   /// <br/>
@@ -2236,6 +2429,11 @@ enum UnDrawIllustration {
   /// <br/>
   /// <img src="https://cdn.undraw.co/illustrations/festivities_q090.svg" alt="Festivities" width="200"/>
   festivities('https://cdn.undraw.co/illustrations/festivities_q090.svg'),
+
+  /// Title: File Search
+  /// <br/>
+  /// <img src="https://cdn.undraw.co/illustration/file-search_cbur.svg" alt="File Search" width="200"/>
+  file_search('https://cdn.undraw.co/illustration/file-search_cbur.svg'),
 
   /// Title: File analysis
   /// <br/>
@@ -2268,6 +2466,12 @@ enum UnDrawIllustration {
   file_synchronization(
       'https://cdn.undraw.co/illustrations/file-synchronization_g9mj.svg'),
 
+  /// Title: Files Uploading
+  /// <br/>
+  /// <img src="https://cdn.undraw.co/illustration/files-uploading_qf8u.svg" alt="Files Uploading" width="200"/>
+  files_uploading(
+      'https://cdn.undraw.co/illustration/files-uploading_qf8u.svg'),
+
   /// Title: Files sent
   /// <br/>
   /// <img src="https://cdn.undraw.co/illustrations/files-sent_o4sc.svg" alt="Files sent" width="200"/>
@@ -2298,10 +2502,16 @@ enum UnDrawIllustration {
   /// <img src="https://cdn.undraw.co/illustration/finance_m6vw.svg" alt="Finance" width="200"/>
   finance('https://cdn.undraw.co/illustration/finance_m6vw.svg'),
 
-  /// Title: Financial data
+  /// Title: Finance Guy Avatar
   /// <br/>
-  /// <img src="https://cdn.undraw.co/illustrations/financial-data_r0vs.svg" alt="Financial data" width="200"/>
-  financial_data('https://cdn.undraw.co/illustrations/financial-data_r0vs.svg'),
+  /// <img src="https://cdn.undraw.co/illustration/finance-guy-avatar_vhop.svg" alt="Finance Guy Avatar" width="200"/>
+  finance_guy_avatar(
+      'https://cdn.undraw.co/illustration/finance-guy-avatar_vhop.svg'),
+
+  /// Title: Financial Data
+  /// <br/>
+  /// <img src="https://cdn.undraw.co/illustration/financial-data_lbci.svg" alt="Financial Data" width="200"/>
+  financial_data('https://cdn.undraw.co/illustration/financial-data_lbci.svg'),
 
   /// Title: Fingerprint
   /// <br/>
@@ -2318,6 +2528,11 @@ enum UnDrawIllustration {
   /// <br/>
   /// <img src="https://cdn.undraw.co/illustrations/finish-line_auqi.svg" alt="Finish line" width="200"/>
   finish_line('https://cdn.undraw.co/illustrations/finish-line_auqi.svg'),
+
+  /// Title: Firewall
+  /// <br/>
+  /// <img src="https://cdn.undraw.co/illustration/firewall_cfej.svg" alt="Firewall" width="200"/>
+  firewall('https://cdn.undraw.co/illustration/firewall_cfej.svg'),
 
   /// Title: Fireworks
   /// <br/>
@@ -2338,6 +2553,18 @@ enum UnDrawIllustration {
   /// <br/>
   /// <img src="https://cdn.undraw.co/illustrations/fishing_n8vg.svg" alt="Fishing" width="200"/>
   fishing('https://cdn.undraw.co/illustrations/fishing_n8vg.svg'),
+
+  /// Title: Fitness Coach Avatar
+  /// <br/>
+  /// <img src="https://cdn.undraw.co/illustration/fitness-influencer-avatar_04j0.svg" alt="Fitness Coach Avatar" width="200"/>
+  fitness_coach_avatar(
+      'https://cdn.undraw.co/illustration/fitness-influencer-avatar_04j0.svg'),
+
+  /// Title: Fitness Guy Avatar
+  /// <br/>
+  /// <img src="https://cdn.undraw.co/illustration/fitness-guy-avatar_50y6.svg" alt="Fitness Guy Avatar" width="200"/>
+  fitness_guy_avatar(
+      'https://cdn.undraw.co/illustration/fitness-guy-avatar_50y6.svg'),
 
   /// Title: Fitness stats
   /// <br/>
@@ -2370,11 +2597,6 @@ enum UnDrawIllustration {
   /// <img src="https://cdn.undraw.co/illustrations/flagged_c6mx.svg" alt="Flagged" width="200"/>
   flagged('https://cdn.undraw.co/illustrations/flagged_c6mx.svg'),
 
-  /// Title: Floating
-  /// <br/>
-  /// <img src="https://cdn.undraw.co/illustrations/floating_hvri.svg" alt="Floating" width="200"/>
-  floating('https://cdn.undraw.co/illustrations/floating_hvri.svg'),
-
   /// Title: Flowers
   /// <br/>
   /// <img src="https://cdn.undraw.co/illustrations/flowers_171u.svg" alt="Flowers" width="200"/>
@@ -2394,6 +2616,11 @@ enum UnDrawIllustration {
   /// <br/>
   /// <img src="https://cdn.undraw.co/illustrations/focus_y60l.svg" alt="Focus" width="200"/>
   focus('https://cdn.undraw.co/illustrations/focus_y60l.svg'),
+
+  /// Title: Focused
+  /// <br/>
+  /// <img src="https://cdn.undraw.co/illustration/focused_m9bj.svg" alt="Focused" width="200"/>
+  focused('https://cdn.undraw.co/illustration/focused_m9bj.svg'),
 
   /// Title: Folder
   /// <br/>
@@ -2426,6 +2653,12 @@ enum UnDrawIllustration {
   /// <img src="https://cdn.undraw.co/illustrations/font_cooz.svg" alt="Font" width="200"/>
   font('https://cdn.undraw.co/illustrations/font_cooz.svg'),
 
+  /// Title: Football with Dad
+  /// <br/>
+  /// <img src="https://cdn.undraw.co/illustration/football-with-dad_w7m1.svg" alt="Football with Dad" width="200"/>
+  football_with_dad(
+      'https://cdn.undraw.co/illustration/football-with-dad_w7m1.svg'),
+
   /// Title: For review
   /// <br/>
   /// <img src="https://cdn.undraw.co/illustrations/for-review_coua.svg" alt="For review" width="200"/>
@@ -2436,11 +2669,11 @@ enum UnDrawIllustration {
   /// <img src="https://cdn.undraw.co/illustrations/for-sale_7qjb.svg" alt="For sale" width="200"/>
   for_sale('https://cdn.undraw.co/illustrations/for-sale_7qjb.svg'),
 
-  /// Title: Forgot password
+  /// Title: Forgot Password
   /// <br/>
-  /// <img src="https://cdn.undraw.co/illustrations/forgot-password_odai.svg" alt="Forgot password" width="200"/>
+  /// <img src="https://cdn.undraw.co/illustration/forgot-password_nttj.svg" alt="Forgot Password" width="200"/>
   forgot_password(
-      'https://cdn.undraw.co/illustrations/forgot-password_odai.svg'),
+      'https://cdn.undraw.co/illustration/forgot-password_nttj.svg'),
 
   /// Title: Forming ideas
   /// <br/>
@@ -2468,6 +2701,12 @@ enum UnDrawIllustration {
   fresh_notification(
       'https://cdn.undraw.co/illustrations/fresh-notification_hnv2.svg'),
 
+  /// Title: Friendly Guy Avatar
+  /// <br/>
+  /// <img src="https://cdn.undraw.co/illustration/friendly-guy-avatar_dqp5.svg" alt="Friendly Guy Avatar" width="200"/>
+  friendly_guy_avatar(
+      'https://cdn.undraw.co/illustration/friendly-guy-avatar_dqp5.svg'),
+
   /// Title: Friends
   /// <br/>
   /// <img src="https://cdn.undraw.co/illustrations/friends_xscy.svg" alt="Friends" width="200"/>
@@ -2475,8 +2714,8 @@ enum UnDrawIllustration {
 
   /// Title: Friends online
   /// <br/>
-  /// <img src="https://cdn.undraw.co/illustrations/friends-online_ksb0.svg" alt="Friends online" width="200"/>
-  friends_online('https://cdn.undraw.co/illustrations/friends-online_ksb0.svg'),
+  /// <img src="https://cdn.undraw.co/illustration/friends-online_gvwz.svg" alt="Friends online" width="200"/>
+  friends_online('https://cdn.undraw.co/illustration/friends-online_gvwz.svg'),
 
   /// Title: Friendship
   /// <br/>
@@ -2524,6 +2763,12 @@ enum UnDrawIllustration {
   /// <img src="https://cdn.undraw.co/illustrations/gaming_v7a6.svg" alt="Gaming" width="200"/>
   gaming('https://cdn.undraw.co/illustrations/gaming_v7a6.svg'),
 
+  /// Title: Gaming Controller
+  /// <br/>
+  /// <img src="https://cdn.undraw.co/illustration/gaming-controller_qzoc.svg" alt="Gaming Controller" width="200"/>
+  gaming_controller(
+      'https://cdn.undraw.co/illustration/gaming-controller_qzoc.svg'),
+
   /// Title: Gardening
   /// <br/>
   /// <img src="https://cdn.undraw.co/illustrations/gardening_3tyw.svg" alt="Gardening" width="200"/>
@@ -2536,8 +2781,8 @@ enum UnDrawIllustration {
 
   /// Title: Genius
   /// <br/>
-  /// <img src="https://cdn.undraw.co/illustrations/genius_g3jn.svg" alt="Genius" width="200"/>
-  genius('https://cdn.undraw.co/illustrations/genius_g3jn.svg'),
+  /// <img src="https://cdn.undraw.co/illustration/genius_jvjm.svg" alt="Genius" width="200"/>
+  genius('https://cdn.undraw.co/illustration/genius_jvjm.svg'),
 
   /// Title: Getting coffee
   /// <br/>
@@ -2564,11 +2809,31 @@ enum UnDrawIllustration {
   /// <img src="https://cdn.undraw.co/illustrations/gifts_0twc.svg" alt="Gifts" width="200"/>
   gifts('https://cdn.undraw.co/illustrations/gifts_0twc.svg'),
 
+  /// Title: Gifts_var
+  /// <br/>
+  /// <img src="https://cdn.undraw.co/illustration/gifts_4gy3.svg" alt="Gifts_var" width="200"/>
+  gifts_var('https://cdn.undraw.co/illustration/gifts_4gy3.svg'),
+
+  /// Title: Girl Avatar
+  /// <br/>
+  /// <img src="https://cdn.undraw.co/illustration/a-woman-avatar_ifsl.svg" alt="Girl Avatar" width="200"/>
+  girl_avatar('https://cdn.undraw.co/illustration/a-woman-avatar_ifsl.svg'),
+
   /// Title: Girls just wanna have fun
   /// <br/>
   /// <img src="https://cdn.undraw.co/illustrations/girls-just-wanna-have-fun_jj2i.svg" alt="Girls just wanna have fun" width="200"/>
   girls_just_wanna_have_fun(
       'https://cdn.undraw.co/illustrations/girls-just-wanna-have-fun_jj2i.svg'),
+
+  /// Title: Github Profile
+  /// <br/>
+  /// <img src="https://cdn.undraw.co/illustration/github-profile_abde.svg" alt="Github Profile" width="200"/>
+  github_profile('https://cdn.undraw.co/illustration/github-profile_abde.svg'),
+
+  /// Title: Global Team
+  /// <br/>
+  /// <img src="https://cdn.undraw.co/illustration/global-team_8jok.svg" alt="Global Team" width="200"/>
+  global_team('https://cdn.undraw.co/illustration/global-team_8jok.svg'),
 
   /// Title: Goal
   /// <br/>
@@ -2580,6 +2845,11 @@ enum UnDrawIllustration {
   /// <img src="https://cdn.undraw.co/illustrations/goals_0pov.svg" alt="Goals" width="200"/>
   goals('https://cdn.undraw.co/illustrations/goals_0pov.svg'),
 
+  /// Title: Going Upwards
+  /// <br/>
+  /// <img src="https://cdn.undraw.co/illustration/going-upwards_0y3z.svg" alt="Going Upwards" width="200"/>
+  going_upwards('https://cdn.undraw.co/illustration/going-upwards_0y3z.svg'),
+
   /// Title: Going offline
   /// <br/>
   /// <img src="https://cdn.undraw.co/illustrations/going-offline_v4oo.svg" alt="Going offline" width="200"/>
@@ -2590,11 +2860,11 @@ enum UnDrawIllustration {
   /// <img src="https://cdn.undraw.co/illustrations/going-up_g8av.svg" alt="Going up" width="200"/>
   going_up('https://cdn.undraw.co/illustrations/going-up_g8av.svg'),
 
-  /// Title: Golden gate bridge
+  /// Title: Golden Gate Bridge
   /// <br/>
-  /// <img src="https://cdn.undraw.co/illustrations/golden-gate-bridge_l958.svg" alt="Golden gate bridge" width="200"/>
+  /// <img src="https://cdn.undraw.co/illustration/golden-gate-bridge_1c6x.svg" alt="Golden Gate Bridge" width="200"/>
   golden_gate_bridge(
-      'https://cdn.undraw.co/illustrations/golden-gate-bridge_l958.svg'),
+      'https://cdn.undraw.co/illustration/golden-gate-bridge_1c6x.svg'),
 
   /// Title: Golf
   /// <br/>
@@ -2620,6 +2890,11 @@ enum UnDrawIllustration {
   /// <br/>
   /// <img src="https://cdn.undraw.co/illustrations/google-docs_khfo.svg" alt="Google docs" width="200"/>
   google_docs('https://cdn.undraw.co/illustrations/google-docs_khfo.svg'),
+
+  /// Title: Got An Idea
+  /// <br/>
+  /// <img src="https://cdn.undraw.co/illustration/got-an-idea_1z3i.svg" alt="Got An Idea" width="200"/>
+  got_an_idea('https://cdn.undraw.co/illustration/got-an-idea_1z3i.svg'),
 
   /// Title: Grades
   /// <br/>
@@ -2661,6 +2936,11 @@ enum UnDrawIllustration {
   /// <img src="https://cdn.undraw.co/illustration/groceries_4via.svg" alt="Groceries" width="200"/>
   groceries('https://cdn.undraw.co/illustration/groceries_4via.svg'),
 
+  /// Title: Group Project
+  /// <br/>
+  /// <img src="https://cdn.undraw.co/illustration/group-project_kow1.svg" alt="Group Project" width="200"/>
+  group_project('https://cdn.undraw.co/illustration/group-project_kow1.svg'),
+
   /// Title: Group chat
   /// <br/>
   /// <img src="https://cdn.undraw.co/illustrations/group-chat_4xw0.svg" alt="Group chat" width="200"/>
@@ -2701,6 +2981,12 @@ enum UnDrawIllustration {
   /// <br/>
   /// <img src="https://cdn.undraw.co/illustrations/growth-curve_kzjb.svg" alt="Growth curve" width="200"/>
   growth_curve('https://cdn.undraw.co/illustrations/growth-curve_kzjb.svg'),
+
+  /// Title: HR Presentation
+  /// <br/>
+  /// <img src="https://cdn.undraw.co/illustration/hr-presentation_uunk.svg" alt="HR Presentation" width="200"/>
+  hr_presentation(
+      'https://cdn.undraw.co/illustration/hr-presentation_uunk.svg'),
 
   /// Title: Hacker mind
   /// <br/>
@@ -2852,6 +3138,12 @@ enum UnDrawIllustration {
   /// <img src="https://cdn.undraw.co/illustrations/hiring_8szx.svg" alt="Hiring" width="200"/>
   hiring('https://cdn.undraw.co/illustrations/hiring_8szx.svg'),
 
+  /// Title: Holding Flowers
+  /// <br/>
+  /// <img src="https://cdn.undraw.co/illustration/holding-flowers_jc03.svg" alt="Holding Flowers" width="200"/>
+  holding_flowers(
+      'https://cdn.undraw.co/illustration/holding-flowers_jc03.svg'),
+
   /// Title: Hologram
   /// <br/>
   /// <img src="https://cdn.undraw.co/illustrations/hologram_wfb0.svg" alt="Hologram" width="200"/>
@@ -2886,6 +3178,12 @@ enum UnDrawIllustration {
   /// <br/>
   /// <img src="https://cdn.undraw.co/illustrations/horror-movie_9020.svg" alt="Horror movie" width="200"/>
   horror_movie('https://cdn.undraw.co/illustrations/horror-movie_9020.svg'),
+
+  /// Title: Hot Air Balloon
+  /// <br/>
+  /// <img src="https://cdn.undraw.co/illustration/hot-air-balloon_6knx.svg" alt="Hot Air Balloon" width="200"/>
+  hot_air_balloon(
+      'https://cdn.undraw.co/illustration/hot-air-balloon_6knx.svg'),
 
   /// Title: Hot beverage
   /// <br/>
@@ -2923,10 +3221,15 @@ enum UnDrawIllustration {
   /// <img src="https://cdn.undraw.co/illustrations/icons_c73l.svg" alt="Icons" width="200"/>
   icons('https://cdn.undraw.co/illustrations/icons_c73l.svg'),
 
+  /// Title: Idea
+  /// <br/>
+  /// <img src="https://cdn.undraw.co/illustration/idea_hz8b.svg" alt="Idea" width="200"/>
+  idea('https://cdn.undraw.co/illustration/idea_hz8b.svg'),
+
   /// Title: Ideas
   /// <br/>
-  /// <img src="https://cdn.undraw.co/illustrations/ideas_41b9.svg" alt="Ideas" width="200"/>
-  ideas('https://cdn.undraw.co/illustrations/ideas_41b9.svg'),
+  /// <img src="https://cdn.undraw.co/illustration/ideas_vn7a.svg" alt="Ideas" width="200"/>
+  ideas('https://cdn.undraw.co/illustration/ideas_vn7a.svg'),
 
   /// Title: Ideas flow
   /// <br/>
@@ -2935,8 +3238,13 @@ enum UnDrawIllustration {
 
   /// Title: Ideation
   /// <br/>
-  /// <img src="https://cdn.undraw.co/illustrations/ideation_oebx.svg" alt="Ideation" width="200"/>
-  ideation('https://cdn.undraw.co/illustrations/ideation_oebx.svg'),
+  /// <img src="https://cdn.undraw.co/illustration/ideation_r1g5.svg" alt="Ideation" width="200"/>
+  ideation('https://cdn.undraw.co/illustration/ideation_r1g5.svg'),
+
+  /// Title: Image Upload
+  /// <br/>
+  /// <img src="https://cdn.undraw.co/illustration/image-upload_7b3b.svg" alt="Image Upload" width="200"/>
+  image_upload('https://cdn.undraw.co/illustration/image-upload_7b3b.svg'),
 
   /// Title: Image focus
   /// <br/>
@@ -2958,11 +3266,6 @@ enum UnDrawIllustration {
   /// <img src="https://cdn.undraw.co/illustrations/image-post_auml.svg" alt="Image post" width="200"/>
   image_post('https://cdn.undraw.co/illustrations/image-post_auml.svg'),
 
-  /// Title: Image upload
-  /// <br/>
-  /// <img src="https://cdn.undraw.co/illustrations/image-upload_bxbj.svg" alt="Image upload" width="200"/>
-  image_upload('https://cdn.undraw.co/illustrations/image-upload_bxbj.svg'),
-
   /// Title: Image viewer
   /// <br/>
   /// <img src="https://cdn.undraw.co/illustrations/image-viewer_m5ud.svg" alt="Image viewer" width="200"/>
@@ -2978,10 +3281,16 @@ enum UnDrawIllustration {
   /// <img src="https://cdn.undraw.co/illustrations/imagination_63cb.svg" alt="Imagination" width="200"/>
   imagination('https://cdn.undraw.co/illustrations/imagination_63cb.svg'),
 
+  /// Title: In The Office
+  /// <br/>
+  /// <img src="https://cdn.undraw.co/illustration/in-the-office_e7pg.svg" alt="In The Office" width="200"/>
+  in_the_office_e7pg(
+      'https://cdn.undraw.co/illustration/in-the-office_e7pg.svg'),
+
   /// Title: In love
   /// <br/>
-  /// <img src="https://cdn.undraw.co/illustrations/in-love_779f.svg" alt="In love" width="200"/>
-  in_love('https://cdn.undraw.co/illustrations/in-love_779f.svg'),
+  /// <img src="https://cdn.undraw.co/illustration/in-love_yqu6.svg" alt="In love" width="200"/>
+  in_love('https://cdn.undraw.co/illustration/in-love_yqu6.svg'),
 
   /// Title: In no time
   /// <br/>
@@ -3006,7 +3315,8 @@ enum UnDrawIllustration {
   /// Title: In the office
   /// <br/>
   /// <img src="https://cdn.undraw.co/illustrations/in-the-office_ma2b.svg" alt="In the office" width="200"/>
-  in_the_office('https://cdn.undraw.co/illustrations/in-the-office_ma2b.svg'),
+  in_the_office_ma2b(
+      'https://cdn.undraw.co/illustrations/in-the-office_ma2b.svg'),
 
   /// Title: In the pool
   /// <br/>
@@ -3037,6 +3347,11 @@ enum UnDrawIllustration {
   /// <br/>
   /// <img src="https://cdn.undraw.co/illustrations/indoor-bike_9lxj.svg" alt="Indoor bike" width="200"/>
   indoor_bike('https://cdn.undraw.co/illustrations/indoor-bike_9lxj.svg'),
+
+  /// Title: Inflation
+  /// <br/>
+  /// <img src="https://cdn.undraw.co/illustration/inflation_ht0o.svg" alt="Inflation" width="200"/>
+  inflation('https://cdn.undraw.co/illustration/inflation_ht0o.svg'),
 
   /// Title: Influencer
   /// <br/>
@@ -3085,11 +3400,11 @@ enum UnDrawIllustration {
   /// <img src="https://cdn.undraw.co/illustrations/inspiration_z6x7.svg" alt="Inspiration" width="200"/>
   inspiration('https://cdn.undraw.co/illustrations/inspiration_z6x7.svg'),
 
-  /// Title: Instant analysis
+  /// Title: Instant Analysis
   /// <br/>
-  /// <img src="https://cdn.undraw.co/illustrations/instant-analysis_idb3.svg" alt="Instant analysis" width="200"/>
+  /// <img src="https://cdn.undraw.co/illustration/instant-analysis_vm8x.svg" alt="Instant Analysis" width="200"/>
   instant_analysis(
-      'https://cdn.undraw.co/illustrations/instant-analysis_idb3.svg'),
+      'https://cdn.undraw.co/illustration/instant-analysis_vm8x.svg'),
 
   /// Title: Instant information
   /// <br/>
@@ -3139,8 +3454,8 @@ enum UnDrawIllustration {
 
   /// Title: Invest
   /// <br/>
-  /// <img src="https://cdn.undraw.co/illustrations/invest_xzct.svg" alt="Invest" width="200"/>
-  invest('https://cdn.undraw.co/illustrations/invest_xzct.svg'),
+  /// <img src="https://cdn.undraw.co/illustration/invest_t695.svg" alt="Invest" width="200"/>
+  invest('https://cdn.undraw.co/illustration/invest_t695.svg'),
 
   /// Title: Investing
   /// <br/>
@@ -3152,11 +3467,11 @@ enum UnDrawIllustration {
   /// <img src="https://cdn.undraw.co/illustrations/investment_ojxu.svg" alt="Investment" width="200"/>
   investment('https://cdn.undraw.co/illustrations/investment_ojxu.svg'),
 
-  /// Title: Investment data
+  /// Title: Investment Data
   /// <br/>
-  /// <img src="https://cdn.undraw.co/illustrations/investment-data_m7wb.svg" alt="Investment data" width="200"/>
+  /// <img src="https://cdn.undraw.co/illustration/investment-data_frxx.svg" alt="Investment Data" width="200"/>
   investment_data(
-      'https://cdn.undraw.co/illustrations/investment-data_m7wb.svg'),
+      'https://cdn.undraw.co/illustration/investment-data_frxx.svg'),
 
   /// Title: Investor update
   /// <br/>
@@ -3168,6 +3483,11 @@ enum UnDrawIllustration {
   /// <br/>
   /// <img src="https://cdn.undraw.co/illustrations/invite_ds8f.svg" alt="Invite" width="200"/>
   invite('https://cdn.undraw.co/illustrations/invite_ds8f.svg'),
+
+  /// Title: Invite Only
+  /// <br/>
+  /// <img src="https://cdn.undraw.co/illustration/invite-only_373f.svg" alt="Invite Only" width="200"/>
+  invite_only('https://cdn.undraw.co/illustration/invite-only_373f.svg'),
 
   /// Title: Japan
   /// <br/>
@@ -3277,6 +3597,11 @@ enum UnDrawIllustration {
   /// <img src="https://cdn.undraw.co/illustrations/late-at-night_0fob.svg" alt="Late at night" width="200"/>
   late_at_night('https://cdn.undraw.co/illustrations/late-at-night_0fob.svg'),
 
+  /// Title: Launch Event
+  /// <br/>
+  /// <img src="https://cdn.undraw.co/illustration/launch-event_aur1.svg" alt="Launch Event" width="200"/>
+  launch_event('https://cdn.undraw.co/illustration/launch-event_aur1.svg'),
+
   /// Title: Launch day
   /// <br/>
   /// <img src="https://cdn.undraw.co/illustrations/launch-day_w9g1.svg" alt="Launch day" width="200"/>
@@ -3289,14 +3614,19 @@ enum UnDrawIllustration {
 
   /// Title: Learning
   /// <br/>
-  /// <img src="https://cdn.undraw.co/illustrations/learning_2jue.svg" alt="Learning" width="200"/>
-  learning('https://cdn.undraw.co/illustrations/learning_2jue.svg'),
+  /// <img src="https://cdn.undraw.co/illustration/learning_qt7d.svg" alt="Learning" width="200"/>
+  learning('https://cdn.undraw.co/illustration/learning_qt7d.svg'),
 
   /// Title: Learning sketching
   /// <br/>
   /// <img src="https://cdn.undraw.co/illustrations/learning-sketching_resh.svg" alt="Learning sketching" width="200"/>
   learning_sketching(
       'https://cdn.undraw.co/illustrations/learning-sketching_resh.svg'),
+
+  /// Title: Legal Counsel
+  /// <br/>
+  /// <img src="https://cdn.undraw.co/illustration/legal-counsel_kdnh.svg" alt="Legal Counsel" width="200"/>
+  legal_counsel('https://cdn.undraw.co/illustration/legal-counsel_kdnh.svg'),
 
   /// Title: Letter
   /// <br/>
@@ -3310,9 +3640,9 @@ enum UnDrawIllustration {
 
   /// Title: Lightbulb moment
   /// <br/>
-  /// <img src="https://cdn.undraw.co/illustrations/lightbulb-moment_c8jn.svg" alt="Lightbulb moment" width="200"/>
+  /// <img src="https://cdn.undraw.co/illustration/lightbulb-moment_16av.svg" alt="Lightbulb moment" width="200"/>
   lightbulb_moment(
-      'https://cdn.undraw.co/illustrations/lightbulb-moment_c8jn.svg'),
+      'https://cdn.undraw.co/illustration/lightbulb-moment_16av.svg'),
 
   /// Title: Lighthouse
   /// <br/>
@@ -3339,11 +3669,17 @@ enum UnDrawIllustration {
   /// <img src="https://cdn.undraw.co/illustrations/listening_fz9g.svg" alt="Listening" width="200"/>
   listening('https://cdn.undraw.co/illustrations/listening_fz9g.svg'),
 
+  /// Title: Listening To Podcasts
+  /// <br/>
+  /// <img src="https://cdn.undraw.co/illustration/listening-to-podcasts_j0hm.svg" alt="Listening To Podcasts" width="200"/>
+  listening_to_podcasts(
+      'https://cdn.undraw.co/illustration/listening-to-podcasts_j0hm.svg'),
+
   /// Title: Live collaboration
   /// <br/>
-  /// <img src="https://cdn.undraw.co/illustrations/live-collaboration_c7dd.svg" alt="Live collaboration" width="200"/>
+  /// <img src="https://cdn.undraw.co/illustration/live-collaboration_i8an.svg" alt="Live collaboration" width="200"/>
   live_collaboration(
-      'https://cdn.undraw.co/illustrations/live-collaboration_c7dd.svg'),
+      'https://cdn.undraw.co/illustration/live-collaboration_i8an.svg'),
 
   /// Title: Live photo
   /// <br/>
@@ -3362,8 +3698,8 @@ enum UnDrawIllustration {
 
   /// Title: Loading
   /// <br/>
-  /// <img src="https://cdn.undraw.co/illustrations/loading_65y2.svg" alt="Loading" width="200"/>
-  loading('https://cdn.undraw.co/illustrations/loading_65y2.svg'),
+  /// <img src="https://cdn.undraw.co/illustration/loading_3kqt.svg" alt="Loading" width="200"/>
+  loading('https://cdn.undraw.co/illustration/loading_3kqt.svg'),
 
   /// Title: Location review
   /// <br/>
@@ -3383,15 +3719,20 @@ enum UnDrawIllustration {
   location_tracking(
       'https://cdn.undraw.co/illustration/location-tracking_q3yd.svg'),
 
+  /// Title: Log in
+  /// <br/>
+  /// <img src="https://cdn.undraw.co/illustration/login_weas.svg" alt="Log in" width="200"/>
+  log_in('https://cdn.undraw.co/illustration/login_weas.svg'),
+
+  /// Title: Log out
+  /// <br/>
+  /// <img src="https://cdn.undraw.co/illustration/log-out_2vod.svg" alt="Log out" width="200"/>
+  log_out('https://cdn.undraw.co/illustration/log-out_2vod.svg'),
+
   /// Title: Logic
   /// <br/>
   /// <img src="https://cdn.undraw.co/illustrations/logic_bj1j.svg" alt="Logic" width="200"/>
   logic('https://cdn.undraw.co/illustrations/logic_bj1j.svg'),
-
-  /// Title: Login
-  /// <br/>
-  /// <img src="https://cdn.undraw.co/illustrations/login_wqkt.svg" alt="Login" width="200"/>
-  login('https://cdn.undraw.co/illustrations/login_wqkt.svg'),
 
   /// Title: Logistics
   /// <br/>
@@ -3426,18 +3767,18 @@ enum UnDrawIllustration {
 
   /// Title: Loving it
   /// <br/>
-  /// <img src="https://cdn.undraw.co/illustrations/loving-it_kdsb.svg" alt="Loving it" width="200"/>
-  loving_it('https://cdn.undraw.co/illustrations/loving-it_kdsb.svg'),
+  /// <img src="https://cdn.undraw.co/illustration/loving-it_hspq.svg" alt="Loving it" width="200"/>
+  loving_it('https://cdn.undraw.co/illustration/loving-it_hspq.svg'),
 
   /// Title: Loving story
   /// <br/>
   /// <img src="https://cdn.undraw.co/illustrations/loving-story_k8gb.svg" alt="Loving story" width="200"/>
   loving_story('https://cdn.undraw.co/illustrations/loving-story_k8gb.svg'),
 
-  /// Title: Mail
+  /// Title: Luggage
   /// <br/>
-  /// <img src="https://cdn.undraw.co/illustrations/mail_fzk2.svg" alt="Mail" width="200"/>
-  mail('https://cdn.undraw.co/illustrations/mail_fzk2.svg'),
+  /// <img src="https://cdn.undraw.co/illustration/luggage_k1gn.svg" alt="Luggage" width="200"/>
+  luggage('https://cdn.undraw.co/illustration/luggage_k1gn.svg'),
 
   /// Title: Mail sent
   /// <br/>
@@ -3469,10 +3810,10 @@ enum UnDrawIllustration {
   /// <img src="https://cdn.undraw.co/illustrations/makeup-artist_0xtr.svg" alt="Makeup artist" width="200"/>
   makeup_artist('https://cdn.undraw.co/illustrations/makeup-artist_0xtr.svg'),
 
-  /// Title: Making art
+  /// Title: Making Art
   /// <br/>
-  /// <img src="https://cdn.undraw.co/illustrations/making-art_o1is.svg" alt="Making art" width="200"/>
-  making_art('https://cdn.undraw.co/illustrations/making-art_o1is.svg'),
+  /// <img src="https://cdn.undraw.co/illustration/making-art_c05m.svg" alt="Making Art" width="200"/>
+  making_art('https://cdn.undraw.co/illustration/making-art_c05m.svg'),
 
   /// Title: Male avatar
   /// <br/>
@@ -3508,6 +3849,11 @@ enum UnDrawIllustration {
   /// <br/>
   /// <img src="https://cdn.undraw.co/illustrations/master-plan_m8ym.svg" alt="Master plan" width="200"/>
   master_plan('https://cdn.undraw.co/illustrations/master-plan_m8ym.svg'),
+
+  /// Title: Math
+  /// <br/>
+  /// <img src="https://cdn.undraw.co/illustration/math_ldpv.svg" alt="Math" width="200"/>
+  math('https://cdn.undraw.co/illustration/math_ldpv.svg'),
 
   /// Title: Mathematics
   /// <br/>
@@ -3577,8 +3923,8 @@ enum UnDrawIllustration {
 
   /// Title: Messages
   /// <br/>
-  /// <img src="https://cdn.undraw.co/illustrations/messages_bpqv.svg" alt="Messages" width="200"/>
-  messages('https://cdn.undraw.co/illustrations/messages_bpqv.svg'),
+  /// <img src="https://cdn.undraw.co/illustration/messages_okui.svg" alt="Messages" width="200"/>
+  messages('https://cdn.undraw.co/illustration/messages_okui.svg'),
 
   /// Title: Messaging
   /// <br/>
@@ -3607,8 +3953,8 @@ enum UnDrawIllustration {
 
   /// Title: Metrics
   /// <br/>
-  /// <img src="https://cdn.undraw.co/illustrations/metrics_02ml.svg" alt="Metrics" width="200"/>
-  metrics('https://cdn.undraw.co/illustrations/metrics_02ml.svg'),
+  /// <img src="https://cdn.undraw.co/illustration/metrics_5v8d.svg" alt="Metrics" width="200"/>
+  metrics('https://cdn.undraw.co/illustration/metrics_5v8d.svg'),
 
   /// Title: Mic drop
   /// <br/>
@@ -3623,8 +3969,8 @@ enum UnDrawIllustration {
 
   /// Title: Mind map
   /// <br/>
-  /// <img src="https://cdn.undraw.co/illustrations/mind-map_saei.svg" alt="Mind map" width="200"/>
-  mind_map('https://cdn.undraw.co/illustrations/mind-map_saei.svg'),
+  /// <img src="https://cdn.undraw.co/illustration/mind-map_i9bv.svg" alt="Mind map" width="200"/>
+  mind_map('https://cdn.undraw.co/illustration/mind-map_i9bv.svg'),
 
   /// Title: Mindfulness
   /// <br/>
@@ -3653,14 +3999,24 @@ enum UnDrawIllustration {
 
   /// Title: Mobile Analytics
   /// <br/>
-  /// <img src="https://cdn.undraw.co/illustrations/mobile-analytics_yrfp.svg" alt="Mobile Analytics" width="200"/>
-  mobile_analytics_yrfp(
-      'https://cdn.undraw.co/illustrations/mobile-analytics_yrfp.svg'),
+  /// <img src="https://cdn.undraw.co/illustration/mobile-analytics_bz2a.svg" alt="Mobile Analytics" width="200"/>
+  mobile_analytics_bz2a(
+      'https://cdn.undraw.co/illustration/mobile-analytics_bz2a.svg'),
 
   /// Title: Mobile Content
   /// <br/>
   /// <img src="https://cdn.undraw.co/illustrations/mobile-content_yz21.svg" alt="Mobile Content" width="200"/>
   mobile_content('https://cdn.undraw.co/illustrations/mobile-content_yz21.svg'),
+
+  /// Title: Mobile Gaming
+  /// <br/>
+  /// <img src="https://cdn.undraw.co/illustration/mobile-gaming_di2l.svg" alt="Mobile Gaming" width="200"/>
+  mobile_gaming('https://cdn.undraw.co/illustration/mobile-gaming_di2l.svg'),
+
+  /// Title: Mobile Log in
+  /// <br/>
+  /// <img src="https://cdn.undraw.co/illustration/mobile-log-in_0n4q.svg" alt="Mobile Log in" width="200"/>
+  mobile_log_in('https://cdn.undraw.co/illustration/mobile-log-in_0n4q.svg'),
 
   /// Title: Mobile Profile
   /// <br/>
@@ -3680,9 +4036,9 @@ enum UnDrawIllustration {
 
   /// Title: Mobile application
   /// <br/>
-  /// <img src="https://cdn.undraw.co/illustrations/mobile-application_lhsq.svg" alt="Mobile application" width="200"/>
+  /// <img src="https://cdn.undraw.co/illustration/mobile-application_uc2q.svg" alt="Mobile application" width="200"/>
   mobile_application(
-      'https://cdn.undraw.co/illustrations/mobile-application_lhsq.svg'),
+      'https://cdn.undraw.co/illustration/mobile-application_uc2q.svg'),
 
   /// Title: Mobile apps
   /// <br/>
@@ -3738,22 +4094,11 @@ enum UnDrawIllustration {
   /// <img src="https://cdn.undraw.co/illustrations/mobile-life_m72o.svg" alt="Mobile life" width="200"/>
   mobile_life('https://cdn.undraw.co/illustrations/mobile-life_m72o.svg'),
 
-  /// Title: Mobile login
-  /// <br/>
-  /// <img src="https://cdn.undraw.co/illustrations/mobile-login_4ntr.svg" alt="Mobile login" width="200"/>
-  mobile_login('https://cdn.undraw.co/illustrations/mobile-login_4ntr.svg'),
-
   /// Title: Mobile marketing
   /// <br/>
-  /// <img src="https://cdn.undraw.co/illustrations/mobile-marketing_x9am.svg" alt="Mobile marketing" width="200"/>
+  /// <img src="https://cdn.undraw.co/illustration/mobile-marketing_7x7m.svg" alt="Mobile marketing" width="200"/>
   mobile_marketing(
-      'https://cdn.undraw.co/illustrations/mobile-marketing_x9am.svg'),
-
-  /// Title: Mobile messages
-  /// <br/>
-  /// <img src="https://cdn.undraw.co/illustrations/mobile-messages_8rab.svg" alt="Mobile messages" width="200"/>
-  mobile_messages(
-      'https://cdn.undraw.co/illustrations/mobile-messages_8rab.svg'),
+      'https://cdn.undraw.co/illustration/mobile-marketing_7x7m.svg'),
 
   /// Title: Mobile pay
   /// <br/>
@@ -3818,6 +4163,11 @@ enum UnDrawIllustration {
   mobile_wireframe(
       'https://cdn.undraw.co/illustrations/mobile-wireframe_fpih.svg'),
 
+  /// Title: Modern Woman
+  /// <br/>
+  /// <img src="https://cdn.undraw.co/illustration/modern-woman_cd44.svg" alt="Modern Woman" width="200"/>
+  modern_woman('https://cdn.undraw.co/illustration/modern-woman_cd44.svg'),
+
   /// Title: Modern art
   /// <br/>
   /// <img src="https://cdn.undraw.co/illustrations/modern-art_09d6.svg" alt="Modern art" width="200"/>
@@ -3838,11 +4188,6 @@ enum UnDrawIllustration {
   /// <img src="https://cdn.undraw.co/illustrations/modern-professional_6pek.svg" alt="Modern professional" width="200"/>
   modern_professional(
       'https://cdn.undraw.co/illustrations/modern-professional_6pek.svg'),
-
-  /// Title: Modern woman
-  /// <br/>
-  /// <img src="https://cdn.undraw.co/illustrations/modern-woman_m2bt.svg" alt="Modern woman" width="200"/>
-  modern_woman('https://cdn.undraw.co/illustrations/modern-woman_m2bt.svg'),
 
   /// Title: Moment to remember
   /// <br/>
@@ -3880,6 +4225,12 @@ enum UnDrawIllustration {
   /// <img src="https://cdn.undraw.co/illustrations/more-music_1188.svg" alt="More music" width="200"/>
   more_music('https://cdn.undraw.co/illustrations/more-music_1188.svg'),
 
+  /// Title: Morning Workout
+  /// <br/>
+  /// <img src="https://cdn.undraw.co/illustration/morning-workout_73u9.svg" alt="Morning Workout" width="200"/>
+  morning_workout(
+      'https://cdn.undraw.co/illustration/morning-workout_73u9.svg'),
+
   /// Title: Mornings
   /// <br/>
   /// <img src="https://cdn.undraw.co/illustrations/mornings_kmib.svg" alt="Mornings" width="200"/>
@@ -3905,6 +4256,12 @@ enum UnDrawIllustration {
   /// <img src="https://cdn.undraw.co/illustrations/moving-forward_md35.svg" alt="Moving forward" width="200"/>
   moving_forward('https://cdn.undraw.co/illustrations/moving-forward_md35.svg'),
 
+  /// Title: Multiple Choice
+  /// <br/>
+  /// <img src="https://cdn.undraw.co/illustration/multiple-choice_9n00.svg" alt="Multiple Choice" width="200"/>
+  multiple_choice(
+      'https://cdn.undraw.co/illustration/multiple-choice_9n00.svg'),
+
   /// Title: Multitasking
   /// <br/>
   /// <img src="https://cdn.undraw.co/illustrations/multitasking_5lw1.svg" alt="Multitasking" width="200"/>
@@ -3914,6 +4271,11 @@ enum UnDrawIllustration {
   /// <br/>
   /// <img src="https://cdn.undraw.co/illustrations/music_3vas.svg" alt="Music" width="200"/>
   music('https://cdn.undraw.co/illustrations/music_3vas.svg'),
+
+  /// Title: My Files
+  /// <br/>
+  /// <img src="https://cdn.undraw.co/illustration/my-files_1xwx.svg" alt="My Files" width="200"/>
+  my_files_1xwx('https://cdn.undraw.co/illustration/my-files_1xwx.svg'),
 
   /// Title: My answer
   /// <br/>
@@ -3950,23 +4312,18 @@ enum UnDrawIllustration {
   /// Title: My files
   /// <br/>
   /// <img src="https://cdn.undraw.co/illustrations/my-files_yynz.svg" alt="My files" width="200"/>
-  my_files('https://cdn.undraw.co/illustrations/my-files_yynz.svg'),
+  my_files_yynz('https://cdn.undraw.co/illustrations/my-files_yynz.svg'),
 
   /// Title: My location
   /// <br/>
-  /// <img src="https://cdn.undraw.co/illustrations/my-location_plm0.svg" alt="My location" width="200"/>
-  my_location('https://cdn.undraw.co/illustrations/my-location_plm0.svg'),
+  /// <img src="https://cdn.undraw.co/illustration/my-location_dcug.svg" alt="My location" width="200"/>
+  my_location('https://cdn.undraw.co/illustration/my-location_dcug.svg'),
 
   /// Title: My notifications
   /// <br/>
-  /// <img src="https://cdn.undraw.co/illustrations/my-notifications_p6to.svg" alt="My notifications" width="200"/>
+  /// <img src="https://cdn.undraw.co/illustration/my-notifications_fy5v.svg" alt="My notifications" width="200"/>
   my_notifications(
-      'https://cdn.undraw.co/illustrations/my-notifications_p6to.svg'),
-
-  /// Title: My password
-  /// <br/>
-  /// <img src="https://cdn.undraw.co/illustrations/my-password_iyga.svg" alt="My password" width="200"/>
-  my_password('https://cdn.undraw.co/illustrations/my-password_iyga.svg'),
+      'https://cdn.undraw.co/illustration/my-notifications_fy5v.svg'),
 
   /// Title: My personal files
   /// <br/>
@@ -3983,6 +4340,11 @@ enum UnDrawIllustration {
   /// <br/>
   /// <img src="https://cdn.undraw.co/illustration/personal-website_kz7a.svg" alt="My website" width="200"/>
   my_website('https://cdn.undraw.co/illustration/personal-website_kz7a.svg'),
+
+  /// Title: My workspace
+  /// <br/>
+  /// <img src="https://cdn.undraw.co/illustration/my-workspace_5961.svg" alt="My workspace" width="200"/>
+  my_workspace('https://cdn.undraw.co/illustration/my-workspace_5961.svg'),
 
   /// Title: Nakamoto
   /// <br/>
@@ -4031,6 +4393,11 @@ enum UnDrawIllustration {
   /// <img src="https://cdn.undraw.co/illustrations/netflix_qmju.svg" alt="Netflix" width="200"/>
   netflix('https://cdn.undraw.co/illustrations/netflix_qmju.svg'),
 
+  /// Title: New Message
+  /// <br/>
+  /// <img src="https://cdn.undraw.co/illustration/new-message_qvv6.svg" alt="New Message" width="200"/>
+  new_message_qvv6('https://cdn.undraw.co/illustration/new-message_qvv6.svg'),
+
   /// Title: New Year 2025
   /// <br/>
   /// <img src="https://cdn.undraw.co/illustration/new-year-2025_1tmm.svg" alt="New Year 2025" width="200"/>
@@ -4054,7 +4421,7 @@ enum UnDrawIllustration {
   /// Title: New message
   /// <br/>
   /// <img src="https://cdn.undraw.co/illustrations/new-message_nl8w.svg" alt="New message" width="200"/>
-  new_message('https://cdn.undraw.co/illustrations/new-message_nl8w.svg'),
+  new_message_nl8w('https://cdn.undraw.co/illustrations/new-message_nl8w.svg'),
 
   /// Title: New notifications
   /// <br/>
@@ -4084,8 +4451,8 @@ enum UnDrawIllustration {
 
   /// Title: Newspaper
   /// <br/>
-  /// <img src="https://cdn.undraw.co/illustrations/newspaper_cqtq.svg" alt="Newspaper" width="200"/>
-  newspaper('https://cdn.undraw.co/illustrations/newspaper_cqtq.svg'),
+  /// <img src="https://cdn.undraw.co/illustration/newspaper_ri3k.svg" alt="Newspaper" width="200"/>
+  newspaper('https://cdn.undraw.co/illustration/newspaper_ri3k.svg'),
 
   /// Title: Next option
   /// <br/>
@@ -4102,6 +4469,12 @@ enum UnDrawIllustration {
   /// <img src="https://cdn.undraw.co/illustrations/next-js_hy59.svg" alt="NextJs" width="200"/>
   nextjs('https://cdn.undraw.co/illustrations/next-js_hy59.svg'),
 
+  /// Title: Nice to meet you
+  /// <br/>
+  /// <img src="https://cdn.undraw.co/illustration/nice-to-meet-you_sqin.svg" alt="Nice to meet you" width="200"/>
+  nice_to_meet_you(
+      'https://cdn.undraw.co/illustration/nice-to-meet-you_sqin.svg'),
+
   /// Title: Night calls
   /// <br/>
   /// <img src="https://cdn.undraw.co/illustrations/night-calls_ge07.svg" alt="Night calls" width="200"/>
@@ -4111,6 +4484,11 @@ enum UnDrawIllustration {
   /// <br/>
   /// <img src="https://cdn.undraw.co/illustrations/ninja_kzfv.svg" alt="Ninja" width="200"/>
   ninja('https://cdn.undraw.co/illustrations/ninja_kzfv.svg'),
+
+  /// Title: No Signal
+  /// <br/>
+  /// <img src="https://cdn.undraw.co/illustration/no-signal_nqfa.svg" alt="No Signal" width="200"/>
+  no_signal('https://cdn.undraw.co/illustration/no-signal_nqfa.svg'),
 
   /// Title: No data
   /// <br/>
@@ -4152,6 +4530,12 @@ enum UnDrawIllustration {
   /// <img src="https://cdn.undraw.co/illustrations/notifications_bw0p.svg" alt="Notifications" width="200"/>
   notifications('https://cdn.undraw.co/illustrations/notifications_bw0p.svg'),
 
+  /// Title: Notifications_var
+  /// <br/>
+  /// <img src="https://cdn.undraw.co/illustration/notifications_uvwd.svg" alt="Notifications_var" width="200"/>
+  notifications_var(
+      'https://cdn.undraw.co/illustration/notifications_uvwd.svg'),
+
   /// Title: Notify
   /// <br/>
   /// <img src="https://cdn.undraw.co/illustrations/notify_rnwe.svg" alt="Notify" width="200"/>
@@ -4164,8 +4548,8 @@ enum UnDrawIllustration {
 
   /// Title: OS upgrade
   /// <br/>
-  /// <img src="https://cdn.undraw.co/illustrations/os-upgrade_d200.svg" alt="OS upgrade" width="200"/>
-  os_upgrade('https://cdn.undraw.co/illustrations/os-upgrade_d200.svg'),
+  /// <img src="https://cdn.undraw.co/illustration/os-upgrade_ztrf.svg" alt="OS upgrade" width="200"/>
+  os_upgrade('https://cdn.undraw.co/illustration/os-upgrade_ztrf.svg'),
 
   /// Title: Observations
   /// <br/>
@@ -4187,10 +4571,10 @@ enum UnDrawIllustration {
   /// <img src="https://cdn.undraw.co/illustrations/omega_aj2q.svg" alt="Omega" width="200"/>
   omega('https://cdn.undraw.co/illustrations/omega_aj2q.svg'),
 
-  /// Title: On the office
+  /// Title: On the Move
   /// <br/>
-  /// <img src="https://cdn.undraw.co/illustrations/on-the-office_tmni.svg" alt="On the office" width="200"/>
-  on_the_office('https://cdn.undraw.co/illustrations/on-the-office_tmni.svg'),
+  /// <img src="https://cdn.undraw.co/illustration/on-the-move_3di5.svg" alt="On the Move" width="200"/>
+  on_the_move('https://cdn.undraw.co/illustration/on-the-move_3di5.svg'),
 
   /// Title: On the way
   /// <br/>
@@ -4206,6 +4590,32 @@ enum UnDrawIllustration {
   /// <br/>
   /// <img src="https://cdn.undraw.co/illustrations/online_dhvx.svg" alt="Online" width="200"/>
   online('https://cdn.undraw.co/illustrations/online_dhvx.svg'),
+
+  /// Title: Online Banking
+  /// <br/>
+  /// <img src="https://cdn.undraw.co/illustration/online-banking_l9sn.svg" alt="Online Banking" width="200"/>
+  online_banking('https://cdn.undraw.co/illustration/online-banking_l9sn.svg'),
+
+  /// Title: Online Community
+  /// <br/>
+  /// <img src="https://cdn.undraw.co/illustration/online-community_3o0l.svg" alt="Online Community" width="200"/>
+  online_community(
+      'https://cdn.undraw.co/illustration/online-community_3o0l.svg'),
+
+  /// Title: Online Review
+  /// <br/>
+  /// <img src="https://cdn.undraw.co/illustration/online-review_08y6.svg" alt="Online Review" width="200"/>
+  online_review('https://cdn.undraw.co/illustration/online-review_08y6.svg'),
+
+  /// Title: Online Survey
+  /// <br/>
+  /// <img src="https://cdn.undraw.co/illustration/online-survey_xq2g.svg" alt="Online Survey" width="200"/>
+  online_survey('https://cdn.undraw.co/illustration/online-survey_xq2g.svg'),
+
+  /// Title: Online Test
+  /// <br/>
+  /// <img src="https://cdn.undraw.co/illustration/online-test_cqv0.svg" alt="Online Test" width="200"/>
+  online_test('https://cdn.undraw.co/illustration/online-test_cqv0.svg'),
 
   /// Title: Online ad
   /// <br/>
@@ -4227,11 +4637,6 @@ enum UnDrawIllustration {
   /// <img src="https://cdn.undraw.co/illustrations/online-articles_g9cg.svg" alt="Online articles" width="200"/>
   online_articles(
       'https://cdn.undraw.co/illustrations/online-articles_g9cg.svg'),
-
-  /// Title: Online banking
-  /// <br/>
-  /// <img src="https://cdn.undraw.co/illustrations/online-banking_v7ih.svg" alt="Online banking" width="200"/>
-  online_banking('https://cdn.undraw.co/illustrations/online-banking_v7ih.svg'),
 
   /// Title: Online calendar
   /// <br/>
@@ -4367,19 +4772,14 @@ enum UnDrawIllustration {
 
   /// Title: Online shopping
   /// <br/>
-  /// <img src="https://cdn.undraw.co/illustrations/online-shopping_6j81.svg" alt="Online shopping" width="200"/>
+  /// <img src="https://cdn.undraw.co/illustration/online-shopping_hgf6.svg" alt="Online shopping" width="200"/>
   online_shopping(
-      'https://cdn.undraw.co/illustrations/online-shopping_6j81.svg'),
+      'https://cdn.undraw.co/illustration/online-shopping_hgf6.svg'),
 
   /// Title: Online stats
   /// <br/>
   /// <img src="https://cdn.undraw.co/illustrations/online-stats_50mk.svg" alt="Online stats" width="200"/>
   online_stats('https://cdn.undraw.co/illustrations/online-stats_50mk.svg'),
-
-  /// Title: Online test
-  /// <br/>
-  /// <img src="https://cdn.undraw.co/illustrations/online-test_20lm.svg" alt="Online test" width="200"/>
-  online_test('https://cdn.undraw.co/illustrations/online-test_20lm.svg'),
 
   /// Title: Online transactions
   /// <br/>
@@ -4401,6 +4801,11 @@ enum UnDrawIllustration {
   /// <br/>
   /// <img src="https://cdn.undraw.co/illustrations/online-world_myxf.svg" alt="Online world" width="200"/>
   online_world('https://cdn.undraw.co/illustrations/online-world_myxf.svg'),
+
+  /// Title: Open Letter
+  /// <br/>
+  /// <img src="https://cdn.undraw.co/illustration/open-letter_xc4r.svg" alt="Open Letter" width="200"/>
+  open_letter('https://cdn.undraw.co/illustration/open-letter_xc4r.svg'),
 
   /// Title: Open notes
   /// <br/>
@@ -4437,10 +4842,15 @@ enum UnDrawIllustration {
   /// <img src="https://cdn.undraw.co/illustrations/options_mw73.svg" alt="Options" width="200"/>
   options('https://cdn.undraw.co/illustrations/options_mw73.svg'),
 
+  /// Title: Order Coffee
+  /// <br/>
+  /// <img src="https://cdn.undraw.co/illustration/order-coffee_pw24.svg" alt="Order Coffee" width="200"/>
+  order_coffee('https://cdn.undraw.co/illustration/order-coffee_pw24.svg'),
+
   /// Title: Order Flowers
   /// <br/>
-  /// <img src="https://cdn.undraw.co/illustrations/order-flowers_81uq.svg" alt="Order Flowers" width="200"/>
-  order_flowers('https://cdn.undraw.co/illustrations/order-flowers_81uq.svg'),
+  /// <img src="https://cdn.undraw.co/illustration/order-flowers_vauv.svg" alt="Order Flowers" width="200"/>
+  order_flowers('https://cdn.undraw.co/illustration/order-flowers_vauv.svg'),
 
   /// Title: Order a car
   /// <br/>
@@ -4475,17 +4885,17 @@ enum UnDrawIllustration {
   organize_photos(
       'https://cdn.undraw.co/illustrations/organize-photos_t5k9.svg'),
 
-  /// Title: Organize resume
-  /// <br/>
-  /// <img src="https://cdn.undraw.co/illustrations/organize-resume_ihw6.svg" alt="Organize resume" width="200"/>
-  organize_resume(
-      'https://cdn.undraw.co/illustrations/organize-resume_ihw6.svg'),
-
   /// Title: Organized content
   /// <br/>
   /// <img src="https://cdn.undraw.co/illustrations/organized-content_9szr.svg" alt="Organized content" width="200"/>
   organized_content(
       'https://cdn.undraw.co/illustrations/organized-content_9szr.svg'),
+
+  /// Title: Organizing Data
+  /// <br/>
+  /// <img src="https://cdn.undraw.co/illustration/organizing-data_uns9.svg" alt="Organizing Data" width="200"/>
+  organizing_data(
+      'https://cdn.undraw.co/illustration/organizing-data_uns9.svg'),
 
   /// Title: Organizing projects
   /// <br/>
@@ -4531,6 +4941,11 @@ enum UnDrawIllustration {
   package_arrived(
       'https://cdn.undraw.co/illustrations/package-arrived_twqd.svg'),
 
+  /// Title: Page Eaten
+  /// <br/>
+  /// <img src="https://cdn.undraw.co/illustration/page-eaten_b2rt.svg" alt="Page Eaten" width="200"/>
+  page_eaten('https://cdn.undraw.co/illustration/page-eaten_b2rt.svg'),
+
   /// Title: Page not found
   /// <br/>
   /// <img src="https://cdn.undraw.co/illustrations/page-not-found_6wni.svg" alt="Page not found" width="200"/>
@@ -4554,8 +4969,13 @@ enum UnDrawIllustration {
 
   /// Title: Party
   /// <br/>
-  /// <img src="https://cdn.undraw.co/illustrations/party_27wv.svg" alt="Party" width="200"/>
-  party('https://cdn.undraw.co/illustrations/party_27wv.svg'),
+  /// <img src="https://cdn.undraw.co/illustration/party_k6eg.svg" alt="Party" width="200"/>
+  party('https://cdn.undraw.co/illustration/party_k6eg.svg'),
+
+  /// Title: Party_var
+  /// <br/>
+  /// <img src="https://cdn.undraw.co/illustrations/party_27wv.svg" alt="Party_var" width="200"/>
+  party_var('https://cdn.undraw.co/illustrations/party_27wv.svg'),
 
   /// Title: Partying
   /// <br/>
@@ -4571,6 +4991,12 @@ enum UnDrawIllustration {
   /// <br/>
   /// <img src="https://cdn.undraw.co/illustrations/pay-online_806n.svg" alt="Pay online" width="200"/>
   pay_online('https://cdn.undraw.co/illustrations/pay-online_806n.svg'),
+
+  /// Title: Pay with Credit Card
+  /// <br/>
+  /// <img src="https://cdn.undraw.co/illustration/pay-with-credit-card_77g6.svg" alt="Pay with Credit Card" width="200"/>
+  pay_with_credit_card(
+      'https://cdn.undraw.co/illustration/pay-with-credit-card_77g6.svg'),
 
   /// Title: Payments
   /// <br/>
@@ -4615,6 +5041,12 @@ enum UnDrawIllustration {
   performance_overview(
       'https://cdn.undraw.co/illustrations/performance-overview_1b4y.svg'),
 
+  /// Title: Personal Information
+  /// <br/>
+  /// <img src="https://cdn.undraw.co/illustration/personal-information_h7kf.svg" alt="Personal Information" width="200"/>
+  personal_information(
+      'https://cdn.undraw.co/illustration/personal-information_h7kf.svg'),
+
   /// Title: Personal data
   /// <br/>
   /// <img src="https://cdn.undraw.co/illustrations/personal-data_a1n8.svg" alt="Personal data" width="200"/>
@@ -4651,12 +5083,6 @@ enum UnDrawIllustration {
   /// <br/>
   /// <img src="https://cdn.undraw.co/illustrations/personal-info_yzls.svg" alt="Personal info" width="200"/>
   personal_info('https://cdn.undraw.co/illustrations/personal-info_yzls.svg'),
-
-  /// Title: Personal information
-  /// <br/>
-  /// <img src="https://cdn.undraw.co/illustrations/personal-information_gbtc.svg" alt="Personal information" width="200"/>
-  personal_information(
-      'https://cdn.undraw.co/illustrations/personal-information_gbtc.svg'),
 
   /// Title: Personal notebook
   /// <br/>
@@ -4720,10 +5146,20 @@ enum UnDrawIllustration {
   /// <img src="https://cdn.undraw.co/illustrations/pet-adoption_h7wv.svg" alt="Pet adoption" width="200"/>
   pet_adoption('https://cdn.undraw.co/illustrations/pet-adoption_h7wv.svg'),
 
-  /// Title: Phone call
+  /// Title: Petting
   /// <br/>
-  /// <img src="https://cdn.undraw.co/illustration/phone-call_cpf5.svg" alt="Phone call" width="200"/>
-  phone_call('https://cdn.undraw.co/illustration/phone-call_cpf5.svg'),
+  /// <img src="https://cdn.undraw.co/illustration/petting_xclp.svg" alt="Petting" width="200"/>
+  petting('https://cdn.undraw.co/illustration/petting_xclp.svg'),
+
+  /// Title: Phone Call
+  /// <br/>
+  /// <img src="https://cdn.undraw.co/illustration/phone-call_ov3z.svg" alt="Phone Call" width="200"/>
+  phone_call('https://cdn.undraw.co/illustration/phone-call_ov3z.svg'),
+
+  /// Title: Phone Camera
+  /// <br/>
+  /// <img src="https://cdn.undraw.co/illustration/phone-camera_9r54.svg" alt="Phone Camera" width="200"/>
+  phone_camera('https://cdn.undraw.co/illustration/phone-camera_9r54.svg'),
 
   /// Title: Photo
   /// <br/>
@@ -4755,10 +5191,20 @@ enum UnDrawIllustration {
   /// <img src="https://cdn.undraw.co/illustration/photograph_gwbm.svg" alt="Photograph" width="200"/>
   photograph('https://cdn.undraw.co/illustration/photograph_gwbm.svg'),
 
+  /// Title: Photographer
+  /// <br/>
+  /// <img src="https://cdn.undraw.co/illustration/photographer_2rbr.svg" alt="Photographer" width="200"/>
+  photographer('https://cdn.undraw.co/illustration/photographer_2rbr.svg'),
+
   /// Title: Photos
   /// <br/>
   /// <img src="https://cdn.undraw.co/illustrations/photos_09tf.svg" alt="Photos" width="200"/>
   photos('https://cdn.undraw.co/illustrations/photos_09tf.svg'),
+
+  /// Title: Physics
+  /// <br/>
+  /// <img src="https://cdn.undraw.co/illustration/physics_8tvl.svg" alt="Physics" width="200"/>
+  physics('https://cdn.undraw.co/illustration/physics_8tvl.svg'),
 
   /// Title: Pic profile
   /// <br/>
@@ -4775,15 +5221,15 @@ enum UnDrawIllustration {
   /// <img src="https://cdn.undraw.co/illustration/pie-chart_eo9h.svg" alt="Pie chart" width="200"/>
   pie_chart('https://cdn.undraw.co/illustration/pie-chart_eo9h.svg'),
 
-  /// Title: Pie graph
-  /// <br/>
-  /// <img src="https://cdn.undraw.co/illustrations/pie-graph_8m6b.svg" alt="Pie graph" width="200"/>
-  pie_graph('https://cdn.undraw.co/illustrations/pie-graph_8m6b.svg'),
-
   /// Title: Pilates
   /// <br/>
   /// <img src="https://cdn.undraw.co/illustrations/pilates_i5uo.svg" alt="Pilates" width="200"/>
   pilates('https://cdn.undraw.co/illustrations/pilates_i5uo.svg'),
+
+  /// Title: Pin to board
+  /// <br/>
+  /// <img src="https://cdn.undraw.co/illustration/pin-to-board_eoie.svg" alt="Pin to board" width="200"/>
+  pin_to_board('https://cdn.undraw.co/illustration/pin-to-board_eoie.svg'),
 
   /// Title: Pitching
   /// <br/>
@@ -4799,12 +5245,6 @@ enum UnDrawIllustration {
   /// <br/>
   /// <img src="https://cdn.undraw.co/illustrations/placeholders_pel0.svg" alt="Placeholders" width="200"/>
   placeholders('https://cdn.undraw.co/illustrations/placeholders_pel0.svg'),
-
-  /// Title: Plain credit card
-  /// <br/>
-  /// <img src="https://cdn.undraw.co/illustrations/plain-credit-card_rzku.svg" alt="Plain credit card" width="200"/>
-  plain_credit_card(
-      'https://cdn.undraw.co/illustrations/plain-credit-card_rzku.svg'),
 
   /// Title: Plans
   /// <br/>
@@ -4851,12 +5291,6 @@ enum UnDrawIllustration {
   /// <br/>
   /// <img src="https://cdn.undraw.co/illustrations/podcast_0ioh.svg" alt="Podcast" width="200"/>
   podcast('https://cdn.undraw.co/illustrations/podcast_0ioh.svg'),
-
-  /// Title: Podcast audience
-  /// <br/>
-  /// <img src="https://cdn.undraw.co/illustrations/podcast-audience_nkzj.svg" alt="Podcast audience" width="200"/>
-  podcast_audience(
-      'https://cdn.undraw.co/illustrations/podcast-audience_nkzj.svg'),
 
   /// Title: Podcast listener
   /// <br/>
@@ -4910,8 +5344,8 @@ enum UnDrawIllustration {
 
   /// Title: Post
   /// <br/>
-  /// <img src="https://cdn.undraw.co/illustrations/post_mpa0.svg" alt="Post" width="200"/>
-  post_mpa0('https://cdn.undraw.co/illustrations/post_mpa0.svg'),
+  /// <img src="https://cdn.undraw.co/illustrations/post_gs8w.svg" alt="Post" width="200"/>
+  post_gs8w('https://cdn.undraw.co/illustrations/post_gs8w.svg'),
 
   /// Title: Post online
   /// <br/>
@@ -4920,8 +5354,8 @@ enum UnDrawIllustration {
 
   /// Title: Post_var
   /// <br/>
-  /// <img src="https://cdn.undraw.co/illustrations/post_gs8w.svg" alt="Post_var" width="200"/>
-  post_var('https://cdn.undraw.co/illustrations/post_gs8w.svg'),
+  /// <img src="https://cdn.undraw.co/illustrations/post_mpa0.svg" alt="Post_var" width="200"/>
+  post_var('https://cdn.undraw.co/illustrations/post_mpa0.svg'),
 
   /// Title: Posting photo
   /// <br/>
@@ -4935,13 +5369,13 @@ enum UnDrawIllustration {
 
   /// Title: Posts
   /// <br/>
-  /// <img src="https://cdn.undraw.co/illustrations/posts_sd2r.svg" alt="Posts" width="200"/>
-  posts_sd2r('https://cdn.undraw.co/illustrations/posts_sd2r.svg'),
+  /// <img src="https://cdn.undraw.co/illustrations/posts_gpjx.svg" alt="Posts" width="200"/>
+  posts_gpjx('https://cdn.undraw.co/illustrations/posts_gpjx.svg'),
 
   /// Title: Posts_var
   /// <br/>
-  /// <img src="https://cdn.undraw.co/illustrations/posts_gpjx.svg" alt="Posts_var" width="200"/>
-  posts_var('https://cdn.undraw.co/illustrations/posts_gpjx.svg'),
+  /// <img src="https://cdn.undraw.co/illustrations/posts_sd2r.svg" alt="Posts_var" width="200"/>
+  posts_var('https://cdn.undraw.co/illustrations/posts_sd2r.svg'),
 
   /// Title: Powerful
   /// <br/>
@@ -4967,18 +5401,28 @@ enum UnDrawIllustration {
 
   /// Title: Preparation
   /// <br/>
-  /// <img src="https://cdn.undraw.co/illustrations/preparation_3u84.svg" alt="Preparation" width="200"/>
-  preparation('https://cdn.undraw.co/illustrations/preparation_3u84.svg'),
+  /// <img src="https://cdn.undraw.co/illustration/preparation_59f0.svg" alt="Preparation" width="200"/>
+  preparation('https://cdn.undraw.co/illustration/preparation_59f0.svg'),
 
   /// Title: Presentation
   /// <br/>
   /// <img src="https://cdn.undraw.co/illustrations/presentation_qn18.svg" alt="Presentation" width="200"/>
   presentation('https://cdn.undraw.co/illustrations/presentation_qn18.svg'),
 
+  /// Title: Presenting
+  /// <br/>
+  /// <img src="https://cdn.undraw.co/illustration/presenting_pjjk.svg" alt="Presenting" width="200"/>
+  presenting('https://cdn.undraw.co/illustration/presenting_pjjk.svg'),
+
   /// Title: Press play
   /// <br/>
   /// <img src="https://cdn.undraw.co/illustrations/press-play_oqq2.svg" alt="Press play" width="200"/>
   press_play('https://cdn.undraw.co/illustrations/press-play_oqq2.svg'),
+
+  /// Title: Pricing Page
+  /// <br/>
+  /// <img src="https://cdn.undraw.co/illustration/pricing-page_88g4.svg" alt="Pricing Page" width="200"/>
+  pricing_page('https://cdn.undraw.co/illustration/pricing-page_88g4.svg'),
 
   /// Title: Pride
   /// <br/>
@@ -4995,6 +5439,11 @@ enum UnDrawIllustration {
   /// <br/>
   /// <img src="https://cdn.undraw.co/illustration/prioritise_f8db.svg" alt="Prioritise" width="200"/>
   prioritise('https://cdn.undraw.co/illustration/prioritise_f8db.svg'),
+
+  /// Title: Private Files
+  /// <br/>
+  /// <img src="https://cdn.undraw.co/illustration/private-files_m2bw.svg" alt="Private Files" width="200"/>
+  private_files('https://cdn.undraw.co/illustration/private-files_m2bw.svg'),
 
   /// Title: Private data
   /// <br/>
@@ -5014,8 +5463,8 @@ enum UnDrawIllustration {
 
   /// Title: Processing
   /// <br/>
-  /// <img src="https://cdn.undraw.co/illustrations/processing_abt1.svg" alt="Processing" width="200"/>
-  processing('https://cdn.undraw.co/illustrations/processing_abt1.svg'),
+  /// <img src="https://cdn.undraw.co/illustration/processing_bto8.svg" alt="Processing" width="200"/>
+  processing('https://cdn.undraw.co/illustration/processing_bto8.svg'),
 
   /// Title: Processing thoughts
   /// <br/>
@@ -5023,16 +5472,16 @@ enum UnDrawIllustration {
   processing_thoughts(
       'https://cdn.undraw.co/illustrations/processing-thoughts_wakg.svg'),
 
+  /// Title: Product Explainer
+  /// <br/>
+  /// <img src="https://cdn.undraw.co/illustration/product-explainer_b7ft.svg" alt="Product Explainer" width="200"/>
+  product_explainer(
+      'https://cdn.undraw.co/illustration/product-explainer_b7ft.svg'),
+
   /// Title: Product Tour
   /// <br/>
   /// <img src="https://cdn.undraw.co/illustrations/product-tour_msgk.svg" alt="Product Tour" width="200"/>
   product_tour('https://cdn.undraw.co/illustrations/product-tour_msgk.svg'),
-
-  /// Title: Product explainer
-  /// <br/>
-  /// <img src="https://cdn.undraw.co/illustrations/product-explainer_3pbe.svg" alt="Product explainer" width="200"/>
-  product_explainer(
-      'https://cdn.undraw.co/illustrations/product-explainer_3pbe.svg'),
 
   /// Title: Product hunt
   /// <br/>
@@ -5057,6 +5506,12 @@ enum UnDrawIllustration {
   product_teardown(
       'https://cdn.undraw.co/illustrations/product-teardown_w5rb.svg'),
 
+  /// Title: Professional Woman Avatar
+  /// <br/>
+  /// <img src="https://cdn.undraw.co/illustration/professional-woman-avatar_ivds.svg" alt="Professional Woman Avatar" width="200"/>
+  professional_woman_avatar(
+      'https://cdn.undraw.co/illustration/professional-woman-avatar_ivds.svg'),
+
   /// Title: Professional card
   /// <br/>
   /// <img src="https://cdn.undraw.co/illustrations/professional-card_ldgq.svg" alt="Professional card" width="200"/>
@@ -5067,6 +5522,12 @@ enum UnDrawIllustration {
   /// <br/>
   /// <img src="https://cdn.undraw.co/illustration/professor_d7zn.svg" alt="Professor" width="200"/>
   professor('https://cdn.undraw.co/illustration/professor_d7zn.svg'),
+
+  /// Title: Professor Avatar
+  /// <br/>
+  /// <img src="https://cdn.undraw.co/illustration/professor-avatar_y9ai.svg" alt="Professor Avatar" width="200"/>
+  professor_avatar(
+      'https://cdn.undraw.co/illustration/professor-avatar_y9ai.svg'),
 
   /// Title: Profile
   /// <br/>
@@ -5167,10 +5628,15 @@ enum UnDrawIllustration {
   prototyping_process(
       'https://cdn.undraw.co/illustrations/prototyping-process_1thp.svg'),
 
-  /// Title: Proud coder
+  /// Title: Proud Coder
   /// <br/>
-  /// <img src="https://cdn.undraw.co/illustrations/proud-coder_9prj.svg" alt="Proud coder" width="200"/>
-  proud_coder('https://cdn.undraw.co/illustrations/proud-coder_9prj.svg'),
+  /// <img src="https://cdn.undraw.co/illustration/proud-coder_bivp.svg" alt="Proud Coder" width="200"/>
+  proud_coder('https://cdn.undraw.co/illustration/proud-coder_bivp.svg'),
+
+  /// Title: Proud Designer
+  /// <br/>
+  /// <img src="https://cdn.undraw.co/illustration/proud-designer_1rcm.svg" alt="Proud Designer" width="200"/>
+  proud_designer('https://cdn.undraw.co/illustration/proud-designer_1rcm.svg'),
 
   /// Title: Proud self
   /// <br/>
@@ -5191,8 +5657,8 @@ enum UnDrawIllustration {
 
   /// Title: Publish post
   /// <br/>
-  /// <img src="https://cdn.undraw.co/illustrations/publish-post_q66a.svg" alt="Publish post" width="200"/>
-  publish_post('https://cdn.undraw.co/illustrations/publish-post_q66a.svg'),
+  /// <img src="https://cdn.undraw.co/illustration/publish-post_7g2z.svg" alt="Publish post" width="200"/>
+  publish_post('https://cdn.undraw.co/illustration/publish-post_7g2z.svg'),
 
   /// Title: Pull request
   /// <br/>
@@ -5211,9 +5677,9 @@ enum UnDrawIllustration {
 
   /// Title: Push notifications
   /// <br/>
-  /// <img src="https://cdn.undraw.co/illustrations/push-notifications_fsak.svg" alt="Push notifications" width="200"/>
+  /// <img src="https://cdn.undraw.co/illustration/push-notifications_5z1s.svg" alt="Push notifications" width="200"/>
   push_notifications(
-      'https://cdn.undraw.co/illustrations/push-notifications_fsak.svg'),
+      'https://cdn.undraw.co/illustration/push-notifications_5z1s.svg'),
 
   /// Title: QA engineers
   /// <br/>
@@ -5281,6 +5747,11 @@ enum UnDrawIllustration {
   /// <img src="https://cdn.undraw.co/illustrations/reading_c1xl.svg" alt="Reading" width="200"/>
   reading('https://cdn.undraw.co/illustrations/reading_c1xl.svg'),
 
+  /// Title: Reading A Book
+  /// <br/>
+  /// <img src="https://cdn.undraw.co/illustration/reading-a-book_4cap.svg" alt="Reading A Book" width="200"/>
+  reading_a_book('https://cdn.undraw.co/illustration/reading-a-book_4cap.svg'),
+
   /// Title: Reading book
   /// <br/>
   /// <img src="https://cdn.undraw.co/illustrations/reading-book_qe4h.svg" alt="Reading book" width="200"/>
@@ -5309,9 +5780,9 @@ enum UnDrawIllustration {
 
   /// Title: Real time analytics
   /// <br/>
-  /// <img src="https://cdn.undraw.co/illustrations/real-time-analytics_xu2g.svg" alt="Real time analytics" width="200"/>
+  /// <img src="https://cdn.undraw.co/illustration/real-time-analytics_50za.svg" alt="Real time analytics" width="200"/>
   real_time_analytics(
-      'https://cdn.undraw.co/illustrations/real-time-analytics_xu2g.svg'),
+      'https://cdn.undraw.co/illustration/real-time-analytics_50za.svg'),
 
   /// Title: Real time collaboration
   /// <br/>
@@ -5331,8 +5802,8 @@ enum UnDrawIllustration {
 
   /// Title: Recording
   /// <br/>
-  /// <img src="https://cdn.undraw.co/illustrations/recording_8k4x.svg" alt="Recording" width="200"/>
-  recording('https://cdn.undraw.co/illustrations/recording_8k4x.svg'),
+  /// <img src="https://cdn.undraw.co/illustration/recording_1q6x.svg" alt="Recording" width="200"/>
+  recording('https://cdn.undraw.co/illustration/recording_1q6x.svg'),
 
   /// Title: Redesign feedback
   /// <br/>
@@ -5356,6 +5827,11 @@ enum UnDrawIllustration {
   refreshing_beverage(
       'https://cdn.undraw.co/illustrations/refreshing-beverage_w8al.svg'),
 
+  /// Title: Refreshment Break
+  /// <br/>
+  /// <img src="https://cdn.undraw.co/illustration/cool-break_cipj.svg" alt="Refreshment Break" width="200"/>
+  refreshment_break('https://cdn.undraw.co/illustration/cool-break_cipj.svg'),
+
   /// Title: Regain focus
   /// <br/>
   /// <img src="https://cdn.undraw.co/illustrations/regain-focus_iayd.svg" alt="Regain focus" width="200"/>
@@ -5366,10 +5842,15 @@ enum UnDrawIllustration {
   /// <img src="https://cdn.undraw.co/illustrations/relaunch-day_k3qo.svg" alt="Relaunch day" width="200"/>
   relaunch_day('https://cdn.undraw.co/illustrations/relaunch-day_k3qo.svg'),
 
+  /// Title: Relax mode
+  /// <br/>
+  /// <img src="https://cdn.undraw.co/illustration/relax-mode_6i13.svg" alt="Relax mode" width="200"/>
+  relax_mode('https://cdn.undraw.co/illustration/relax-mode_6i13.svg'),
+
   /// Title: Relaxation
   /// <br/>
-  /// <img src="https://cdn.undraw.co/illustrations/relaxation_ies6.svg" alt="Relaxation" width="200"/>
-  relaxation('https://cdn.undraw.co/illustrations/relaxation_ies6.svg'),
+  /// <img src="https://cdn.undraw.co/illustration/relaxation_jsge.svg" alt="Relaxation" width="200"/>
+  relaxation('https://cdn.undraw.co/illustration/relaxation_jsge.svg'),
 
   /// Title: Relaxed reading
   /// <br/>
@@ -5379,9 +5860,9 @@ enum UnDrawIllustration {
 
   /// Title: Relaxing at home
   /// <br/>
-  /// <img src="https://cdn.undraw.co/illustrations/relaxing-at-home_vmps.svg" alt="Relaxing at home" width="200"/>
+  /// <img src="https://cdn.undraw.co/illustration/relaxing-at-home_qta9.svg" alt="Relaxing at home" width="200"/>
   relaxing_at_home(
-      'https://cdn.undraw.co/illustrations/relaxing-at-home_vmps.svg'),
+      'https://cdn.undraw.co/illustration/relaxing-at-home_qta9.svg'),
 
   /// Title: Relaxing walk
   /// <br/>
@@ -5390,13 +5871,18 @@ enum UnDrawIllustration {
 
   /// Title: Reminder
   /// <br/>
-  /// <img src="https://cdn.undraw.co/illustrations/reminder_o9nl.svg" alt="Reminder" width="200"/>
-  reminder('https://cdn.undraw.co/illustrations/reminder_o9nl.svg'),
+  /// <img src="https://cdn.undraw.co/illustration/reminder_ustg.svg" alt="Reminder" width="200"/>
+  reminder('https://cdn.undraw.co/illustration/reminder_ustg.svg'),
 
   /// Title: Reminders
   /// <br/>
   /// <img src="https://cdn.undraw.co/illustrations/reminders_ll1x.svg" alt="Reminders" width="200"/>
   reminders('https://cdn.undraw.co/illustrations/reminders_ll1x.svg'),
+
+  /// Title: Remote Worker
+  /// <br/>
+  /// <img src="https://cdn.undraw.co/illustration/remote-worker_0l91.svg" alt="Remote Worker" width="200"/>
+  remote_worker('https://cdn.undraw.co/illustration/remote-worker_0l91.svg'),
 
   /// Title: Remote design team
   /// <br/>
@@ -5421,8 +5907,8 @@ enum UnDrawIllustration {
 
   /// Title: Report
   /// <br/>
-  /// <img src="https://cdn.undraw.co/illustrations/report_esij.svg" alt="Report" width="200"/>
-  report('https://cdn.undraw.co/illustrations/report_esij.svg'),
+  /// <img src="https://cdn.undraw.co/illustration/report_k55w.svg" alt="Report" width="200"/>
+  report('https://cdn.undraw.co/illustration/report_k55w.svg'),
 
   /// Title: Researching
   /// <br/>
@@ -5431,8 +5917,8 @@ enum UnDrawIllustration {
 
   /// Title: Respond
   /// <br/>
-  /// <img src="https://cdn.undraw.co/illustrations/respond_u45v.svg" alt="Respond" width="200"/>
-  respond('https://cdn.undraw.co/illustrations/respond_u45v.svg'),
+  /// <img src="https://cdn.undraw.co/illustration/respond_o54z.svg" alt="Respond" width="200"/>
+  respond('https://cdn.undraw.co/illustration/respond_o54z.svg'),
 
   /// Title: Responsive
   /// <br/>
@@ -5459,15 +5945,16 @@ enum UnDrawIllustration {
   /// <img src="https://cdn.undraw.co/illustrations/resume-folder_hf4p.svg" alt="Resume folder" width="200"/>
   resume_folder('https://cdn.undraw.co/illustrations/resume-folder_hf4p.svg'),
 
+  /// Title: Retro Video Game
+  /// <br/>
+  /// <img src="https://cdn.undraw.co/illustration/retro-video-game_l9zp.svg" alt="Retro Video Game" width="200"/>
+  retro_video_game(
+      'https://cdn.undraw.co/illustration/retro-video-game_l9zp.svg'),
+
   /// Title: Revenue
   /// <br/>
   /// <img src="https://cdn.undraw.co/illustrations/revenue_kv38.svg" alt="Revenue" width="200"/>
   revenue('https://cdn.undraw.co/illustrations/revenue_kv38.svg'),
-
-  /// Title: Review
-  /// <br/>
-  /// <img src="https://cdn.undraw.co/illustrations/review_ofim.svg" alt="Review" width="200"/>
-  review('https://cdn.undraw.co/illustrations/review_ofim.svg'),
 
   /// Title: Reviewed docs
   /// <br/>
@@ -5559,6 +6046,11 @@ enum UnDrawIllustration {
   save_to_bookmarks(
       'https://cdn.undraw.co/illustrations/save-to-bookmarks_9o51.svg'),
 
+  /// Title: Saving Notes
+  /// <br/>
+  /// <img src="https://cdn.undraw.co/illustration/saving-notes_wp71.svg" alt="Saving Notes" width="200"/>
+  saving_notes('https://cdn.undraw.co/illustration/saving-notes_wp71.svg'),
+
   /// Title: Savings
   /// <br/>
   /// <img src="https://cdn.undraw.co/illustrations/savings_uwjn.svg" alt="Savings" width="200"/>
@@ -5566,8 +6058,8 @@ enum UnDrawIllustration {
 
   /// Title: Schedule
   /// <br/>
-  /// <img src="https://cdn.undraw.co/illustrations/schedule_6t8k.svg" alt="Schedule" width="200"/>
-  schedule('https://cdn.undraw.co/illustrations/schedule_6t8k.svg'),
+  /// <img src="https://cdn.undraw.co/illustration/schedule_ry1w.svg" alt="Schedule" width="200"/>
+  schedule('https://cdn.undraw.co/illustration/schedule_ry1w.svg'),
 
   /// Title: Schedule meeting
   /// <br/>
@@ -5587,13 +6079,19 @@ enum UnDrawIllustration {
 
   /// Title: Scooter
   /// <br/>
-  /// <img src="https://cdn.undraw.co/illustrations/scooter_fj6g.svg" alt="Scooter" width="200"/>
-  scooter('https://cdn.undraw.co/illustrations/scooter_fj6g.svg'),
+  /// <img src="https://cdn.undraw.co/illustration/scooter_izdb.svg" alt="Scooter" width="200"/>
+  scooter('https://cdn.undraw.co/illustration/scooter_izdb.svg'),
 
-  /// Title: Screen time
+  /// Title: Screen Time
   /// <br/>
-  /// <img src="https://cdn.undraw.co/illustrations/screen-time_ys34.svg" alt="Screen time" width="200"/>
-  screen_time('https://cdn.undraw.co/illustrations/screen-time_ys34.svg'),
+  /// <img src="https://cdn.undraw.co/illustration/screen-time_f7ev.svg" alt="Screen Time" width="200"/>
+  screen_time('https://cdn.undraw.co/illustration/screen-time_f7ev.svg'),
+
+  /// Title: Screening Resumes
+  /// <br/>
+  /// <img src="https://cdn.undraw.co/illustration/screening-resumes_dh9s.svg" alt="Screening Resumes" width="200"/>
+  screening_resumes(
+      'https://cdn.undraw.co/illustration/screening-resumes_dh9s.svg'),
 
   /// Title: Scrum board
   /// <br/>
@@ -5630,10 +6128,11 @@ enum UnDrawIllustration {
   /// <img src="https://cdn.undraw.co/illustrations/season-change_ohe6.svg" alt="Season change" width="200"/>
   season_change('https://cdn.undraw.co/illustrations/season-change_ohe6.svg'),
 
-  /// Title: Secure files
+  /// Title: Secure Password
   /// <br/>
-  /// <img src="https://cdn.undraw.co/illustrations/secure-files_32ll.svg" alt="Secure files" width="200"/>
-  secure_files('https://cdn.undraw.co/illustrations/secure-files_32ll.svg'),
+  /// <img src="https://cdn.undraw.co/illustration/secure-password_9qv4.svg" alt="Secure Password" width="200"/>
+  secure_password(
+      'https://cdn.undraw.co/illustration/secure-password_9qv4.svg'),
 
   /// Title: Secure login
   /// <br/>
@@ -5650,10 +6149,10 @@ enum UnDrawIllustration {
   /// <img src="https://cdn.undraw.co/illustrations/security_0ubl.svg" alt="Security" width="200"/>
   security('https://cdn.undraw.co/illustrations/security_0ubl.svg'),
 
-  /// Title: Security on
+  /// Title: Security On
   /// <br/>
-  /// <img src="https://cdn.undraw.co/illustrations/security-on_btwg.svg" alt="Security on" width="200"/>
-  security_on('https://cdn.undraw.co/illustrations/security-on_btwg.svg'),
+  /// <img src="https://cdn.undraw.co/illustration/security-on_3ykb.svg" alt="Security On" width="200"/>
+  security_on('https://cdn.undraw.co/illustration/security-on_3ykb.svg'),
 
   /// Title: Segment
   /// <br/>
@@ -5662,9 +6161,9 @@ enum UnDrawIllustration {
 
   /// Title: Segment analysis
   /// <br/>
-  /// <img src="https://cdn.undraw.co/illustrations/segment-analysis_9ak0.svg" alt="Segment analysis" width="200"/>
+  /// <img src="https://cdn.undraw.co/illustration/segment-analysis_cl30.svg" alt="Segment analysis" width="200"/>
   segment_analysis(
-      'https://cdn.undraw.co/illustrations/segment-analysis_9ak0.svg'),
+      'https://cdn.undraw.co/illustration/segment-analysis_cl30.svg'),
 
   /// Title: Segmentation
   /// <br/>
@@ -5727,39 +6226,39 @@ enum UnDrawIllustration {
 
   /// Title: Selection
   /// <br/>
-  /// <img src="https://cdn.undraw.co/illustrations/selection_syqj.svg" alt="Selection" width="200"/>
-  selection('https://cdn.undraw.co/illustrations/selection_syqj.svg'),
-
-  /// Title: Selection_var
-  /// <br/>
-  /// <img src="https://cdn.undraw.co/illustrations/selection_7hy6.svg" alt="Selection_var" width="200"/>
-  selection_var('https://cdn.undraw.co/illustrations/selection_7hy6.svg'),
+  /// <img src="https://cdn.undraw.co/illustrations/selection_7hy6.svg" alt="Selection" width="200"/>
+  selection('https://cdn.undraw.co/illustrations/selection_7hy6.svg'),
 
   /// Title: Selfie
   /// <br/>
   /// <img src="https://cdn.undraw.co/illustration/selfie_1xk7.svg" alt="Selfie" width="200"/>
   selfie('https://cdn.undraw.co/illustration/selfie_1xk7.svg'),
 
-  /// Title: Selfie time
+  /// Title: Selfie Fun
   /// <br/>
-  /// <img src="https://cdn.undraw.co/illustrations/selfie-time_ba2h.svg" alt="Selfie time" width="200"/>
-  selfie_time('https://cdn.undraw.co/illustrations/selfie-time_ba2h.svg'),
+  /// <img src="https://cdn.undraw.co/illustration/selfie-fun_0qzh.svg" alt="Selfie Fun" width="200"/>
+  selfie_fun('https://cdn.undraw.co/illustration/selfie-fun_0qzh.svg'),
 
   /// Title: Send gift
   /// <br/>
   /// <img src="https://cdn.undraw.co/illustrations/send-gift_jl1z.svg" alt="Send gift" width="200"/>
   send_gift('https://cdn.undraw.co/illustrations/send-gift_jl1z.svg'),
 
-  /// Title: Sentiment analysis
+  /// Title: Sentiment Analysis
   /// <br/>
-  /// <img src="https://cdn.undraw.co/illustrations/sentiment-analysis_ulaf.svg" alt="Sentiment analysis" width="200"/>
+  /// <img src="https://cdn.undraw.co/illustration/sentiment-analysis_rke9.svg" alt="Sentiment Analysis" width="200"/>
   sentiment_analysis(
-      'https://cdn.undraw.co/illustrations/sentiment-analysis_ulaf.svg'),
+      'https://cdn.undraw.co/illustration/sentiment-analysis_rke9.svg'),
 
   /// Title: Server
   /// <br/>
   /// <img src="https://cdn.undraw.co/illustrations/server_9eix.svg" alt="Server" width="200"/>
   server('https://cdn.undraw.co/illustrations/server_9eix.svg'),
+
+  /// Title: Server Error
+  /// <br/>
+  /// <img src="https://cdn.undraw.co/illustration/server-error_syuz.svg" alt="Server Error" width="200"/>
+  server_error('https://cdn.undraw.co/illustration/server-error_syuz.svg'),
 
   /// Title: Server cluster
   /// <br/>
@@ -5794,13 +6293,8 @@ enum UnDrawIllustration {
 
   /// Title: Settings
   /// <br/>
-  /// <img src="https://cdn.undraw.co/illustrations/settings_hig4.svg" alt="Settings" width="200"/>
-  settings('https://cdn.undraw.co/illustrations/settings_hig4.svg'),
-
-  /// Title: Settings tab
-  /// <br/>
-  /// <img src="https://cdn.undraw.co/illustrations/settings-tab_cq4z.svg" alt="Settings tab" width="200"/>
-  settings_tab('https://cdn.undraw.co/illustrations/settings-tab_cq4z.svg'),
+  /// <img src="https://cdn.undraw.co/illustration/settings_2quf.svg" alt="Settings" width="200"/>
+  settings('https://cdn.undraw.co/illustration/settings_2quf.svg'),
 
   /// Title: Setup
   /// <br/>
@@ -5823,10 +6317,10 @@ enum UnDrawIllustration {
   /// <img src="https://cdn.undraw.co/illustrations/share_1zw4.svg" alt="Share" width="200"/>
   share('https://cdn.undraw.co/illustrations/share_1zw4.svg'),
 
-  /// Title: Share link
+  /// Title: Share Link
   /// <br/>
-  /// <img src="https://cdn.undraw.co/illustrations/share-link_jr6w.svg" alt="Share link" width="200"/>
-  share_link('https://cdn.undraw.co/illustrations/share-link_jr6w.svg'),
+  /// <img src="https://cdn.undraw.co/illustration/share-link_y9oh.svg" alt="Share Link" width="200"/>
+  share_link('https://cdn.undraw.co/illustration/share-link_y9oh.svg'),
 
   /// Title: Share online
   /// <br/>
@@ -5861,6 +6355,11 @@ enum UnDrawIllustration {
   sharing_knowledge(
       'https://cdn.undraw.co/illustrations/sharing-knowledge_pu0e.svg'),
 
+  /// Title: Ship it
+  /// <br/>
+  /// <img src="https://cdn.undraw.co/illustration/ship-it_vn4g.svg" alt="Ship it" width="200"/>
+  ship_it('https://cdn.undraw.co/illustration/ship-it_vn4g.svg'),
+
   /// Title: Shopping
   /// <br/>
   /// <img src="https://cdn.undraw.co/illustrations/shopping_a55o.svg" alt="Shopping" width="200"/>
@@ -5870,6 +6369,11 @@ enum UnDrawIllustration {
   /// <br/>
   /// <img src="https://cdn.undraw.co/illustrations/shopping-bags_nfsf.svg" alt="Shopping Bags" width="200"/>
   shopping_bags('https://cdn.undraw.co/illustrations/shopping-bags_nfsf.svg'),
+
+  /// Title: Shopping Spree
+  /// <br/>
+  /// <img src="https://cdn.undraw.co/illustration/shopping-spree_h07u.svg" alt="Shopping Spree" width="200"/>
+  shopping_spree('https://cdn.undraw.co/illustration/shopping-spree_h07u.svg'),
 
   /// Title: Shopping app
   /// <br/>
@@ -5889,24 +6393,18 @@ enum UnDrawIllustration {
 
   /// Title: Sign Up
   /// <br/>
-  /// <img src="https://cdn.undraw.co/illustrations/sign-up_z2ku.svg" alt="Sign Up" width="200"/>
-  sign_up('https://cdn.undraw.co/illustrations/sign-up_z2ku.svg'),
+  /// <img src="https://cdn.undraw.co/illustrations/sign-up_qamz.svg" alt="Sign Up" width="200"/>
+  sign_up('https://cdn.undraw.co/illustrations/sign-up_qamz.svg'),
 
   /// Title: Sign Up_var
   /// <br/>
-  /// <img src="https://cdn.undraw.co/illustrations/sign-up_qamz.svg" alt="Sign Up_var" width="200"/>
-  sign_up_var('https://cdn.undraw.co/illustrations/sign-up_qamz.svg'),
+  /// <img src="https://cdn.undraw.co/illustrations/sign-up_z2ku.svg" alt="Sign Up_var" width="200"/>
+  sign_up_var('https://cdn.undraw.co/illustrations/sign-up_z2ku.svg'),
 
   /// Title: Sign in
   /// <br/>
   /// <img src="https://cdn.undraw.co/illustrations/sign-in_uva0.svg" alt="Sign in" width="200"/>
   sign_in('https://cdn.undraw.co/illustrations/sign-in_uva0.svg'),
-
-  /// Title: Signal searching
-  /// <br/>
-  /// <img src="https://cdn.undraw.co/illustrations/signal-searching_yod3.svg" alt="Signal searching" width="200"/>
-  signal_searching(
-      'https://cdn.undraw.co/illustrations/signal-searching_yod3.svg'),
 
   /// Title: Site content
   /// <br/>
@@ -5920,13 +6418,13 @@ enum UnDrawIllustration {
 
   /// Title: Skateboard
   /// <br/>
-  /// <img src="https://cdn.undraw.co/illustrations/skateboard_8psl.svg" alt="Skateboard" width="200"/>
-  skateboard('https://cdn.undraw.co/illustrations/skateboard_8psl.svg'),
+  /// <img src="https://cdn.undraw.co/illustration/skateboard_w3bz.svg" alt="Skateboard" width="200"/>
+  skateboard('https://cdn.undraw.co/illustration/skateboard_w3bz.svg'),
 
   /// Title: Skateboarding
   /// <br/>
-  /// <img src="https://cdn.undraw.co/illustrations/skateboarding_4naf.svg" alt="Skateboarding" width="200"/>
-  skateboarding('https://cdn.undraw.co/illustrations/skateboarding_4naf.svg'),
+  /// <img src="https://cdn.undraw.co/illustration/skateboarding_i2pz.svg" alt="Skateboarding" width="200"/>
+  skateboarding('https://cdn.undraw.co/illustration/skateboarding_i2pz.svg'),
 
   /// Title: Slider
   /// <br/>
@@ -5953,10 +6451,10 @@ enum UnDrawIllustration {
   /// <img src="https://cdn.undraw.co/illustrations/smartphone_9zbj.svg" alt="Smartphone" width="200"/>
   smartphone('https://cdn.undraw.co/illustrations/smartphone_9zbj.svg'),
 
-  /// Title: Smartwatch
+  /// Title: Smartwatch Map
   /// <br/>
-  /// <img src="https://cdn.undraw.co/illustrations/smartwatch_ypa5.svg" alt="Smartwatch" width="200"/>
-  smartwatch('https://cdn.undraw.co/illustrations/smartwatch_ypa5.svg'),
+  /// <img src="https://cdn.undraw.co/illustration/smartwatch-map_3u18.svg" alt="Smartwatch Map" width="200"/>
+  smartwatch_map('https://cdn.undraw.co/illustration/smartwatch-map_3u18.svg'),
 
   /// Title: Smiley face
   /// <br/>
@@ -5989,6 +6487,17 @@ enum UnDrawIllustration {
   /// <img src="https://cdn.undraw.co/illustrations/snowman_m7tp.svg" alt="Snowman" width="200"/>
   snowman('https://cdn.undraw.co/illustrations/snowman_m7tp.svg'),
 
+  /// Title: Social Friends
+  /// <br/>
+  /// <img src="https://cdn.undraw.co/illustration/social-friends_mt6k.svg" alt="Social Friends" width="200"/>
+  social_friends('https://cdn.undraw.co/illustration/social-friends_mt6k.svg'),
+
+  /// Title: Social Notifications
+  /// <br/>
+  /// <img src="https://cdn.undraw.co/illustration/social-notifications_zahe.svg" alt="Social Notifications" width="200"/>
+  social_notifications(
+      'https://cdn.undraw.co/illustration/social-notifications_zahe.svg'),
+
   /// Title: Social Post
   /// <br/>
   /// <img src="https://cdn.undraw.co/illustrations/social-post_31m1.svg" alt="Social Post" width="200"/>
@@ -6015,11 +6524,6 @@ enum UnDrawIllustration {
   /// <br/>
   /// <img src="https://cdn.undraw.co/illustrations/social-expert_wfam.svg" alt="Social expert" width="200"/>
   social_expert('https://cdn.undraw.co/illustrations/social-expert_wfam.svg'),
-
-  /// Title: Social friends
-  /// <br/>
-  /// <img src="https://cdn.undraw.co/illustrations/social-friends_b0ay.svg" alt="Social friends" width="200"/>
-  social_friends('https://cdn.undraw.co/illustrations/social-friends_b0ay.svg'),
 
   /// Title: Social girl
   /// <br/>
@@ -6063,12 +6567,6 @@ enum UnDrawIllustration {
   /// <img src="https://cdn.undraw.co/illustrations/social-networking_v4z1.svg" alt="Social networking" width="200"/>
   social_networking(
       'https://cdn.undraw.co/illustrations/social-networking_v4z1.svg'),
-
-  /// Title: Social notifications
-  /// <br/>
-  /// <img src="https://cdn.undraw.co/illustrations/social-notifications_mzoe.svg" alt="Social notifications" width="200"/>
-  social_notifications(
-      'https://cdn.undraw.co/illustrations/social-notifications_mzoe.svg'),
 
   /// Title: Social serenity
   /// <br/>
@@ -6136,6 +6634,12 @@ enum UnDrawIllustration {
   /// <img src="https://cdn.undraw.co/illustrations/source-code_m0vh.svg" alt="Source code" width="200"/>
   source_code('https://cdn.undraw.co/illustrations/source-code_m0vh.svg'),
 
+  /// Title: Space Exploration
+  /// <br/>
+  /// <img src="https://cdn.undraw.co/illustration/space-exploration_dhu1.svg" alt="Space Exploration" width="200"/>
+  space_exploration(
+      'https://cdn.undraw.co/illustration/space-exploration_dhu1.svg'),
+
   /// Title: Special event
   /// <br/>
   /// <img src="https://cdn.undraw.co/illustrations/special-event_hv54.svg" alt="Special event" width="200"/>
@@ -6173,8 +6677,8 @@ enum UnDrawIllustration {
 
   /// Title: Spreadsheet
   /// <br/>
-  /// <img src="https://cdn.undraw.co/illustrations/spreadsheet_g2tr.svg" alt="Spreadsheet" width="200"/>
-  spreadsheet('https://cdn.undraw.co/illustrations/spreadsheet_g2tr.svg'),
+  /// <img src="https://cdn.undraw.co/illustration/spreadsheet_uj8z.svg" alt="Spreadsheet" width="200"/>
+  spreadsheet('https://cdn.undraw.co/illustration/spreadsheet_uj8z.svg'),
 
   /// Title: Spreadsheets
   /// <br/>
@@ -6203,13 +6707,18 @@ enum UnDrawIllustration {
 
   /// Title: Stars
   /// <br/>
-  /// <img src="https://cdn.undraw.co/illustrations/stars_e9bi.svg" alt="Stars" width="200"/>
-  stars('https://cdn.undraw.co/illustrations/stars_e9bi.svg'),
+  /// <img src="https://cdn.undraw.co/illustration/stars_5pgw.svg" alt="Stars" width="200"/>
+  stars('https://cdn.undraw.co/illustration/stars_5pgw.svg'),
 
   /// Title: Start building
   /// <br/>
   /// <img src="https://cdn.undraw.co/illustrations/start-building_7gui.svg" alt="Start building" width="200"/>
   start_building('https://cdn.undraw.co/illustrations/start-building_7gui.svg'),
+
+  /// Title: Starting Work
+  /// <br/>
+  /// <img src="https://cdn.undraw.co/illustration/starting-work_ifnt.svg" alt="Starting Work" width="200"/>
+  starting_work('https://cdn.undraw.co/illustration/starting-work_ifnt.svg'),
 
   /// Title: Startled
   /// <br/>
@@ -6270,8 +6779,8 @@ enum UnDrawIllustration {
 
   /// Title: Stock prices
   /// <br/>
-  /// <img src="https://cdn.undraw.co/illustrations/stock-prices_16kd.svg" alt="Stock prices" width="200"/>
-  stock_prices('https://cdn.undraw.co/illustrations/stock-prices_16kd.svg'),
+  /// <img src="https://cdn.undraw.co/illustration/stock-prices_8nuz.svg" alt="Stock prices" width="200"/>
+  stock_prices('https://cdn.undraw.co/illustration/stock-prices_8nuz.svg'),
 
   /// Title: Stranded traveler
   /// <br/>
@@ -6286,9 +6795,9 @@ enum UnDrawIllustration {
 
   /// Title: Stripe payments
   /// <br/>
-  /// <img src="https://cdn.undraw.co/illustrations/stripe-payments_g8qn.svg" alt="Stripe payments" width="200"/>
+  /// <img src="https://cdn.undraw.co/illustration/stripe-payments_jxnn.svg" alt="Stripe payments" width="200"/>
   stripe_payments(
-      'https://cdn.undraw.co/illustrations/stripe-payments_g8qn.svg'),
+      'https://cdn.undraw.co/illustration/stripe-payments_jxnn.svg'),
 
   /// Title: Studying
   /// <br/>
@@ -6320,11 +6829,16 @@ enum UnDrawIllustration {
   /// <img src="https://cdn.undraw.co/illustrations/subway_66jh.svg" alt="Subway" width="200"/>
   subway('https://cdn.undraw.co/illustrations/subway_66jh.svg'),
 
+  /// Title: Success
+  /// <br/>
+  /// <img src="https://cdn.undraw.co/illustration/success_288d.svg" alt="Success" width="200"/>
+  success('https://cdn.undraw.co/illustration/success_288d.svg'),
+
   /// Title: Success factors
   /// <br/>
-  /// <img src="https://cdn.undraw.co/illustrations/success-factors_3eki.svg" alt="Success factors" width="200"/>
+  /// <img src="https://cdn.undraw.co/illustration/success-factors_i417.svg" alt="Success factors" width="200"/>
   success_factors(
-      'https://cdn.undraw.co/illustrations/success-factors_3eki.svg'),
+      'https://cdn.undraw.co/illustration/success-factors_i417.svg'),
 
   /// Title: Successful purchase
   /// <br/>
@@ -6372,11 +6886,6 @@ enum UnDrawIllustration {
   /// <br/>
   /// <img src="https://cdn.undraw.co/illustrations/surveillance_k6wl.svg" alt="Surveillance" width="200"/>
   surveillance('https://cdn.undraw.co/illustrations/surveillance_k6wl.svg'),
-
-  /// Title: Survey
-  /// <br/>
-  /// <img src="https://cdn.undraw.co/illustrations/survey_3gfo.svg" alt="Survey" width="200"/>
-  survey('https://cdn.undraw.co/illustrations/survey_3gfo.svg'),
 
   /// Title: Sweet home
   /// <br/>
@@ -6448,25 +6957,33 @@ enum UnDrawIllustration {
   /// <img src="https://cdn.undraw.co/illustrations/taking-photo_s23u.svg" alt="Taking Photo" width="200"/>
   taking_photo('https://cdn.undraw.co/illustrations/taking-photo_s23u.svg'),
 
-  /// Title: Taking notes
+  /// Title: Taking Selfie
   /// <br/>
-  /// <img src="https://cdn.undraw.co/illustrations/taking-notes_4si1.svg" alt="Taking notes" width="200"/>
-  taking_notes('https://cdn.undraw.co/illustrations/taking-notes_4si1.svg'),
+  /// <img src="https://cdn.undraw.co/illustration/taking-selfie_swcs.svg" alt="Taking Selfie" width="200"/>
+  taking_selfie_swcs(
+      'https://cdn.undraw.co/illustration/taking-selfie_swcs.svg'),
 
   /// Title: Taking selfie
   /// <br/>
   /// <img src="https://cdn.undraw.co/illustrations/taking-selfie_2b1d.svg" alt="Taking selfie" width="200"/>
-  taking_selfie('https://cdn.undraw.co/illustrations/taking-selfie_2b1d.svg'),
+  taking_selfie_2b1d(
+      'https://cdn.undraw.co/illustrations/taking-selfie_2b1d.svg'),
+
+  /// Title: Talking On The Phone
+  /// <br/>
+  /// <img src="https://cdn.undraw.co/illustration/talking-on-the-phone_lc9v.svg" alt="Talking On The Phone" width="200"/>
+  talking_on_the_phone(
+      'https://cdn.undraw.co/illustration/talking-on-the-phone_lc9v.svg'),
 
   /// Title: Target
   /// <br/>
   /// <img src="https://cdn.undraw.co/illustrations/target_d6hf.svg" alt="Target" width="200"/>
   target('https://cdn.undraw.co/illustrations/target_d6hf.svg'),
 
-  /// Title: Task
+  /// Title: Task Brief
   /// <br/>
-  /// <img src="https://cdn.undraw.co/illustrations/task_x8ko.svg" alt="Task" width="200"/>
-  task('https://cdn.undraw.co/illustrations/task_x8ko.svg'),
+  /// <img src="https://cdn.undraw.co/illustration/task-brief_esbq.svg" alt="Task Brief" width="200"/>
+  task_brief('https://cdn.undraw.co/illustration/task-brief_esbq.svg'),
 
   /// Title: Task list
   /// <br/>
@@ -6556,13 +7073,18 @@ enum UnDrawIllustration {
 
   /// Title: Terms
   /// <br/>
-  /// <img src="https://cdn.undraw.co/illustrations/terms_7l7t.svg" alt="Terms" width="200"/>
-  terms('https://cdn.undraw.co/illustrations/terms_7l7t.svg'),
+  /// <img src="https://cdn.undraw.co/illustration/terms_sx63.svg" alt="Terms" width="200"/>
+  terms('https://cdn.undraw.co/illustration/terms_sx63.svg'),
 
   /// Title: Testimonials
   /// <br/>
   /// <img src="https://cdn.undraw.co/illustration/testimonials_4c7y.svg" alt="Testimonials" width="200"/>
   testimonials('https://cdn.undraw.co/illustration/testimonials_4c7y.svg'),
+
+  /// Title: Text Messages
+  /// <br/>
+  /// <img src="https://cdn.undraw.co/illustration/text-messages_978a.svg" alt="Text Messages" width="200"/>
+  text_messages('https://cdn.undraw.co/illustration/text-messages_978a.svg'),
 
   /// Title: Text field
   /// <br/>
@@ -6645,6 +7167,11 @@ enum UnDrawIllustration {
   /// <img src="https://cdn.undraw.co/illustrations/timeline_2gfy.svg" alt="Timeline" width="200"/>
   timeline('https://cdn.undraw.co/illustrations/timeline_2gfy.svg'),
 
+  /// Title: To Do List
+  /// <br/>
+  /// <img src="https://cdn.undraw.co/illustration/to-do-list_eoia.svg" alt="To Do List" width="200"/>
+  to_do_list_eoia('https://cdn.undraw.co/illustration/to-do-list_eoia.svg'),
+
   /// Title: To do
   /// <br/>
   /// <img src="https://cdn.undraw.co/illustrations/to-do_06xe.svg" alt="To do" width="200"/>
@@ -6652,13 +7179,13 @@ enum UnDrawIllustration {
 
   /// Title: To do list
   /// <br/>
-  /// <img src="https://cdn.undraw.co/illustrations/to-do-list_dzdz.svg" alt="To do list" width="200"/>
-  to_do_list('https://cdn.undraw.co/illustrations/to-do-list_dzdz.svg'),
+  /// <img src="https://cdn.undraw.co/illustration/to-do-list_o3jf.svg" alt="To do list" width="200"/>
+  to_do_list_o3jf('https://cdn.undraw.co/illustration/to-do-list_o3jf.svg'),
 
   /// Title: To the moon
   /// <br/>
-  /// <img src="https://cdn.undraw.co/illustrations/to-the-moon_crmw.svg" alt="To the moon" width="200"/>
-  to_the_moon('https://cdn.undraw.co/illustrations/to-the-moon_crmw.svg'),
+  /// <img src="https://cdn.undraw.co/illustration/to-the-moon_w1wa.svg" alt="To the moon" width="200"/>
+  to_the_moon('https://cdn.undraw.co/illustration/to-the-moon_w1wa.svg'),
 
   /// Title: To the stars
   /// <br/>
@@ -6670,6 +7197,11 @@ enum UnDrawIllustration {
   /// <img src="https://cdn.undraw.co/illustrations/together_s27q.svg" alt="Together" width="200"/>
   together('https://cdn.undraw.co/illustrations/together_s27q.svg'),
 
+  /// Title: Touching grass
+  /// <br/>
+  /// <img src="https://cdn.undraw.co/illustration/touching-grass_6v3i.svg" alt="Touching grass" width="200"/>
+  touching_grass('https://cdn.undraw.co/illustration/touching-grass_6v3i.svg'),
+
   /// Title: Tourist map
   /// <br/>
   /// <img src="https://cdn.undraw.co/illustrations/tourist-map_bczs.svg" alt="Tourist map" width="200"/>
@@ -6677,8 +7209,8 @@ enum UnDrawIllustration {
 
   /// Title: Towing
   /// <br/>
-  /// <img src="https://cdn.undraw.co/illustrations/towing_0i8l.svg" alt="Towing" width="200"/>
-  towing('https://cdn.undraw.co/illustrations/towing_0i8l.svg'),
+  /// <img src="https://cdn.undraw.co/illustration/towing_e407.svg" alt="Towing" width="200"/>
+  towing('https://cdn.undraw.co/illustration/towing_e407.svg'),
 
   /// Title: Town
   /// <br/>
@@ -6729,8 +7261,8 @@ enum UnDrawIllustration {
 
   /// Title: Travelers
   /// <br/>
-  /// <img src="https://cdn.undraw.co/illustrations/travelers_vttm.svg" alt="Travelers" width="200"/>
-  travelers('https://cdn.undraw.co/illustrations/travelers_vttm.svg'),
+  /// <img src="https://cdn.undraw.co/illustration/travelers_kud9.svg" alt="Travelers" width="200"/>
+  travelers('https://cdn.undraw.co/illustration/travelers_kud9.svg'),
 
   /// Title: Traveling
   /// <br/>
@@ -6804,6 +7336,11 @@ enum UnDrawIllustration {
   /// <img src="https://cdn.undraw.co/illustrations/typing_gcve.svg" alt="Typing" width="200"/>
   typing('https://cdn.undraw.co/illustrations/typing_gcve.svg'),
 
+  /// Title: Typing Code
+  /// <br/>
+  /// <img src="https://cdn.undraw.co/illustration/typing-code_6t2b.svg" alt="Typing Code" width="200"/>
+  typing_code('https://cdn.undraw.co/illustration/typing-code_6t2b.svg'),
+
   /// Title: Unboxing
   /// <br/>
   /// <img src="https://cdn.undraw.co/illustrations/unboxing_p8sg.svg" alt="Unboxing" width="200"/>
@@ -6830,6 +7367,12 @@ enum UnDrawIllustration {
   /// <br/>
   /// <img src="https://cdn.undraw.co/illustrations/unlock_q1e5.svg" alt="Unlock" width="200"/>
   unlock('https://cdn.undraw.co/illustrations/unlock_q1e5.svg'),
+
+  /// Title: Unread messages
+  /// <br/>
+  /// <img src="https://cdn.undraw.co/illustration/unread-messages_hdpw.svg" alt="Unread messages" width="200"/>
+  unread_messages(
+      'https://cdn.undraw.co/illustration/unread-messages_hdpw.svg'),
 
   /// Title: Up to date
   /// <br/>
@@ -6873,8 +7416,8 @@ enum UnDrawIllustration {
 
   /// Title: Uploading
   /// <br/>
-  /// <img src="https://cdn.undraw.co/illustrations/uploading_za50.svg" alt="Uploading" width="200"/>
-  uploading('https://cdn.undraw.co/illustrations/uploading_za50.svg'),
+  /// <img src="https://cdn.undraw.co/illustration/uploading_nu4x.svg" alt="Uploading" width="200"/>
+  uploading('https://cdn.undraw.co/illustration/uploading_nu4x.svg'),
 
   /// Title: Upvote
   /// <br/>
@@ -6891,6 +7434,11 @@ enum UnDrawIllustration {
   /// <img src="https://cdn.undraw.co/illustrations/usability-testing_w7dd.svg" alt="Usability testing" width="200"/>
   usability_testing(
       'https://cdn.undraw.co/illustrations/usability-testing_w7dd.svg'),
+
+  /// Title: User Account
+  /// <br/>
+  /// <img src="https://cdn.undraw.co/illustration/user-account_fvqa.svg" alt="User Account" width="200"/>
+  user_account('https://cdn.undraw.co/illustration/user-account_fvqa.svg'),
 
   /// Title: User flow
   /// <br/>
@@ -6918,21 +7466,36 @@ enum UnDrawIllustration {
   /// <img src="https://cdn.undraw.co/illustrations/verified_m721.svg" alt="Verified" width="200"/>
   verified('https://cdn.undraw.co/illustrations/verified_m721.svg'),
 
+  /// Title: Verify Data
+  /// <br/>
+  /// <img src="https://cdn.undraw.co/illustration/verify-data_k0y1.svg" alt="Verify Data" width="200"/>
+  verify_data('https://cdn.undraw.co/illustration/verify-data_k0y1.svg'),
+
   /// Title: Version control
   /// <br/>
-  /// <img src="https://cdn.undraw.co/illustrations/version-control_eiam.svg" alt="Version control" width="200"/>
+  /// <img src="https://cdn.undraw.co/illustration/version-control_e4yu.svg" alt="Version control" width="200"/>
   version_control(
-      'https://cdn.undraw.co/illustrations/version-control_eiam.svg'),
+      'https://cdn.undraw.co/illustration/version-control_e4yu.svg'),
+
+  /// Title: Vibe Coding
+  /// <br/>
+  /// <img src="https://cdn.undraw.co/illustration/vibe-coding_mjme.svg" alt="Vibe Coding" width="200"/>
+  vibe_coding('https://cdn.undraw.co/illustration/vibe-coding_mjme.svg'),
+
+  /// Title: Video Call
+  /// <br/>
+  /// <img src="https://cdn.undraw.co/illustration/video-call_i5de.svg" alt="Video Call" width="200"/>
+  video_call('https://cdn.undraw.co/illustration/video-call_i5de.svg'),
+
+  /// Title: Video Call_var
+  /// <br/>
+  /// <img src="https://cdn.undraw.co/illustrations/calling_ieh0.svg" alt="Video Call_var" width="200"/>
+  video_call_var('https://cdn.undraw.co/illustrations/calling_ieh0.svg'),
 
   /// Title: Video Games
   /// <br/>
   /// <img src="https://cdn.undraw.co/illustrations/video-games_itxa.svg" alt="Video Games" width="200"/>
   video_games('https://cdn.undraw.co/illustrations/video-games_itxa.svg'),
-
-  /// Title: Video call
-  /// <br/>
-  /// <img src="https://cdn.undraw.co/illustrations/video-call_013n.svg" alt="Video call" width="200"/>
-  video_call('https://cdn.undraw.co/illustrations/video-call_013n.svg'),
 
   /// Title: Video files
   /// <br/>
@@ -6989,16 +7552,21 @@ enum UnDrawIllustration {
   virtual_reality(
       'https://cdn.undraw.co/illustrations/virtual-reality_rkzg.svg'),
 
-  /// Title: Visionary technology
+  /// Title: Visionary Technology
   /// <br/>
-  /// <img src="https://cdn.undraw.co/illustrations/visionary-technology_6ouq.svg" alt="Visionary technology" width="200"/>
+  /// <img src="https://cdn.undraw.co/illustration/visionary-technology_f6b3.svg" alt="Visionary Technology" width="200"/>
   visionary_technology(
-      'https://cdn.undraw.co/illustrations/visionary-technology_6ouq.svg'),
+      'https://cdn.undraw.co/illustration/visionary-technology_f6b3.svg'),
 
   /// Title: Visualization
   /// <br/>
   /// <img src="https://cdn.undraw.co/illustrations/visualization_zhab.svg" alt="Visualization" width="200"/>
   visualization('https://cdn.undraw.co/illustrations/visualization_zhab.svg'),
+
+  /// Title: Voice Messages
+  /// <br/>
+  /// <img src="https://cdn.undraw.co/illustration/voice-messages_anpq.svg" alt="Voice Messages" width="200"/>
+  voice_messages('https://cdn.undraw.co/illustration/voice-messages_anpq.svg'),
 
   /// Title: Voice assistant
   /// <br/>
@@ -7038,6 +7606,11 @@ enum UnDrawIllustration {
   waiting_for_you(
       'https://cdn.undraw.co/illustrations/waiting-for-you_xhp2.svg'),
 
+  /// Title: Walk Stats
+  /// <br/>
+  /// <img src="https://cdn.undraw.co/illustration/walk-stats_g34b.svg" alt="Walk Stats" width="200"/>
+  walk_stats('https://cdn.undraw.co/illustration/walk-stats_g34b.svg'),
+
   /// Title: Walk dreaming
   /// <br/>
   /// <img src="https://cdn.undraw.co/illustrations/walk-dreaming_atzd.svg" alt="Walk dreaming" width="200"/>
@@ -7045,9 +7618,9 @@ enum UnDrawIllustration {
 
   /// Title: Walk in the city
   /// <br/>
-  /// <img src="https://cdn.undraw.co/illustrations/walk-in-the-city_qd81.svg" alt="Walk in the city" width="200"/>
+  /// <img src="https://cdn.undraw.co/illustration/walk-in-the-city_tk65.svg" alt="Walk in the city" width="200"/>
   walk_in_the_city(
-      'https://cdn.undraw.co/illustrations/walk-in-the-city_qd81.svg'),
+      'https://cdn.undraw.co/illustration/walk-in-the-city_tk65.svg'),
 
   /// Title: Walking
   /// <br/>
@@ -7084,8 +7657,8 @@ enum UnDrawIllustration {
 
   /// Title: Wallet
   /// <br/>
-  /// <img src="https://cdn.undraw.co/illustrations/wallet_8u45.svg" alt="Wallet" width="200"/>
-  wallet('https://cdn.undraw.co/illustrations/wallet_8u45.svg'),
+  /// <img src="https://cdn.undraw.co/illustration/wallet_diag.svg" alt="Wallet" width="200"/>
+  wallet('https://cdn.undraw.co/illustration/wallet_diag.svg'),
 
   /// Title: Wandering mind
   /// <br/>
@@ -7094,8 +7667,13 @@ enum UnDrawIllustration {
 
   /// Title: Warning
   /// <br/>
-  /// <img src="https://cdn.undraw.co/illustrations/warning_qn4r.svg" alt="Warning" width="200"/>
-  warning('https://cdn.undraw.co/illustrations/warning_qn4r.svg'),
+  /// <img src="https://cdn.undraw.co/illustration/warning_tl76.svg" alt="Warning" width="200"/>
+  warning('https://cdn.undraw.co/illustration/warning_tl76.svg'),
+
+  /// Title: Warnings
+  /// <br/>
+  /// <img src="https://cdn.undraw.co/illustration/warnings_agxg.svg" alt="Warnings" width="200"/>
+  warnings('https://cdn.undraw.co/illustration/warnings_agxg.svg'),
 
   /// Title: Wash hands
   /// <br/>
@@ -7119,6 +7697,11 @@ enum UnDrawIllustration {
   watch_application(
       'https://cdn.undraw.co/illustrations/watch-application_uw0p.svg'),
 
+  /// Title: Watching Reels
+  /// <br/>
+  /// <img src="https://cdn.undraw.co/illustration/watching-reels_53wl.svg" alt="Watching Reels" width="200"/>
+  watching_reels('https://cdn.undraw.co/illustration/watching-reels_53wl.svg'),
+
   /// Title: Weather
   /// <br/>
   /// <img src="https://cdn.undraw.co/illustrations/weather_7n28.svg" alt="Weather" width="200"/>
@@ -7134,6 +7717,16 @@ enum UnDrawIllustration {
   /// <img src="https://cdn.undraw.co/illustrations/weather-notification_5wuk.svg" alt="Weather notification" width="200"/>
   weather_notification(
       'https://cdn.undraw.co/illustrations/weather-notification_5wuk.svg'),
+
+  /// Title: Web App
+  /// <br/>
+  /// <img src="https://cdn.undraw.co/illustration/web-app_141a.svg" alt="Web App" width="200"/>
+  web_app('https://cdn.undraw.co/illustration/web-app_141a.svg'),
+
+  /// Title: Web Shopping
+  /// <br/>
+  /// <img src="https://cdn.undraw.co/illustration/web-shopping_xd5k.svg" alt="Web Shopping" width="200"/>
+  web_shopping('https://cdn.undraw.co/illustration/web-shopping_xd5k.svg'),
 
   /// Title: Web browsing
   /// <br/>
@@ -7161,21 +7754,16 @@ enum UnDrawIllustration {
   /// <img src="https://cdn.undraw.co/illustrations/web-search_9qqc.svg" alt="Web search" width="200"/>
   web_search('https://cdn.undraw.co/illustrations/web-search_9qqc.svg'),
 
-  /// Title: Web shopping
-  /// <br/>
-  /// <img src="https://cdn.undraw.co/illustrations/web-shopping_m3o2.svg" alt="Web shopping" width="200"/>
-  web_shopping('https://cdn.undraw.co/illustrations/web-shopping_m3o2.svg'),
-
   /// Title: Website
   /// <br/>
-  /// <img src="https://cdn.undraw.co/illustrations/website_27ju.svg" alt="Website" width="200"/>
-  website('https://cdn.undraw.co/illustrations/website_27ju.svg'),
+  /// <img src="https://cdn.undraw.co/illustrations/website_zbig.svg" alt="Website" width="200"/>
+  website('https://cdn.undraw.co/illustrations/website_zbig.svg'),
 
-  /// Title: Website builder
+  /// Title: Website Builder
   /// <br/>
-  /// <img src="https://cdn.undraw.co/illustrations/website-builder_smzl.svg" alt="Website builder" width="200"/>
+  /// <img src="https://cdn.undraw.co/illustration/website-builder_4go7.svg" alt="Website Builder" width="200"/>
   website_builder(
-      'https://cdn.undraw.co/illustrations/website-builder_smzl.svg'),
+      'https://cdn.undraw.co/illustration/website-builder_4go7.svg'),
 
   /// Title: Website setup
   /// <br/>
@@ -7184,8 +7772,8 @@ enum UnDrawIllustration {
 
   /// Title: Website_var
   /// <br/>
-  /// <img src="https://cdn.undraw.co/illustrations/website_zbig.svg" alt="Website_var" width="200"/>
-  website_var('https://cdn.undraw.co/illustrations/website_zbig.svg'),
+  /// <img src="https://cdn.undraw.co/illustrations/website_27ju.svg" alt="Website_var" width="200"/>
+  website_var('https://cdn.undraw.co/illustrations/website_27ju.svg'),
 
   /// Title: Wedding
   /// <br/>
@@ -7196,6 +7784,11 @@ enum UnDrawIllustration {
   /// <br/>
   /// <img src="https://cdn.undraw.co/illustrations/welcome_nk8k.svg" alt="Welcome" width="200"/>
   welcome('https://cdn.undraw.co/illustrations/welcome_nk8k.svg'),
+
+  /// Title: Welcome Aboard
+  /// <br/>
+  /// <img src="https://cdn.undraw.co/illustration/welcome-aboard_y4e9.svg" alt="Welcome Aboard" width="200"/>
+  welcome_aboard('https://cdn.undraw.co/illustration/welcome-aboard_y4e9.svg'),
 
   /// Title: Welcome cats
   /// <br/>
@@ -7292,8 +7885,8 @@ enum UnDrawIllustration {
 
   /// Title: Wishlist
   /// <br/>
-  /// <img src="https://cdn.undraw.co/illustrations/wishlist_71gv.svg" alt="Wishlist" width="200"/>
-  wishlist('https://cdn.undraw.co/illustrations/wishlist_71gv.svg'),
+  /// <img src="https://cdn.undraw.co/illustration/wishlist_0k5w.svg" alt="Wishlist" width="200"/>
+  wishlist('https://cdn.undraw.co/illustration/wishlist_0k5w.svg'),
 
   /// Title: With love
   /// <br/>
@@ -7320,6 +7913,11 @@ enum UnDrawIllustration {
   /// <img src="https://cdn.undraw.co/illustrations/wordpress_l75e.svg" alt="Wordpress" width="200"/>
   wordpress('https://cdn.undraw.co/illustrations/wordpress_l75e.svg'),
 
+  /// Title: Work Friends
+  /// <br/>
+  /// <img src="https://cdn.undraw.co/illustration/work-friends_g4mn.svg" alt="Work Friends" width="200"/>
+  work_friends('https://cdn.undraw.co/illustration/work-friends_g4mn.svg'),
+
   /// Title: Work chat
   /// <br/>
   /// <img src="https://cdn.undraw.co/illustrations/work-chat_hc3y.svg" alt="Work chat" width="200"/>
@@ -7327,15 +7925,15 @@ enum UnDrawIllustration {
 
   /// Title: Work from anywhere
   /// <br/>
-  /// <img src="https://cdn.undraw.co/illustrations/work-from-anywhere_1kdu.svg" alt="Work from anywhere" width="200"/>
+  /// <img src="https://cdn.undraw.co/illustration/work-from-anywhere_tpk5.svg" alt="Work from anywhere" width="200"/>
   work_from_anywhere(
-      'https://cdn.undraw.co/illustrations/work-from-anywhere_1kdu.svg'),
+      'https://cdn.undraw.co/illustration/work-from-anywhere_tpk5.svg'),
 
-  /// Title: Work in progress
+  /// Title: Work in Progress
   /// <br/>
-  /// <img src="https://cdn.undraw.co/illustrations/work-in-progress_ijne.svg" alt="Work in progress" width="200"/>
+  /// <img src="https://cdn.undraw.co/illustration/work-in-progress_m95a.svg" alt="Work in Progress" width="200"/>
   work_in_progress(
-      'https://cdn.undraw.co/illustrations/work-in-progress_ijne.svg'),
+      'https://cdn.undraw.co/illustration/work-in-progress_m95a.svg'),
 
   /// Title: Work time
   /// <br/>
@@ -7352,6 +7950,12 @@ enum UnDrawIllustration {
   /// <img src="https://cdn.undraw.co/illustrations/working_n9u0.svg" alt="Working" width="200"/>
   working('https://cdn.undraw.co/illustrations/working_n9u0.svg'),
 
+  /// Title: Working Together
+  /// <br/>
+  /// <img src="https://cdn.undraw.co/illustration/working-together_r43a.svg" alt="Working Together" width="200"/>
+  working_together(
+      'https://cdn.undraw.co/illustration/working-together_r43a.svg'),
+
   /// Title: Working from anywhere
   /// <br/>
   /// <img src="https://cdn.undraw.co/illustrations/working-from-anywhere_33m9.svg" alt="Working from anywhere" width="200"/>
@@ -7365,8 +7969,8 @@ enum UnDrawIllustration {
 
   /// Title: Working out
   /// <br/>
-  /// <img src="https://cdn.undraw.co/illustrations/working-out_fa9m.svg" alt="Working out" width="200"/>
-  working_out('https://cdn.undraw.co/illustrations/working-out_fa9m.svg'),
+  /// <img src="https://cdn.undraw.co/illustration/working-out_6ksl.svg" alt="Working out" width="200"/>
+  working_out('https://cdn.undraw.co/illustration/working-out_6ksl.svg'),
 
   /// Title: Working remotely
   /// <br/>
@@ -7378,6 +7982,11 @@ enum UnDrawIllustration {
   /// <br/>
   /// <img src="https://cdn.undraw.co/illustrations/workout_wqgp.svg" alt="Workout" width="200"/>
   workout('https://cdn.undraw.co/illustrations/workout_wqgp.svg'),
+
+  /// Title: Workspace
+  /// <br/>
+  /// <img src="https://cdn.undraw.co/illustration/workspace_s6wf.svg" alt="Workspace" width="200"/>
+  workspace('https://cdn.undraw.co/illustration/workspace_s6wf.svg'),
 
   /// Title: World
   /// <br/>
@@ -7411,8 +8020,14 @@ enum UnDrawIllustration {
 
   /// Title: Yoga
   /// <br/>
-  /// <img src="https://cdn.undraw.co/illustrations/yoga_yy99.svg" alt="Yoga" width="200"/>
-  yoga('https://cdn.undraw.co/illustrations/yoga_yy99.svg'),
+  /// <img src="https://cdn.undraw.co/illustration/yoga_i399.svg" alt="Yoga" width="200"/>
+  yoga('https://cdn.undraw.co/illustration/yoga_i399.svg'),
+
+  /// Title: Young Man Avatar
+  /// <br/>
+  /// <img src="https://cdn.undraw.co/illustration/young-man-avatar_wgbd.svg" alt="Young Man Avatar" width="200"/>
+  young_man_avatar(
+      'https://cdn.undraw.co/illustration/young-man-avatar_wgbd.svg'),
 
   /// Title: Young and happy
   /// <br/>
