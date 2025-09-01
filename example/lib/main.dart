@@ -1,5 +1,6 @@
 import 'dart:async';
 import 'dart:math';
+
 import 'package:context_menus/context_menus.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
@@ -146,78 +147,77 @@ class _MyHomePageState extends State<MyHomePage> {
           backgroundColor: Colors.red,
           child: const Icon(Icons.color_lens),
         ),
-        body: Padding(
+        body: GridView.builder(
           padding: EdgeInsets.only(top: 16, left: horizontalPadding, right: horizontalPadding, bottom: 64),
-          child: GridView.builder(
-            gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
-              crossAxisCount: maxCrossAxisCount.toInt(),
-              crossAxisSpacing: 16,
-              mainAxisSpacing: 16,
-              childAspectRatio: 0.72, // Adjust for visual balance (width / height)
-            ),
-            itemCount: _filtered.isEmpty ? UnDrawIllustration.values.length : _filtered.length,
-            itemBuilder: (_, index) {
-              final undraw = _filtered.isEmpty ? UnDrawIllustration.values[index] : _filtered[index];
-              return ContextMenuRegion(
-                contextMenu: GenericContextMenu(
-                  buttonConfigs: [
-                    ContextMenuButtonConfig("Copy name", onPressed: () => _copyName(undraw)),
-                    ContextMenuButtonConfig("Copy widget code", onPressed: () => _copyCode(undraw)),
-                  ],
-                ),
-                child: LayoutBuilder(
-                  builder: (context, constraints) {
-                    return Container(
-                      decoration: BoxDecoration(
-                        color: Colors.grey.shade100,
-                        border: Border.all(color: Colors.grey.shade300),
-                        borderRadius: const BorderRadius.all(Radius.circular(16)),
-                        boxShadow: const [
-                          BoxShadow(color: Colors.black12, blurRadius: 6, offset: Offset(0, 4)),
-                        ],
-                      ),
-                      padding: const EdgeInsets.all(16.0), // Safer padding
-                      child: Column(
-                        mainAxisSize: MainAxisSize.min,
-                        children: [
-                          Text(_changeName(undraw.name)),
-                          const SizedBox(height: 12),
-                          Expanded(
-                            child: Center(
-                              child: UnDraw(
-                                color: color,
-                                useMemCache: false,
-                                height: constraints.maxHeight * 0.5, // Dynamic sizing
-                                illustration: undraw,
-                                placeholder: const Text("Illustration is loading..."),
-                                errorWidget: const Icon(Icons.error_outline, color: Colors.red, size: 50),
-                              ),
+          gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
+            crossAxisCount: maxCrossAxisCount.toInt(),
+            crossAxisSpacing: 16,
+            mainAxisSpacing: 16,
+            childAspectRatio: 0.72, // Adjust for visual balance (width / height)
+          ),
+          itemCount: _filtered.isEmpty ? UnDrawIllustration.values.length : _filtered.length,
+          itemBuilder: (_, index) {
+            final undraw = _filtered.isEmpty ? UnDrawIllustration.values[index] : _filtered[index];
+            return ContextMenuRegion(
+              contextMenu: GenericContextMenu(
+                buttonConfigs: [
+                  ContextMenuButtonConfig("Copy name", onPressed: () => _copyName(undraw)),
+                  ContextMenuButtonConfig("Copy widget code", onPressed: () => _copyCode(undraw)),
+                ],
+              ),
+              child: LayoutBuilder(
+                builder: (context, constraints) {
+                  return Container(
+                    decoration: BoxDecoration(
+                      color: Colors.grey.shade100,
+                      border: Border.all(color: Colors.grey.shade300),
+                      borderRadius: const BorderRadius.all(Radius.circular(16)),
+                      boxShadow: const [
+                        BoxShadow(color: Colors.black12, blurRadius: 6, offset: Offset(0, 4)),
+                      ],
+                    ),
+                    padding: const EdgeInsets.all(16.0), // Safer padding
+                    child: Column(
+                      mainAxisSize: MainAxisSize.min,
+                      children: [
+                        Text(_changeName(undraw.name)),
+                        const SizedBox(height: 12),
+                        Expanded(
+                          child: Center(
+                            child: UnDraw(
+                              color: color,
+                              useMemCache: false,
+                              height: constraints.maxHeight * 0.5,
+                              // Dynamic sizing
+                              illustration: undraw,
+                              placeholder: const Text("Illustration is loading..."),
+                              errorWidget: const Icon(Icons.error_outline, color: Colors.red, size: 50),
                             ),
                           ),
-                          const Divider(),
-                          Row(
-                            mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-                            children: [
-                              TextButton.icon(
-                                onPressed: () => _copyName(undraw),
-                                icon: const Icon(Icons.copy),
-                                label: const Text("Copy name"),
-                              ),
-                              TextButton.icon(
-                                onPressed: () => _copyCode(undraw),
-                                icon: const Icon(Icons.code),
-                                label: const Text("Copy Widget code"),
-                              ),
-                            ],
-                          ),
-                        ],
-                      ),
-                    );
-                  },
-                ),
-              );
-            },
-          ),
+                        ),
+                        const Divider(),
+                        Row(
+                          mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                          children: [
+                            TextButton.icon(
+                              onPressed: () => _copyName(undraw),
+                              icon: const Icon(Icons.copy),
+                              label: const Text("Copy name"),
+                            ),
+                            TextButton.icon(
+                              onPressed: () => _copyCode(undraw),
+                              icon: const Icon(Icons.code),
+                              label: const Text("Copy Widget code"),
+                            ),
+                          ],
+                        ),
+                      ],
+                    ),
+                  );
+                },
+              ),
+            );
+          },
         ),
       ),
     );
