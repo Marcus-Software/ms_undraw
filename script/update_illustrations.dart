@@ -145,7 +145,7 @@ Future<List<IllustrationElement>> _getIllustrations() async {
   do {
     logger.write('Downloading page $_page\r');
     final http.Response response = await http.get(Uri.parse(
-        "https://undraw.co/_next/data/0eP9sELVDSAkiFMo0nPxp/illustrations${_page == 1 ? '' : '/$_page'}.json?page=$_page"));
+        "https://undraw.co/_next/data/_FTM2d-THILOVilGvbqjc/illustrations${_page == 1 ? '' : '/$_page'}.json?page=$_page"));
     if (response.statusCode != 200) {
       logger.stderr('Error downloading page $_page');
       logger.stderr(response.body);

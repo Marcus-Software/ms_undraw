@@ -1,5 +1,11 @@
 # Changelog
 
+## [4.1.0] - 2024-02-08
+
+* More illustrations added or updated
+* Update example
+* bugfix
+
 ## [4.0.0] - 2024-02-08
 
 * More illustrations added or updated

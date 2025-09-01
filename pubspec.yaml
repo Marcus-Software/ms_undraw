@@ -1,7 +1,7 @@
 description: "Updated UnDraw library. These illustrations are designed by Katerina Limpitsouni."
 name: "ms_undraw"
 repository: "https://github.com/Marcus-Software/ms_undraw"
-version: "4.0.0"
+version: "4.1.0"
 
 environment:
   sdk: ">=3.0.0 <4.0.0"
