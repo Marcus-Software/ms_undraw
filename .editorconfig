@@ -1,0 +1,11 @@
+[*]
+end_of_line = lf
+max_line_length = 120
+indent_style = space
+indent_size = 2
+
+[*.arb]
+indent_size = 2
+
+[*.xml]
+indent_size = 3
