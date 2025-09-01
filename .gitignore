@@ -72,3 +72,4 @@ script/update_illustrations.exe
 
 # Firebase cache
 **/.firebase/**.cache
+/example/.firebase/
