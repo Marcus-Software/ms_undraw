@@ -1,12 +1,16 @@
 # Changelog
 
-## [4.1.0] - 2024-02-08
+## [4.1.1]
+
+* hotfix
+
+## [4.1.0]
 
 * More illustrations added or updated
 * Update example
 * bugfix
 
-## [4.0.0] - 2024-02-08
+## [4.0.0]
 
 * More illustrations added or updated
 * Update example
@@ -14,57 +18,57 @@
 * cache illustration data in disk🆕
 * bugfix
 
-## [3.2.0] - 2024-02-08
+## [3.2.0]
 
 * More illustrations added or updated
 * Update example
 
-## [3.1.0+3] - 2022-08-09
+## [3.1.0+3]
 
 * More illustrations added or updated
 
-## [3.1.0+2] - 2022-03-14
+## [3.1.0+2]
 
 * Update example
 
-## [3.0.1+2] - 2022-03-10
+## [3.0.1+2]
 
 * More illustrations added or updated
 
-## [3.0.1+1] - 2021-08-25
+## [3.0.1+1]
 
 * hotfix
 
-## [3.0.0+1] - 2021-08-25
+## [3.0.0+1]
 
 * More illustrations added or updated
 
-## [3.0.0+0] - 2021-04-13
+## [3.0.0+0]
 
 * More illustrations added or updated
 * Null safety implemented
 
-## [2.2.0+15] - 2020-12-03
+## [2.2.0+15]
 
 * More illustrations added or updated
 
-## [2.2.0+14] - 2020-11-30
+## [2.2.0+14]
 
 * More illustrations added or updated
 
-## [2.2.0+13] - 2020-11-17
+## [2.2.0+13]
 
 * More illustrations added or updated
 
-## [2.2.0+12] - 2020-10-26
+## [2.2.0+12]
 
 * More illustrations added or updated
 
-## [2.2.0+11] - 2020-10-20
+## [2.2.0+11]
 
 * More illustrations added or updated
 
-## [2.2.0+10] - 2020-10-05
+## [2.2.0+10]
 
 * More illustrations added or updated
 
